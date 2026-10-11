@@ -1,0 +1,78 @@
+{
+  "version": 4,
+  "model_id": "3ee718f5a2a01c1a",
+  "feature_version": "employee-daily-temporal-v1",
+  "feature_names": [
+    "total_logon_activity",
+    "after_hours_activity",
+    "http_activity_count",
+    "total_emails",
+    "file_activity_count",
+    "usb_activity_count",
+    "after_hours_fraction",
+    "past_7d_mean_total_logon_activity",
+    "past_7d_mean_after_hours_activity",
+    "past_7d_mean_http_activity_count",
+    "past_7d_mean_total_emails",
+    "past_7d_mean_file_activity_count",
+    "past_7d_mean_usb_activity_count",
+    "change_z_total_logon_activity",
+    "change_z_after_hours_activity",
+    "change_z_http_activity_count",
+    "change_z_total_emails",
+    "change_z_file_activity_count",
+    "change_z_usb_activity_count",
+    "history_days_7d",
+    "history_missing",
+    "missing_activity_fields"
+  ],
+  "scenarios": [
+    "BACKGROUND",
+    "CERT_INSIDER_PATTERN"
+  ],
+  "thresholds": {
+    "autoencoder": 1.5941812992095947,
+    "isolation_forest": 0.14795336149655625,
+    "xgboost": 0.8757529258728027
+  },
+  "training_device": "cuda",
+  "xgboost_training_device": "cuda",
+  "xgboost_inference_device": "cpu",
+  "dataset_sha256": "c1f57dc363ba480aa3d91a88f63e79c4bdc2ade8ee34ddbc15cb5c14ebb63b77",
+  "seed": 20261010,
+  "epochs": 60,
+  "trained_at": "2026-10-10T11:24:31.872092+00:00",
+  "source_sha256": {
+    "employee_features.py": "8ea51276f3cc1b994ad3e634de32bb6a2edb57086fb0d2cf132d4256151d664d",
+    "train_employee.py": "429c2180cd259f893e35d2bbc3b55acab0f6eecf5bda520bf75235fb3dda7376",
+    "modeling.py": "312286cf8e5aee16eb886f9b51b96d6baa69872dffd600ad2982c37f8584eae0"
+  },
+  "packages": {
+    "torch": "2.12.0+cu126",
+    "xgboost": "3.4.1",
+    "scikit-learn": "1.9.1",
+    "pandas": "3.0.6",
+    "numpy": "2.5.3",
+    "pyarrow": "24.0.0"
+  },
+  "split_counts": {
+    "train": {
+      "rows": 101514,
+      "positive_days": 248,
+      "employees": 600,
+      "positive_employees": 14
+    },
+    "validation": {
+      "rows": 15457,
+      "positive_days": 49,
+      "employees": 189,
+      "positive_employees": 7
+    },
+    "test": {
+      "rows": 17035,
+      "positive_days": 44,
+      "employees": 179,
+      "positive_employees": 2
+    }
+  }
+}

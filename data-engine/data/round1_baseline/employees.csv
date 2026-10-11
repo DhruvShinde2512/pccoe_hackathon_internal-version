@@ -1,0 +1,101 @@
+emp_id,name,department,role,access_tier,is_privileged
+EMP-A-001,Jordan Lee,Financial Crime Operations,Senior Compliance Analyst,TIER_3,True
+EMP-B-001,Morgan Patel,Client Due Diligence,KYC Operations Specialist,TIER_2,False
+EMP-C-PAYROLL,Taylor Kim,Payroll,Payroll Manager,TIER_2,True
+EMP-C-WEALTH,Casey Shah,Private Banking,Relationship Manager,TIER_2,False
+EMP-N-005,Richard Gibson,Retail Banking,Manager,TIER_2,False
+EMP-N-006,Tyler Cowan,Compliance,Manager,TIER_1,False
+EMP-N-007,Michelle Moore,Retail Banking,Analyst,TIER_2,False
+EMP-N-008,Wayne Riley,Compliance,Manager,TIER_1,False
+EMP-N-009,Nicole Brown,Finance,Specialist,TIER_2,False
+EMP-N-010,Kathryn Farrell,Retail Banking,Analyst,TIER_1,False
+EMP-N-011,Tyler Miller,Technology,Associate,TIER_2,False
+EMP-N-012,Kurt Leonard,Compliance,Associate,TIER_1,False
+EMP-N-013,Bryan Zamora,Finance,Manager,TIER_2,False
+EMP-N-014,Kristopher Harvey,Technology,Associate,TIER_1,False
+EMP-N-015,Kevin Mills,Operations,Specialist,TIER_1,False
+EMP-N-016,Christina Moran,Retail Banking,Associate,TIER_2,False
+EMP-N-017,James Powers,Operations,Analyst,TIER_2,False
+EMP-N-018,Eugene Walton,Compliance,Specialist,TIER_2,False
+EMP-N-019,Jimmy Murillo,Compliance,Specialist,TIER_2,False
+EMP-N-020,Angel Lewis MD,Operations,Specialist,TIER_1,False
+EMP-N-021,Shirley Suarez,Retail Banking,Specialist,TIER_2,False
+EMP-N-022,Christopher Bass,Technology,Manager,TIER_1,False
+EMP-N-023,Lisa Archer,Finance,Analyst,TIER_2,False
+EMP-N-024,Aimee Montoya,Retail Banking,Specialist,TIER_2,False
+EMP-N-025,Matthew Mcmillan,Finance,Manager,TIER_1,False
+EMP-N-026,Brian Rodriguez,Finance,Manager,TIER_1,False
+EMP-N-027,Denise Jacobs,Retail Banking,Associate,TIER_2,False
+EMP-N-028,Christina Walters,Finance,Specialist,TIER_1,False
+EMP-N-029,John Whitehead,Retail Banking,Associate,TIER_1,False
+EMP-N-030,Anna Henderson,Technology,Specialist,TIER_1,False
+EMP-N-031,Aaron Wise,Technology,Associate,TIER_1,True
+EMP-N-032,Deborah Figueroa,Retail Banking,Specialist,TIER_1,False
+EMP-N-033,Jessica Smith,Technology,Specialist,TIER_1,False
+EMP-N-034,Stephen Mckee,Finance,Associate,TIER_1,False
+EMP-N-035,Sandra Aguilar,Finance,Manager,TIER_1,True
+EMP-N-036,Cameron Parker,Technology,Associate,TIER_3,False
+EMP-N-037,Rebecca Valencia,Retail Banking,Associate,TIER_1,False
+EMP-N-038,Christine Wright,Technology,Associate,TIER_2,False
+EMP-N-039,Richard Henson,Technology,Manager,TIER_1,False
+EMP-N-040,Marc Moore,Operations,Analyst,TIER_1,False
+EMP-N-041,Sharon Cherry,Finance,Specialist,TIER_1,False
+EMP-N-042,Sierra Johnson,Finance,Analyst,TIER_2,False
+EMP-N-043,Evelyn Galvan,Technology,Associate,TIER_1,False
+EMP-N-044,Sharon Cochran,Technology,Manager,TIER_1,True
+EMP-N-045,Richard Rodriguez,Retail Banking,Analyst,TIER_1,False
+EMP-N-046,Shannon Walker,Finance,Manager,TIER_1,False
+EMP-N-047,Julia Torres,Retail Banking,Associate,TIER_1,False
+EMP-N-048,Crystal Johnson,Compliance,Manager,TIER_1,False
+EMP-N-049,Garrett Lin,Finance,Associate,TIER_2,True
+EMP-N-050,Diana May,Finance,Associate,TIER_1,False
+EMP-N-051,William Herrera,Finance,Analyst,TIER_1,False
+EMP-N-052,Ashley Waller,Finance,Specialist,TIER_1,False
+EMP-N-053,Victor Baker,Operations,Associate,TIER_2,False
+EMP-N-054,Jeffrey Chandler,Retail Banking,Manager,TIER_1,True
+EMP-N-055,Larry Dixon,Retail Banking,Manager,TIER_1,False
+EMP-N-056,Kenneth Scott,Technology,Manager,TIER_2,True
+EMP-N-057,April Frost,Technology,Manager,TIER_1,True
+EMP-N-058,Michelle Harmon,Compliance,Analyst,TIER_1,False
+EMP-N-059,Helen Jones,Finance,Associate,TIER_1,False
+EMP-N-060,Erin Edwards,Compliance,Manager,TIER_1,False
+EMP-N-061,Michelle Evans,Operations,Specialist,TIER_1,True
+EMP-N-062,Jason Powell,Compliance,Associate,TIER_3,False
+EMP-N-063,Cameron Fisher,Finance,Analyst,TIER_2,False
+EMP-N-064,Megan Orr,Technology,Analyst,TIER_1,False
+EMP-N-065,Elizabeth Kelley,Finance,Associate,TIER_1,True
+EMP-N-066,Dustin Jordan,Technology,Manager,TIER_1,False
+EMP-N-067,Mary Marshall,Technology,Specialist,TIER_1,False
+EMP-N-068,Daniel Kennedy,Operations,Specialist,TIER_1,False
+EMP-N-069,Rebecca Jackson,Retail Banking,Manager,TIER_1,False
+EMP-N-070,Jose Schultz,Compliance,Specialist,TIER_3,False
+EMP-N-071,Robert Potter,Technology,Associate,TIER_1,False
+EMP-N-072,Courtney Gonzalez,Retail Banking,Associate,TIER_2,False
+EMP-N-073,David Alvarez,Retail Banking,Associate,TIER_2,False
+EMP-N-074,Angel Perry,Finance,Associate,TIER_2,False
+EMP-N-075,Cheyenne Horton,Retail Banking,Analyst,TIER_1,False
+EMP-N-076,David Douglas Jr.,Technology,Manager,TIER_1,False
+EMP-N-077,Patricia Rodriguez,Compliance,Analyst,TIER_2,False
+EMP-N-078,Christopher Rubio,Finance,Manager,TIER_3,True
+EMP-N-079,Amber Wright,Operations,Manager,TIER_2,True
+EMP-N-080,Joyce Solis,Finance,Manager,TIER_1,False
+EMP-N-081,Victoria Larson,Retail Banking,Analyst,TIER_3,False
+EMP-N-082,Stephanie Salazar,Finance,Associate,TIER_2,True
+EMP-N-083,Kathy Rivas,Finance,Manager,TIER_2,False
+EMP-N-084,Stephanie Manning,Retail Banking,Associate,TIER_1,False
+EMP-N-085,David Wright,Operations,Specialist,TIER_2,False
+EMP-N-086,Pamela Boyd,Compliance,Analyst,TIER_1,False
+EMP-N-087,Denise Jones,Operations,Specialist,TIER_1,False
+EMP-N-088,Devon Flores,Compliance,Associate,TIER_2,False
+EMP-N-089,Brenda Hall,Operations,Specialist,TIER_1,False
+EMP-N-090,Michelle Brown,Retail Banking,Associate,TIER_2,False
+EMP-N-091,Joshua Perry,Retail Banking,Specialist,TIER_3,False
+EMP-N-092,Jason Stein,Retail Banking,Analyst,TIER_1,True
+EMP-N-093,Melissa Gates,Operations,Manager,TIER_1,False
+EMP-N-094,Jamie Smith,Retail Banking,Specialist,TIER_1,False
+EMP-N-095,Paul Castaneda,Retail Banking,Specialist,TIER_1,False
+EMP-N-096,Jennifer Adkins,Operations,Manager,TIER_2,True
+EMP-N-097,Lindsey Walker,Compliance,Associate,TIER_1,False
+EMP-N-098,Jeffrey Johnson,Retail Banking,Manager,TIER_1,True
+EMP-N-099,Michael Powell,Finance,Analyst,TIER_1,True
+EMP-N-100,John Anderson,Operations,Analyst,TIER_1,False

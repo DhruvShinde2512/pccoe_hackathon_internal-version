@@ -1,0 +1,66 @@
+{
+  "version": 3,
+  "model_id": "2f35a7011bdd78eb",
+  "feature_version": "case-graph-temporal-v1",
+  "feature_names": [
+    "transaction_count",
+    "total_amount",
+    "mean_amount",
+    "amount_cv",
+    "account_count",
+    "unique_senders",
+    "unique_recipients",
+    "max_sender_tx_count_1h",
+    "max_sender_recipients_24h",
+    "max_receiver_senders_24h",
+    "near_limit_fraction",
+    "below_limit_fraction",
+    "cycle_closure_count_48h",
+    "returned_value_fraction_48h",
+    "max_cycle_length",
+    "employee_count",
+    "access_count",
+    "risky_action_count",
+    "transfers_after_risky_action_2h",
+    "min_risky_action_delta_seconds",
+    "risky_access_missing",
+    "dormant_sender_fraction",
+    "max_accounts_per_employee_24h",
+    "case_duration_seconds"
+  ],
+  "scenarios": [
+    "BENIGN",
+    "STRUCTURING",
+    "CIRCULAR_FLOW"
+  ],
+  "thresholds": {
+    "autoencoder": 2.909817695617676,
+    "isolation_forest": 0.2102118608759046,
+    "xgboost": 0.6622781753540039,
+    "rule_baseline": 0.5
+  },
+  "training_device": "cpu",
+  "dataset_sha256": "f26c1f7f83146f3fdd274dfc673efd0991549029c5b030fb59198b64bc5ee070",
+  "seed": 42,
+  "epochs": 60,
+  "trained_at": "2026-10-10T15:29:58.621959+00:00",
+  "threshold_unit": "xgboost suspicious-class score; not calibrated probability",
+  "packages": {
+    "torch": "2.14.1",
+    "xgboost": "3.4.1",
+    "scikit-learn": "1.9.1",
+    "numpy": "2.5.3",
+    "pandas": "3.0.6"
+  },
+  "source_sha256": {
+    "graph_temporal_features.py": "723eb89e47d50441f692e8298ee81686e3d577c615a10d5acf56134a1e887efc",
+    "case_training.py": "e3b6fdd77e1008a0249ff7877d0d40409ee451eeaeeba8b7d74d7eeaf32610c3",
+    "evaluate.py": "965e6209684ba1476c60bacca4b58f7478d87e79f1288a8633fc37540e467d10",
+    "modeling.py": "312286cf8e5aee16eb886f9b51b96d6baa69872dffd600ad2982c37f8584eae0"
+  },
+  "split_counts": {
+    "train": 140,
+    "validation": 62,
+    "test": 78
+  }
+}

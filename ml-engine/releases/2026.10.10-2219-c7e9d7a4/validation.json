@@ -1,0 +1,84 @@
+{
+  "validated_at": "2026-10-10T22:20:04.707682+00:00",
+  "passed": true,
+  "gates": {
+    "case_recall_min": 0.9,
+    "case_false_positive_rate_max": 0.05
+  },
+  "held_out": {
+    "test_cases": 78,
+    "positives": 19,
+    "true_positives": 19,
+    "false_positives": 0,
+    "recall": 1.0,
+    "false_positive_rate": 0.0,
+    "precision": 1.0
+  },
+  "checks": [
+    {
+      "check": "transaction: sha256",
+      "ok": true,
+      "detail": "ea6684a1eb66"
+    },
+    {
+      "check": "integrated_case: sha256",
+      "ok": true,
+      "detail": "3246c4d85666"
+    },
+    {
+      "check": "employee_behavior: sha256",
+      "ok": true,
+      "detail": "0ce6af7c3c69"
+    },
+    {
+      "check": "amlsim_case: sha256",
+      "ok": true,
+      "detail": "6e9d0e6a5d55"
+    },
+    {
+      "check": "transaction: loads with service loader",
+      "ok": true,
+      "detail": "legacy-v2"
+    },
+    {
+      "check": "integrated_case: loads with service loader",
+      "ok": true,
+      "detail": "2f35a7011bdd78eb"
+    },
+    {
+      "check": "employee_behavior: loads with service loader",
+      "ok": true,
+      "detail": "3ee718f5a2a01c1a"
+    },
+    {
+      "check": "amlsim_case: loads with service loader",
+      "ok": true,
+      "detail": "7bb93d47347b2453"
+    },
+    {
+      "check": "transaction: feature order matches code",
+      "ok": true,
+      "detail": "19 features"
+    },
+    {
+      "check": "integrated_case: feature order matches code",
+      "ok": true,
+      "detail": "24 features"
+    },
+    {
+      "check": "amlsim_case: feature order matches code",
+      "ok": true,
+      "detail": "24 features"
+    },
+    {
+      "check": "held-out case recall >= 0.90",
+      "ok": true,
+      "detail": "1.0"
+    },
+    {
+      "check": "held-out case FPR <= 0.05",
+      "ok": true,
+      "detail": "0.0"
+    }
+  ]
+}

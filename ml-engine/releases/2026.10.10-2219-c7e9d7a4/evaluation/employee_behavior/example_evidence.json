@@ -1,0 +1,126 @@
+[
+  {
+    "user": "AAE0190",
+    "day": "2011-01-03",
+    "label": 0,
+    "shap": {
+      "contributions": [
+        {
+          "feature": "past_7d_mean_usb_activity_count",
+          "value": 0.0,
+          "contribution_margin": -4.673088073730469,
+          "direction": "lowers_class_margin"
+        },
+        {
+          "feature": "change_z_http_activity_count",
+          "value": 0.0,
+          "contribution_margin": -1.5271388292312622,
+          "direction": "lowers_class_margin"
+        },
+        {
+          "feature": "usb_activity_count",
+          "value": 0.0,
+          "contribution_margin": -0.5888838768005371,
+          "direction": "lowers_class_margin"
+        },
+        {
+          "feature": "change_z_usb_activity_count",
+          "value": 0.0,
+          "contribution_margin": -0.5420260429382324,
+          "direction": "lowers_class_margin"
+        },
+        {
+          "feature": "past_7d_mean_file_activity_count",
+          "value": 0.0,
+          "contribution_margin": -0.4583137333393097,
+          "direction": "lowers_class_margin"
+        },
+        {
+          "feature": "change_z_total_emails",
+          "value": 0.0,
+          "contribution_margin": -0.42688846588134766,
+          "direction": "lowers_class_margin"
+        },
+        {
+          "feature": "http_activity_count",
+          "value": 143.0,
+          "contribution_margin": -0.38473108410835266,
+          "direction": "lowers_class_margin"
+        },
+        {
+          "feature": "past_7d_mean_after_hours_activity",
+          "value": 0.0,
+          "contribution_margin": -0.2225094586610794,
+          "direction": "lowers_class_margin"
+        }
+      ],
+      "base_margin": 0.3855753242969513,
+      "output_margin": -8.982126235961914,
+      "omitted_contribution_margin": -0.5441235471516848,
+      "additivity_error": 1.5515834093093872e-06,
+      "units": "raw class margin; not probability increments"
+    }
+  },
+  {
+    "user": "DRR0162",
+    "day": "2011-01-03",
+    "label": 1,
+    "shap": {
+      "contributions": [
+        {
+          "feature": "past_7d_mean_usb_activity_count",
+          "value": 0.0,
+          "contribution_margin": -4.602112293243408,
+          "direction": "lowers_class_margin"
+        },
+        {
+          "feature": "change_z_http_activity_count",
+          "value": 0.0,
+          "contribution_margin": -1.61297607421875,
+          "direction": "lowers_class_margin"
+        },
+        {
+          "feature": "usb_activity_count",
+          "value": 4.0,
+          "contribution_margin": -0.5527787804603577,
+          "direction": "lowers_class_margin"
+        },
+        {
+          "feature": "change_z_usb_activity_count",
+          "value": 0.0,
+          "contribution_margin": -0.5496721267700195,
+          "direction": "lowers_class_margin"
+        },
+        {
+          "feature": "change_z_total_emails",
+          "value": 0.0,
+          "contribution_margin": -0.4455831050872803,
+          "direction": "lowers_class_margin"
+        },
+        {
+          "feature": "past_7d_mean_file_activity_count",
+          "value": 0.0,
+          "contribution_margin": -0.42200079560279846,
+          "direction": "lowers_class_margin"
+        },
+        {
+          "feature": "http_activity_count",
+          "value": 114.0,
+          "contribution_margin": -0.3818495571613312,
+          "direction": "lowers_class_margin"
+        },
+        {
+          "feature": "past_7d_mean_after_hours_activity",
+          "value": 0.0,
+          "contribution_margin": -0.22185726463794708,
+          "direction": "lowers_class_margin"
+        }
+      ],
+      "base_margin": 0.3855753242969513,
+      "output_margin": -9.003860473632812,
+      "omitted_contribution_margin": -0.6006092554889619,
+      "additivity_error": 3.4547410905361176e-06,
+      "units": "raw class margin; not probability increments"
+    }
+  }
+]

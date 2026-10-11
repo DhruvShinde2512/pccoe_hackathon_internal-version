@@ -1,0 +1,16 @@
+{
+  "profiles": [
+    "transaction",
+    "integrated_case",
+    "amlsim_case",
+    "employee_behavior"
+  ],
+  "files": 619,
+  "excluded_optional_reference": "benchmark/cert/raw/r1.tar.bz2; download_cert.py --include-background can restore it",
+  "artifact_sha256": {
+    "transaction": "ea6684a1eb66d40f11dc4b7c232880c9cb9365021cf4f0890ecd52e1d9d116d5",
+    "integrated_case": "21769f17d039d879e158631b21510f9b08f13fa21ebde9d33d85eef3730863ad",
+    "amlsim_case": "6e9d0e6a5d5558e20527c8da2f51287129d8b1c1866d7fc78705c626e7fc77f3",
+    "employee_behavior": "0ce6af7c3c694f2f3cc5d3730b0126ac7b0e8d738e3c67ccef3a608d0ca8af12"
+  }
+}

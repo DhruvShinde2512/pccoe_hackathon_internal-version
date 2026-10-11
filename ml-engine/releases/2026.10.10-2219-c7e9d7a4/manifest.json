@@ -1,0 +1,679 @@
+{
+  "version": "2026.10.10-2219-c7e9d7a4",
+  "status": "RELEASED",
+  "created_at": "2026-10-10T22:19:59.057125+00:00",
+  "created_on": {
+    "host": "Dhruvs-MacBook-Pro.local",
+    "platform": "macOS-27.0.1-arm64-arm-64bit-Mach-O",
+    "python": "3.14.0"
+  },
+  "notes": "Platform-unit case model (trained on gateway components, train/validation/test time-ordered splits); transaction/employee/amlsim models from teammate training run of 10 Oct 2026.",
+  "profiles": {
+    "transaction": {
+      "file": "transaction_model.pkl",
+      "sha256": "ea6684a1eb66d40f11dc4b7c232880c9cb9365021cf4f0890ecd52e1d9d116d5",
+      "source": "artifacts/model.pkl",
+      "model_id": "legacy-v2",
+      "feature_version": "transaction-v1-19",
+      "feature_order": [
+        "amount",
+        "amount_missing",
+        "sender_missing",
+        "timestamp_missing",
+        "tx_count_1h",
+        "tx_sum_1h",
+        "tx_count_6h",
+        "tx_sum_6h",
+        "tx_count_24h",
+        "tx_sum_24h",
+        "near_reporting_limit",
+        "below_reporting_limit",
+        "seconds_since_access",
+        "access_missing",
+        "last_access_modify_phone",
+        "last_access_override_alert",
+        "is_dormant_sender",
+        "account_missing",
+        "closes_3hop_cycle_48h"
+      ],
+      "thresholds": null,
+      "scenarios": [
+        "BENIGN",
+        "STRUCTURING",
+        "CIRCULAR_FLOW"
+      ],
+      "preprocessing": {
+        "scaler": "StandardScaler",
+        "fitted_features": 19
+      },
+      "dataset_sha256": null,
+      "trained_at": null,
+      "training_device": "cuda"
+    },
+    "integrated_case": {
+      "file": "case_model.pkl",
+      "sha256": "3246c4d85666f3ead5f5255311c84615b68f06e1d2ba29f5c7859e43f264fb88",
+      "source": "artifacts/platform/case_model.pkl",
+      "model_id": "2f35a7011bdd78eb",
+      "feature_version": "case-graph-temporal-v1",
+      "feature_order": [
+        "transaction_count",
+        "total_amount",
+        "mean_amount",
+        "amount_cv",
+        "account_count",
+        "unique_senders",
+        "unique_recipients",
+        "max_sender_tx_count_1h",
+        "max_sender_recipients_24h",
+        "max_receiver_senders_24h",
+        "near_limit_fraction",
+        "below_limit_fraction",
+        "cycle_closure_count_48h",
+        "returned_value_fraction_48h",
+        "max_cycle_length",
+        "employee_count",
+        "access_count",
+        "risky_action_count",
+        "transfers_after_risky_action_2h",
+        "min_risky_action_delta_seconds",
+        "risky_access_missing",
+        "dormant_sender_fraction",
+        "max_accounts_per_employee_24h",
+        "case_duration_seconds"
+      ],
+      "thresholds": {
+        "autoencoder": 2.909817695617676,
+        "isolation_forest": 0.2102118608759046,
+        "xgboost": 0.6622781753540039,
+        "rule_baseline": 0.5
+      },
+      "scenarios": [
+        "BENIGN",
+        "STRUCTURING",
+        "CIRCULAR_FLOW"
+      ],
+      "preprocessing": {
+        "scaler": "StandardScaler",
+        "fitted_features": 24
+      },
+      "dataset_sha256": "f26c1f7f83146f3fdd274dfc673efd0991549029c5b030fb59198b64bc5ee070",
+      "trained_at": "2026-10-10T15:29:58.621959+00:00",
+      "training_device": "cpu",
+      "evaluation": {
+        "dataset_sha256": "f26c1f7f83146f3fdd274dfc673efd0991549029c5b030fb59198b64bc5ee070",
+        "feature_version": "case-graph-temporal-v1",
+        "model_id": "2f35a7011bdd78eb",
+        "unit": "case",
+        "metrics": {
+          "rule_baseline": {
+            "unit": "case",
+            "count": 78,
+            "positive_count": 19,
+            "negative_count": 59,
+            "threshold": 0.5,
+            "tp": 1,
+            "fp": 3,
+            "fn": 18,
+            "tn": 56,
+            "precision": 0.25,
+            "recall": 0.05263157894736842,
+            "false_positive_rate": 0.05084745762711865,
+            "average_precision": 0.24392712550607287
+          },
+          "autoencoder": {
+            "unit": "case",
+            "count": 78,
+            "positive_count": 19,
+            "negative_count": 59,
+            "threshold": 2.909817695617676,
+            "tp": 19,
+            "fp": 5,
+            "fn": 0,
+            "tn": 54,
+            "precision": 0.7916666666666666,
+            "recall": 1.0,
+            "false_positive_rate": 0.0847457627118644,
+            "average_precision": 0.759304938977506
+          },
+          "isolation_forest": {
+            "unit": "case",
+            "count": 78,
+            "positive_count": 19,
+            "negative_count": 59,
+            "threshold": 0.2102118608759046,
+            "tp": 16,
+            "fp": 3,
+            "fn": 3,
+            "tn": 56,
+            "precision": 0.8421052631578947,
+            "recall": 0.8421052631578947,
+            "false_positive_rate": 0.05084745762711865,
+            "average_precision": 0.7613715557702847
+          },
+          "xgboost": {
+            "unit": "case",
+            "count": 78,
+            "positive_count": 19,
+            "negative_count": 59,
+            "threshold": 0.6622781753540039,
+            "tp": 19,
+            "fp": 0,
+            "fn": 0,
+            "tn": 59,
+            "precision": 1.0,
+            "recall": 1.0,
+            "false_positive_rate": 0.0,
+            "average_precision": 1.0
+          }
+        },
+        "rule_description": "Flag at least one chronological 2/3-edge cycle within 48h OR (at least 3 sender transfers in 1h AND >=0.5 of transfers within 1000 of illustrative 10000 limit AND at least one transfer <=2h after MODIFY_PHONE/OVERRIDE_ALERT). No label inputs or tuned rule thresholds.",
+        "threshold_selection": "maximum validation F1; ties choose higher threshold; no test tuning",
+        "training_device": "cpu",
+        "limits": [
+          "Synthetic benchmark; not real-bank accuracy",
+          "Supplied case membership, not evaluated case discovery",
+          "Final snapshots; streaming revision correctness tested separately",
+          "Scores are not calibrated fraud probabilities"
+        ]
+      },
+      "evaluation_files": [
+        "held_out_predictions.csv",
+        "metrics.json",
+        "split_manifest.json"
+      ]
+    },
+    "employee_behavior": {
+      "file": "employee_model.pkl",
+      "sha256": "0ce6af7c3c694f2f3cc5d3730b0126ac7b0e8d738e3c67ccef3a608d0ca8af12",
+      "source": "artifacts/employee/model.pkl",
+      "model_id": "3ee718f5a2a01c1a",
+      "feature_version": "employee-daily-temporal-v1",
+      "feature_order": [
+        "total_logon_activity",
+        "after_hours_activity",
+        "http_activity_count",
+        "total_emails",
+        "file_activity_count",
+        "usb_activity_count",
+        "after_hours_fraction",
+        "past_7d_mean_total_logon_activity",
+        "past_7d_mean_after_hours_activity",
+        "past_7d_mean_http_activity_count",
+        "past_7d_mean_total_emails",
+        "past_7d_mean_file_activity_count",
+        "past_7d_mean_usb_activity_count",
+        "change_z_total_logon_activity",
+        "change_z_after_hours_activity",
+        "change_z_http_activity_count",
+        "change_z_total_emails",
+        "change_z_file_activity_count",
+        "change_z_usb_activity_count",
+        "history_days_7d",
+        "history_missing",
+        "missing_activity_fields"
+      ],
+      "thresholds": {
+        "autoencoder": 1.5941812992095947,
+        "isolation_forest": 0.14795336149655625,
+        "xgboost": 0.8757529258728027
+      },
+      "scenarios": [
+        "BACKGROUND",
+        "CERT_INSIDER_PATTERN"
+      ],
+      "preprocessing": {
+        "scaler": "StandardScaler",
+        "fitted_features": 22
+      },
+      "dataset_sha256": "c1f57dc363ba480aa3d91a88f63e79c4bdc2ade8ee34ddbc15cb5c14ebb63b77",
+      "trained_at": "2026-10-10T11:24:31.872092+00:00",
+      "training_device": "cuda",
+      "evaluation": {
+        "benchmark": "CERT r4.2 employee-day behavior, curated daily counts",
+        "model_id": "3ee718f5a2a01c1a",
+        "dataset_sha256": "c1f57dc363ba480aa3d91a88f63e79c4bdc2ade8ee34ddbc15cb5c14ebb63b77",
+        "feature_version": "employee-daily-temporal-v1",
+        "training_device": "cuda",
+        "xgboost_training_device": "cuda",
+        "threshold_policy": "maximum validation F1; ties choose higher threshold; no test tuning",
+        "unit": "employee_day",
+        "split_counts": {
+          "train": {
+            "rows": 101514,
+            "positive_days": 248,
+            "employees": 600,
+            "positive_employees": 14
+          },
+          "validation": {
+            "rows": 15457,
+            "positive_days": 49,
+            "employees": 189,
+            "positive_employees": 7
+          },
+          "test": {
+            "rows": 17035,
+            "positive_days": 44,
+            "employees": 179,
+            "positive_employees": 2
+          }
+        },
+        "metrics": {
+          "autoencoder": {
+            "unit": "employee_day",
+            "count": 17035,
+            "positive_count": 44,
+            "negative_count": 16991,
+            "threshold": 1.5941812992095947,
+            "tp": 1,
+            "fp": 18,
+            "fn": 43,
+            "tn": 16973,
+            "precision": 0.05263157894736842,
+            "recall": 0.022727272727272728,
+            "false_positive_rate": 0.0010593843799658643,
+            "average_precision": 0.038397509311569274
+          },
+          "isolation_forest": {
+            "unit": "employee_day",
+            "count": 17035,
+            "positive_count": 44,
+            "negative_count": 16991,
+            "threshold": 0.14795336149655625,
+            "tp": 0,
+            "fp": 35,
+            "fn": 44,
+            "tn": 16956,
+            "precision": 0.0,
+            "recall": 0.0,
+            "false_positive_rate": 0.002059914072155847,
+            "average_precision": 0.006888766780016133
+          },
+          "xgboost": {
+            "unit": "employee_day",
+            "count": 17035,
+            "positive_count": 44,
+            "negative_count": 16991,
+            "threshold": 0.8757529258728027,
+            "tp": 32,
+            "fp": 3,
+            "fn": 12,
+            "tn": 16988,
+            "precision": 0.9142857142857143,
+            "recall": 0.7272727272727273,
+            "false_positive_rate": 0.00017656406332764406,
+            "average_precision": 0.8776518257714647
+          }
+        },
+        "employee_metrics": {
+          "autoencoder": {
+            "unit": "employee_over_test_period",
+            "count": 179,
+            "positive_count": 2,
+            "negative_count": 177,
+            "threshold": 1.5941812992095947,
+            "tp": 1,
+            "fp": 12,
+            "fn": 1,
+            "tn": 165,
+            "precision": 0.07692307692307693,
+            "recall": 0.5,
+            "false_positive_rate": 0.06779661016949153,
+            "average_precision": 0.27941176470588236
+          },
+          "isolation_forest": {
+            "unit": "employee_over_test_period",
+            "count": 179,
+            "positive_count": 2,
+            "negative_count": 177,
+            "threshold": 0.14795336149655625,
+            "tp": 0,
+            "fp": 16,
+            "fn": 2,
+            "tn": 161,
+            "precision": 0.0,
+            "recall": 0.0,
+            "false_positive_rate": 0.0903954802259887,
+            "average_precision": 0.027252906976744186
+          },
+          "xgboost": {
+            "unit": "employee_over_test_period",
+            "count": 179,
+            "positive_count": 2,
+            "negative_count": 177,
+            "threshold": 0.8757529258728027,
+            "tp": 1,
+            "fp": 1,
+            "fn": 1,
+            "tn": 176,
+            "precision": 0.5,
+            "recall": 0.5,
+            "false_positive_rate": 0.005649717514124294,
+            "average_precision": 0.6666666666666666
+          }
+        },
+        "subgroup_metrics": {
+          "autoencoder": {
+            "background_after_hours": {
+              "unit": "employee_day",
+              "count": 2107,
+              "positive_count": 0,
+              "negative_count": 2107,
+              "threshold": 1.5941812992095947,
+              "tp": 0,
+              "fp": 12,
+              "fn": 0,
+              "tn": 2095,
+              "precision": 0.0,
+              "recall": null,
+              "false_positive_rate": 0.005695301376364499,
+              "average_precision": null
+            },
+            "background_usb_usage": {
+              "unit": "employee_day",
+              "count": 2075,
+              "positive_count": 0,
+              "negative_count": 2075,
+              "threshold": 1.5941812992095947,
+              "tp": 0,
+              "fp": 4,
+              "fn": 0,
+              "tn": 2071,
+              "precision": 0.0,
+              "recall": null,
+              "false_positive_rate": 0.0019277108433734939,
+              "average_precision": null
+            }
+          },
+          "isolation_forest": {
+            "background_after_hours": {
+              "unit": "employee_day",
+              "count": 2107,
+              "positive_count": 0,
+              "negative_count": 2107,
+              "threshold": 0.14795336149655625,
+              "tp": 0,
+              "fp": 33,
+              "fn": 0,
+              "tn": 2074,
+              "precision": 0.0,
+              "recall": null,
+              "false_positive_rate": 0.01566207878500237,
+              "average_precision": null
+            },
+            "background_usb_usage": {
+              "unit": "employee_day",
+              "count": 2075,
+              "positive_count": 0,
+              "negative_count": 2075,
+              "threshold": 0.14795336149655625,
+              "tp": 0,
+              "fp": 11,
+              "fn": 0,
+              "tn": 2064,
+              "precision": 0.0,
+              "recall": null,
+              "false_positive_rate": 0.005301204819277108,
+              "average_precision": null
+            }
+          },
+          "xgboost": {
+            "background_after_hours": {
+              "unit": "employee_day",
+              "count": 2107,
+              "positive_count": 0,
+              "negative_count": 2107,
+              "threshold": 0.8757529258728027,
+              "tp": 0,
+              "fp": 0,
+              "fn": 0,
+              "tn": 2107,
+              "precision": 0.0,
+              "recall": null,
+              "false_positive_rate": 0.0,
+              "average_precision": null
+            },
+            "background_usb_usage": {
+              "unit": "employee_day",
+              "count": 2075,
+              "positive_count": 0,
+              "negative_count": 2075,
+              "threshold": 0.8757529258728027,
+              "tp": 0,
+              "fp": 0,
+              "fn": 0,
+              "tn": 2075,
+              "precision": 0.0,
+              "recall": null,
+              "false_positive_rate": 0.0,
+              "average_precision": null
+            }
+          }
+        },
+        "tree_shap": {
+          "method": "exact native TreeSHAP",
+          "sample_rows": 1000,
+          "max_additivity_error": 9.5367431640625e-06,
+          "units": "positive-class log odds"
+        },
+        "label_assumption": "A recorded employee-day is positive when it overlaps that employee's official r4.2 incident start/end interval. Other activity on the same day can be benign. Labels are not event-level guilt.",
+        "limitations": [
+          "Synthetic workplace activity, not bank employee-to-account links",
+          "Daily aggregation supplied by a third-party curator; raw r4.2 logs not independently reconstructed",
+          "Only two positive employees in this fixed held-out time/group split",
+          "r1 contains background behavior and is retained as reference, not labeled malicious training data",
+          "No personality, sentiment, identity or label fields used as model features",
+          "Classifier scores are not calibrated probabilities",
+          "Auxiliary employee model; no learned joint association with AMLSim accounts",
+          "F1 operating threshold does not impose a bank deployment false-positive target"
+        ]
+      },
+      "evaluation_files": [
+        "example_evidence.json",
+        "feature_analysis.csv",
+        "held_out_predictions.csv",
+        "metrics.json"
+      ]
+    },
+    "amlsim_case": {
+      "file": "amlsim_case_model.pkl",
+      "sha256": "6e9d0e6a5d5558e20527c8da2f51287129d8b1c1866d7fc78705c626e7fc77f3",
+      "source": "artifacts/amlsim/case_model.pkl",
+      "model_id": "7bb93d47347b2453",
+      "feature_version": "case-graph-temporal-v1",
+      "feature_order": [
+        "transaction_count",
+        "total_amount",
+        "mean_amount",
+        "amount_cv",
+        "account_count",
+        "unique_senders",
+        "unique_recipients",
+        "max_sender_tx_count_1h",
+        "max_sender_recipients_24h",
+        "max_receiver_senders_24h",
+        "near_limit_fraction",
+        "below_limit_fraction",
+        "cycle_closure_count_48h",
+        "returned_value_fraction_48h",
+        "max_cycle_length",
+        "employee_count",
+        "access_count",
+        "risky_action_count",
+        "transfers_after_risky_action_2h",
+        "min_risky_action_delta_seconds",
+        "risky_access_missing",
+        "dormant_sender_fraction",
+        "max_accounts_per_employee_24h",
+        "case_duration_seconds"
+      ],
+      "thresholds": {
+        "autoencoder": 0.4623720645904541,
+        "isolation_forest": 0.060660167005940346,
+        "xgboost": 0.01753920316696167,
+        "rule_baseline": 0.5
+      },
+      "scenarios": [
+        "BENIGN",
+        "AMLSIM_SAR"
+      ],
+      "preprocessing": {
+        "scaler": "StandardScaler",
+        "fitted_features": 24
+      },
+      "dataset_sha256": "7d711ff77435a278cca984a6d54c13d2afb455518bca54214534aa6b5c0a0633",
+      "trained_at": "2026-10-10T11:24:20.155269+00:00",
+      "training_device": "cuda",
+      "evaluation": {
+        "dataset_sha256": "7d711ff77435a278cca984a6d54c13d2afb455518bca54214534aa6b5c0a0633",
+        "feature_version": "case-graph-temporal-v1",
+        "model_id": "7bb93d47347b2453",
+        "unit": "case",
+        "metrics": {
+          "rule_baseline": {
+            "unit": "case",
+            "count": 34,
+            "positive_count": 7,
+            "negative_count": 27,
+            "threshold": 0.5,
+            "tp": 6,
+            "fp": 8,
+            "fn": 1,
+            "tn": 19,
+            "precision": 0.42857142857142855,
+            "recall": 0.8571428571428571,
+            "false_positive_rate": 0.2962962962962963,
+            "average_precision": 0.3967587034813925
+          },
+          "autoencoder": {
+            "unit": "case",
+            "count": 34,
+            "positive_count": 7,
+            "negative_count": 27,
+            "threshold": 0.4623720645904541,
+            "tp": 5,
+            "fp": 6,
+            "fn": 2,
+            "tn": 21,
+            "precision": 0.45454545454545453,
+            "recall": 0.7142857142857143,
+            "false_positive_rate": 0.2222222222222222,
+            "average_precision": 0.5483798782670963
+          },
+          "isolation_forest": {
+            "unit": "case",
+            "count": 34,
+            "positive_count": 7,
+            "negative_count": 27,
+            "threshold": 0.060660167005940346,
+            "tp": 1,
+            "fp": 3,
+            "fn": 6,
+            "tn": 24,
+            "precision": 0.25,
+            "recall": 0.14285714285714285,
+            "false_positive_rate": 0.1111111111111111,
+            "average_precision": 0.48925479282622136
+          },
+          "xgboost": {
+            "unit": "case",
+            "count": 34,
+            "positive_count": 7,
+            "negative_count": 27,
+            "threshold": 0.01753920316696167,
+            "tp": 6,
+            "fp": 17,
+            "fn": 1,
+            "tn": 10,
+            "precision": 0.2608695652173913,
+            "recall": 0.8571428571428571,
+            "false_positive_rate": 0.6296296296296297,
+            "average_precision": 0.43155525030525027
+          }
+        },
+        "rule_description": "Flag at least one chronological 2/3-edge cycle within 48h OR (at least 3 sender transfers in 1h AND >=0.5 of transfers within 1000 of illustrative 10000 limit AND at least one transfer <=2h after MODIFY_PHONE/OVERRIDE_ALERT). No label inputs or tuned rule thresholds.",
+        "threshold_selection": "maximum validation F1; ties choose higher threshold; no test tuning",
+        "training_device": "cuda",
+        "limits": [
+          "Synthetic benchmark; not real-bank accuracy",
+          "Supplied case membership, not evaluated case discovery",
+          "Final snapshots; streaming revision correctness tested separately",
+          "Scores are not calibrated fraud probabilities",
+          "This is synthetic AMLSim data, not a bank's employee-access history.",
+          "isSAR is a simulator label, not proof of real wrongdoing.",
+          "Run-level splitting holds generated accounts and run scenarios apart, but AMLSim typologies are reused across splits.",
+          "Cases with identical transfer behavior but different SAR flags can be observationally indistinguishable.",
+          "Employee, dormant-account, role-change and cross-silo insider performance are not evaluated.",
+          "All simulated events are received immediately; AMLSim exports do not test duplicate or late delivery."
+        ],
+        "benchmark": "IBM AMLSim-only; simulator SAR flags, no employee-risk validation",
+        "source_commit": null,
+        "label_assumption": "A weakly connected transfer component is suspicious if any transaction has isSAR=1; flags remain synthetic simulator labels.",
+        "time_mapping": "Explicitly map one simulator step to the requested seconds; chosen value is synthetic, not upstream wall-clock time.",
+        "subgroup_metrics": {
+          "routine": {
+            "unit": "case",
+            "count": 8,
+            "positive_count": 0,
+            "negative_count": 8,
+            "threshold": 0.01753920316696167,
+            "tp": 0,
+            "fp": 3,
+            "fn": 0,
+            "tn": 5,
+            "precision": 0.0,
+            "recall": null,
+            "false_positive_rate": 0.375,
+            "average_precision": null
+          },
+          "legitimate_lookalike": {
+            "unit": "case",
+            "count": 8,
+            "positive_count": 0,
+            "negative_count": 8,
+            "threshold": 0.01753920316696167,
+            "tp": 0,
+            "fp": 8,
+            "fn": 0,
+            "tn": 0,
+            "precision": 0.0,
+            "recall": null,
+            "false_positive_rate": 1.0,
+            "average_precision": null
+          },
+          "sar": {
+            "unit": "case",
+            "count": 18,
+            "positive_count": 7,
+            "negative_count": 11,
+            "threshold": 0.01753920316696167,
+            "tp": 6,
+            "fp": 6,
+            "fn": 1,
+            "tn": 5,
+            "precision": 0.5,
+            "recall": 0.8571428571428571,
+            "false_positive_rate": 0.5454545454545454,
+            "average_precision": 0.7543650793650793
+          }
+        }
+      },
+      "evaluation_files": [
+        "example_evidence.json",
+        "feature_analysis.csv",
+        "held_out_predictions.csv",
+        "metrics.json",
+        "split_manifest.json"
+      ]
+    }
+  },
+  "serving": {
+    "inference_device": "cpu",
+    "required_env": {
+      "OMP_NUM_THREADS": "1"
+    },
+    "note": "XGBoost + TreeSHAP run on CPU; autoencoders are scored on CPU at inference."
+  },
+  "released_at": "2026-10-10T22:20:08.741361+00:00",
+  "previous_release": null
+}

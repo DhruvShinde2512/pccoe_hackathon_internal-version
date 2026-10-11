@@ -1,0 +1,40 @@
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Node / frontend
+node_modules/
+dist/
+*.local
+
+# Secrets and local config (commit the *.env.example files instead)
+.env
+.env.*
+!.env.example
+
+# Local LLM weights (multi-GB; see SETUP.md for download/copy steps)
+*.gguf
+*.safetensors
+
+# Third-party benchmark data with its own licence terms (CERT is CC-BY-NC-4.0).
+# Regenerate locally with ml-engine/download_cert.py + prepare_cert_benchmark.py.
+ml-engine/benchmark/cert/
+
+# OS / editor / tooling
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+.claude/
+
+# Logs and scratch output
+*.log
+logs/
+
+# Model registry: candidates are local until validated + promoted; releases/ is committed.
+ml-engine/releases/candidates/

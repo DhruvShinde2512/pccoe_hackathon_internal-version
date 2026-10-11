@@ -1,0 +1,104 @@
+{
+  "case_id": "CASE-00492",
+  "as_of": "2026-03-16T19:24:00+00:00",
+  "observed_until": "2026-03-16T19:24:00+00:00",
+  "events": [
+    {
+      "event_id": "CASE-00492-EV000",
+      "event_type": "EMPLOYEE_ACTION",
+      "event_time": "2026-03-14T19:24:00+00:00",
+      "arrival_time": "2026-03-14T22:24:00+00:00",
+      "payload": {
+        "emp_id": "CASE-00492-E",
+        "account_id": "CASE-00492-A0",
+        "action_type": "OVERRIDE_ALERT"
+      }
+    },
+    {
+      "event_id": "CASE-00492-EV001",
+      "event_type": "TRANSACTION",
+      "event_time": "2026-03-14T19:29:00+00:00",
+      "arrival_time": "2026-03-14T19:29:09.749060+00:00",
+      "payload": {
+        "sender_account_id": "CASE-00492-A0",
+        "receiver_account_id": "CASE-00492-A1",
+        "amount": 8137.68,
+        "channel": "WIRE"
+      }
+    },
+    {
+      "event_id": "CASE-00492-EV002",
+      "event_type": "TRANSACTION",
+      "event_time": "2026-03-14T19:56:15.274323+00:00",
+      "arrival_time": "2026-03-14T19:59:06.638782+00:00",
+      "payload": {
+        "sender_account_id": "CASE-00492-A1",
+        "receiver_account_id": "CASE-00492-A2",
+        "amount": 7819.25,
+        "channel": "WIRE"
+      }
+    },
+    {
+      "event_id": "CASE-00492-EV003",
+      "event_type": "TRANSACTION",
+      "event_time": "2026-03-14T20:23:30.548647+00:00",
+      "arrival_time": "2026-03-14T20:23:40.787873+00:00",
+      "payload": {
+        "sender_account_id": "CASE-00492-A2",
+        "receiver_account_id": "CASE-00492-A0",
+        "amount": 7257.26,
+        "channel": "WIRE"
+      }
+    }
+  ],
+  "accounts": [
+    {
+      "account_id": "CASE-00492-A0",
+      "status": "DORMANT"
+    },
+    {
+      "account_id": "CASE-00492-A1",
+      "status": "ACTIVE"
+    },
+    {
+      "account_id": "CASE-00492-A2",
+      "status": "ACTIVE"
+    },
+    {
+      "account_id": "CASE-00492-A3",
+      "status": "ACTIVE"
+    },
+    {
+      "account_id": "CASE-00492-A4",
+      "status": "ACTIVE"
+    },
+    {
+      "account_id": "CASE-00492-A5",
+      "status": "DORMANT"
+    },
+    {
+      "account_id": "CASE-00492-A6",
+      "status": "DORMANT"
+    },
+    {
+      "account_id": "CASE-00492-A7",
+      "status": "ACTIVE"
+    },
+    {
+      "account_id": "CASE-00492-A8",
+      "status": "DORMANT"
+    },
+    {
+      "account_id": "CASE-00492-A9",
+      "status": "ACTIVE"
+    },
+    {
+      "account_id": "CASE-00492-A10",
+      "status": "ACTIVE"
+    },
+    {
+      "account_id": "CASE-00492-A11",
+      "status": "ACTIVE"
+    }
+  ]
+}

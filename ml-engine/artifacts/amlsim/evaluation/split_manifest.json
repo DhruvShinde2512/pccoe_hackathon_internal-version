@@ -1,0 +1,1138 @@
+[
+  {
+    "case_id": "sim-0000:component:000",
+    "group_id": "sim-0000",
+    "split": "train",
+    "as_of": "2026-01-03T00:00:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "sim-0001:component:000",
+    "group_id": "sim-0001",
+    "split": "train",
+    "as_of": "2026-01-03T00:00:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "sim-0002:component:000",
+    "group_id": "sim-0002",
+    "split": "train",
+    "as_of": "2026-01-03T00:00:00+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "AMLSIM_SAR"
+  },
+  {
+    "case_id": "sim-0002:component:001",
+    "group_id": "sim-0002",
+    "split": "train",
+    "as_of": "2026-01-03T00:00:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "sim-0002:component:002",
+    "group_id": "sim-0002",
+    "split": "train",
+    "as_of": "2026-01-03T00:00:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "sim-0003:component:000",
+    "group_id": "sim-0003",
+    "split": "train",
+    "as_of": "2026-01-03T00:00:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "sim-0003:component:001",
+    "group_id": "sim-0003",
+    "split": "train",
+    "as_of": "2026-01-03T00:00:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "sim-0003:component:002",
+    "group_id": "sim-0003",
+    "split": "train",
+    "as_of": "2026-01-03T00:00:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "sim-0003:component:003",
+    "group_id": "sim-0003",
+    "split": "train",
+    "as_of": "2026-01-03T00:00:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "sim-0004:component:000",
+    "group_id": "sim-0004",
+    "split": "train",
+    "as_of": "2026-01-03T00:00:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "sim-0004:component:001",
+    "group_id": "sim-0004",
+    "split": "train",
+    "as_of": "2026-01-03T00:00:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "sim-0005:component:000",
+    "group_id": "sim-0005",
+    "split": "train",
+    "as_of": "2026-01-03T00:00:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "sim-0005:component:001",
+    "group_id": "sim-0005",
+    "split": "train",
+    "as_of": "2026-01-03T00:00:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "sim-0005:component:002",
+    "group_id": "sim-0005",
+    "split": "train",
+    "as_of": "2026-01-03T00:00:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "sim-0006:component:000",
+    "group_id": "sim-0006",
+    "split": "train",
+    "as_of": "2026-01-03T00:00:00+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "AMLSIM_SAR"
+  },
+  {
+    "case_id": "sim-0007:component:000",
+    "group_id": "sim-0007",
+    "split": "train",
+    "as_of": "2026-01-03T00:00:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "sim-0007:component:001",
+    "group_id": "sim-0007",
+    "split": "train",
+    "as_of": "2026-01-03T00:00:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "sim-0007:component:002",
+    "group_id": "sim-0007",
+    "split": "train",
+    "as_of": "2026-01-03T00:00:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "sim-0007:component:003",
+    "group_id": "sim-0007",
+    "split": "train",
+    "as_of": "2026-01-03T00:00:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "sim-0008:component:000",
+    "group_id": "sim-0008",
+    "split": "train",
+    "as_of": "2026-01-03T00:00:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "sim-0008:component:001",
+    "group_id": "sim-0008",
+    "split": "train",
+    "as_of": "2026-01-03T00:00:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "sim-0008:component:002",
+    "group_id": "sim-0008",
+    "split": "train",
+    "as_of": "2026-01-03T00:00:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "sim-0008:component:003",
+    "group_id": "sim-0008",
+    "split": "train",
+    "as_of": "2026-01-03T00:00:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "sim-0009:component:000",
+    "group_id": "sim-0009",
+    "split": "train",
+    "as_of": "2026-01-03T00:00:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "sim-0009:component:001",
+    "group_id": "sim-0009",
+    "split": "train",
+    "as_of": "2026-01-03T00:00:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "sim-0009:component:002",
+    "group_id": "sim-0009",
+    "split": "train",
+    "as_of": "2026-01-03T00:00:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "sim-0010:component:000",
+    "group_id": "sim-0010",
+    "split": "train",
+    "as_of": "2026-01-03T00:00:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "sim-0010:component:001",
+    "group_id": "sim-0010",
+    "split": "train",
+    "as_of": "2026-01-03T00:00:00+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "AMLSIM_SAR"
+  },
+  {
+    "case_id": "sim-0011:component:000",
+    "group_id": "sim-0011",
+    "split": "train",
+    "as_of": "2026-01-03T00:00:00+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "AMLSIM_SAR"
+  },
+  {
+    "case_id": "sim-0011:component:001",
+    "group_id": "sim-0011",
+    "split": "train",
+    "as_of": "2026-01-03T00:00:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "sim-0011:component:002",
+    "group_id": "sim-0011",
+    "split": "train",
+    "as_of": "2026-01-03T00:00:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "sim-0012:component:000",
+    "group_id": "sim-0012",
+    "split": "train",
+    "as_of": "2026-01-03T00:00:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "sim-0012:component:001",
+    "group_id": "sim-0012",
+    "split": "train",
+    "as_of": "2026-01-03T00:00:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "sim-0012:component:002",
+    "group_id": "sim-0012",
+    "split": "train",
+    "as_of": "2026-01-03T00:00:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "sim-0012:component:003",
+    "group_id": "sim-0012",
+    "split": "train",
+    "as_of": "2026-01-03T00:00:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "sim-0013:component:000",
+    "group_id": "sim-0013",
+    "split": "train",
+    "as_of": "2026-01-03T00:00:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "sim-0014:component:000",
+    "group_id": "sim-0014",
+    "split": "train",
+    "as_of": "2026-01-03T00:00:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "sim-0014:component:001",
+    "group_id": "sim-0014",
+    "split": "train",
+    "as_of": "2026-01-03T00:00:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "sim-0014:component:002",
+    "group_id": "sim-0014",
+    "split": "train",
+    "as_of": "2026-01-03T00:00:00+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "AMLSIM_SAR"
+  },
+  {
+    "case_id": "sim-0014:component:003",
+    "group_id": "sim-0014",
+    "split": "train",
+    "as_of": "2026-01-03T00:00:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "sim-0014:component:004",
+    "group_id": "sim-0014",
+    "split": "train",
+    "as_of": "2026-01-03T00:00:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "sim-0015:component:000",
+    "group_id": "sim-0015",
+    "split": "train",
+    "as_of": "2026-01-03T00:00:00+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "AMLSIM_SAR"
+  },
+  {
+    "case_id": "sim-0015:component:001",
+    "group_id": "sim-0015",
+    "split": "train",
+    "as_of": "2026-01-03T00:00:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "sim-0015:component:002",
+    "group_id": "sim-0015",
+    "split": "train",
+    "as_of": "2026-01-03T00:00:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "sim-0016:component:000",
+    "group_id": "sim-0016",
+    "split": "train",
+    "as_of": "2026-01-03T00:00:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "sim-0016:component:001",
+    "group_id": "sim-0016",
+    "split": "train",
+    "as_of": "2026-01-03T00:00:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "sim-0016:component:002",
+    "group_id": "sim-0016",
+    "split": "train",
+    "as_of": "2026-01-03T00:00:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "sim-0016:component:003",
+    "group_id": "sim-0016",
+    "split": "train",
+    "as_of": "2026-01-03T00:00:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "sim-0017:component:000",
+    "group_id": "sim-0017",
+    "split": "train",
+    "as_of": "2026-01-03T00:00:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "sim-0017:component:001",
+    "group_id": "sim-0017",
+    "split": "train",
+    "as_of": "2026-01-03T00:00:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "sim-0018:component:000",
+    "group_id": "sim-0018",
+    "split": "train",
+    "as_of": "2026-01-03T00:00:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "sim-0018:component:001",
+    "group_id": "sim-0018",
+    "split": "train",
+    "as_of": "2026-01-03T00:00:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "sim-0018:component:002",
+    "group_id": "sim-0018",
+    "split": "train",
+    "as_of": "2026-01-03T00:00:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "sim-0018:component:003",
+    "group_id": "sim-0018",
+    "split": "train",
+    "as_of": "2026-01-03T00:00:00+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "AMLSIM_SAR"
+  },
+  {
+    "case_id": "sim-0018:component:004",
+    "group_id": "sim-0018",
+    "split": "train",
+    "as_of": "2026-01-03T00:00:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "sim-0018:component:005",
+    "group_id": "sim-0018",
+    "split": "train",
+    "as_of": "2026-01-03T00:00:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "sim-0019:component:000",
+    "group_id": "sim-0019",
+    "split": "train",
+    "as_of": "2026-01-03T00:00:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "sim-0019:component:001",
+    "group_id": "sim-0019",
+    "split": "train",
+    "as_of": "2026-01-03T00:00:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "sim-0019:component:002",
+    "group_id": "sim-0019",
+    "split": "train",
+    "as_of": "2026-01-03T00:00:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "sim-0019:component:003",
+    "group_id": "sim-0019",
+    "split": "train",
+    "as_of": "2026-01-03T00:00:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "sim-0020:component:000",
+    "group_id": "sim-0020",
+    "split": "train",
+    "as_of": "2026-01-03T00:00:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "sim-0020:component:001",
+    "group_id": "sim-0020",
+    "split": "train",
+    "as_of": "2026-01-03T00:00:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "sim-0020:component:002",
+    "group_id": "sim-0020",
+    "split": "train",
+    "as_of": "2026-01-03T00:00:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "sim-0020:component:003",
+    "group_id": "sim-0020",
+    "split": "train",
+    "as_of": "2026-01-03T00:00:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "sim-0020:component:004",
+    "group_id": "sim-0020",
+    "split": "train",
+    "as_of": "2026-01-03T00:00:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "sim-0020:component:005",
+    "group_id": "sim-0020",
+    "split": "train",
+    "as_of": "2026-01-03T00:00:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "sim-0021:component:000",
+    "group_id": "sim-0021",
+    "split": "train",
+    "as_of": "2026-01-03T00:00:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "sim-0021:component:001",
+    "group_id": "sim-0021",
+    "split": "train",
+    "as_of": "2026-01-03T00:00:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "sim-0022:component:000",
+    "group_id": "sim-0022",
+    "split": "train",
+    "as_of": "2026-01-03T00:00:00+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "AMLSIM_SAR"
+  },
+  {
+    "case_id": "sim-0022:component:001",
+    "group_id": "sim-0022",
+    "split": "train",
+    "as_of": "2026-01-03T00:00:00+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "AMLSIM_SAR"
+  },
+  {
+    "case_id": "sim-0023:component:000",
+    "group_id": "sim-0023",
+    "split": "train",
+    "as_of": "2026-01-03T00:00:00+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "AMLSIM_SAR"
+  },
+  {
+    "case_id": "sim-0023:component:001",
+    "group_id": "sim-0023",
+    "split": "train",
+    "as_of": "2026-01-03T00:00:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "sim-0024:component:000",
+    "group_id": "sim-0024",
+    "split": "train",
+    "as_of": "2026-01-03T00:00:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "sim-0024:component:001",
+    "group_id": "sim-0024",
+    "split": "train",
+    "as_of": "2026-01-03T00:00:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "sim-0024:component:002",
+    "group_id": "sim-0024",
+    "split": "train",
+    "as_of": "2026-01-03T00:00:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "sim-0025:component:000",
+    "group_id": "sim-0025",
+    "split": "train",
+    "as_of": "2026-01-03T00:00:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "sim-0026:component:000",
+    "group_id": "sim-0026",
+    "split": "train",
+    "as_of": "2026-01-03T00:00:00+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "AMLSIM_SAR"
+  },
+  {
+    "case_id": "sim-0027:component:000",
+    "group_id": "sim-0027",
+    "split": "train",
+    "as_of": "2026-01-03T00:00:00+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "AMLSIM_SAR"
+  },
+  {
+    "case_id": "sim-0028:component:000",
+    "group_id": "sim-0028",
+    "split": "validation",
+    "as_of": "2026-03-03T00:00:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "sim-0028:component:001",
+    "group_id": "sim-0028",
+    "split": "validation",
+    "as_of": "2026-03-03T00:00:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "sim-0028:component:002",
+    "group_id": "sim-0028",
+    "split": "validation",
+    "as_of": "2026-03-03T00:00:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "sim-0028:component:003",
+    "group_id": "sim-0028",
+    "split": "validation",
+    "as_of": "2026-03-03T00:00:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "sim-0029:component:000",
+    "group_id": "sim-0029",
+    "split": "validation",
+    "as_of": "2026-03-03T00:00:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "sim-0029:component:001",
+    "group_id": "sim-0029",
+    "split": "validation",
+    "as_of": "2026-03-03T00:00:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "sim-0030:component:000",
+    "group_id": "sim-0030",
+    "split": "validation",
+    "as_of": "2026-03-03T00:00:00+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "AMLSIM_SAR"
+  },
+  {
+    "case_id": "sim-0031:component:000",
+    "group_id": "sim-0031",
+    "split": "validation",
+    "as_of": "2026-03-03T00:00:00+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "AMLSIM_SAR"
+  },
+  {
+    "case_id": "sim-0031:component:001",
+    "group_id": "sim-0031",
+    "split": "validation",
+    "as_of": "2026-03-03T00:00:00+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "AMLSIM_SAR"
+  },
+  {
+    "case_id": "sim-0031:component:002",
+    "group_id": "sim-0031",
+    "split": "validation",
+    "as_of": "2026-03-03T00:00:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "sim-0032:component:000",
+    "group_id": "sim-0032",
+    "split": "validation",
+    "as_of": "2026-03-03T00:00:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "sim-0032:component:001",
+    "group_id": "sim-0032",
+    "split": "validation",
+    "as_of": "2026-03-03T00:00:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "sim-0033:component:000",
+    "group_id": "sim-0033",
+    "split": "validation",
+    "as_of": "2026-03-03T00:00:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "sim-0033:component:001",
+    "group_id": "sim-0033",
+    "split": "validation",
+    "as_of": "2026-03-03T00:00:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "sim-0033:component:002",
+    "group_id": "sim-0033",
+    "split": "validation",
+    "as_of": "2026-03-03T00:00:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "sim-0034:component:000",
+    "group_id": "sim-0034",
+    "split": "validation",
+    "as_of": "2026-03-03T00:00:00+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "AMLSIM_SAR"
+  },
+  {
+    "case_id": "sim-0034:component:001",
+    "group_id": "sim-0034",
+    "split": "validation",
+    "as_of": "2026-03-03T00:00:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "sim-0034:component:002",
+    "group_id": "sim-0034",
+    "split": "validation",
+    "as_of": "2026-03-03T00:00:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "sim-0034:component:003",
+    "group_id": "sim-0034",
+    "split": "validation",
+    "as_of": "2026-03-03T00:00:00+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "AMLSIM_SAR"
+  },
+  {
+    "case_id": "sim-0034:component:004",
+    "group_id": "sim-0034",
+    "split": "validation",
+    "as_of": "2026-03-03T00:00:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "sim-0034:component:005",
+    "group_id": "sim-0034",
+    "split": "validation",
+    "as_of": "2026-03-03T00:00:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "sim-0035:component:000",
+    "group_id": "sim-0035",
+    "split": "validation",
+    "as_of": "2026-03-03T00:00:00+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "AMLSIM_SAR"
+  },
+  {
+    "case_id": "sim-0035:component:001",
+    "group_id": "sim-0035",
+    "split": "validation",
+    "as_of": "2026-03-03T00:00:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "sim-0035:component:002",
+    "group_id": "sim-0035",
+    "split": "validation",
+    "as_of": "2026-03-03T00:00:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "sim-0036:component:000",
+    "group_id": "sim-0036",
+    "split": "validation",
+    "as_of": "2026-03-03T00:00:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "sim-0036:component:001",
+    "group_id": "sim-0036",
+    "split": "validation",
+    "as_of": "2026-03-03T00:00:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "sim-0036:component:002",
+    "group_id": "sim-0036",
+    "split": "validation",
+    "as_of": "2026-03-03T00:00:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "sim-0036:component:003",
+    "group_id": "sim-0036",
+    "split": "validation",
+    "as_of": "2026-03-03T00:00:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "sim-0036:component:004",
+    "group_id": "sim-0036",
+    "split": "validation",
+    "as_of": "2026-03-03T00:00:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "sim-0036:component:005",
+    "group_id": "sim-0036",
+    "split": "validation",
+    "as_of": "2026-03-03T00:00:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "sim-0037:component:000",
+    "group_id": "sim-0037",
+    "split": "test",
+    "as_of": "2026-05-03T00:00:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "sim-0038:component:000",
+    "group_id": "sim-0038",
+    "split": "test",
+    "as_of": "2026-05-03T00:00:00+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "AMLSIM_SAR"
+  },
+  {
+    "case_id": "sim-0038:component:001",
+    "group_id": "sim-0038",
+    "split": "test",
+    "as_of": "2026-05-03T00:00:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "sim-0038:component:002",
+    "group_id": "sim-0038",
+    "split": "test",
+    "as_of": "2026-05-03T00:00:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "sim-0038:component:003",
+    "group_id": "sim-0038",
+    "split": "test",
+    "as_of": "2026-05-03T00:00:00+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "AMLSIM_SAR"
+  },
+  {
+    "case_id": "sim-0039:component:000",
+    "group_id": "sim-0039",
+    "split": "test",
+    "as_of": "2026-05-03T00:00:00+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "AMLSIM_SAR"
+  },
+  {
+    "case_id": "sim-0039:component:001",
+    "group_id": "sim-0039",
+    "split": "test",
+    "as_of": "2026-05-03T00:00:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "sim-0039:component:002",
+    "group_id": "sim-0039",
+    "split": "test",
+    "as_of": "2026-05-03T00:00:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "sim-0040:component:000",
+    "group_id": "sim-0040",
+    "split": "test",
+    "as_of": "2026-05-03T00:00:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "sim-0040:component:001",
+    "group_id": "sim-0040",
+    "split": "test",
+    "as_of": "2026-05-03T00:00:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "sim-0040:component:002",
+    "group_id": "sim-0040",
+    "split": "test",
+    "as_of": "2026-05-03T00:00:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "sim-0041:component:000",
+    "group_id": "sim-0041",
+    "split": "test",
+    "as_of": "2026-05-03T00:00:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "sim-0041:component:001",
+    "group_id": "sim-0041",
+    "split": "test",
+    "as_of": "2026-05-03T00:00:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "sim-0041:component:002",
+    "group_id": "sim-0041",
+    "split": "test",
+    "as_of": "2026-05-03T00:00:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "sim-0041:component:003",
+    "group_id": "sim-0041",
+    "split": "test",
+    "as_of": "2026-05-03T00:00:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "sim-0041:component:004",
+    "group_id": "sim-0041",
+    "split": "test",
+    "as_of": "2026-05-03T00:00:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "sim-0042:component:000",
+    "group_id": "sim-0042",
+    "split": "test",
+    "as_of": "2026-05-03T00:00:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "sim-0042:component:001",
+    "group_id": "sim-0042",
+    "split": "test",
+    "as_of": "2026-05-03T00:00:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "sim-0042:component:002",
+    "group_id": "sim-0042",
+    "split": "test",
+    "as_of": "2026-05-03T00:00:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "sim-0042:component:003",
+    "group_id": "sim-0042",
+    "split": "test",
+    "as_of": "2026-05-03T00:00:00+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "AMLSIM_SAR"
+  },
+  {
+    "case_id": "sim-0042:component:004",
+    "group_id": "sim-0042",
+    "split": "test",
+    "as_of": "2026-05-03T00:00:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "sim-0043:component:000",
+    "group_id": "sim-0043",
+    "split": "test",
+    "as_of": "2026-05-03T00:00:00+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "AMLSIM_SAR"
+  },
+  {
+    "case_id": "sim-0043:component:001",
+    "group_id": "sim-0043",
+    "split": "test",
+    "as_of": "2026-05-03T00:00:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "sim-0044:component:000",
+    "group_id": "sim-0044",
+    "split": "test",
+    "as_of": "2026-05-03T00:00:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "sim-0044:component:001",
+    "group_id": "sim-0044",
+    "split": "test",
+    "as_of": "2026-05-03T00:00:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "sim-0044:component:002",
+    "group_id": "sim-0044",
+    "split": "test",
+    "as_of": "2026-05-03T00:00:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "sim-0044:component:003",
+    "group_id": "sim-0044",
+    "split": "test",
+    "as_of": "2026-05-03T00:00:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "sim-0044:component:004",
+    "group_id": "sim-0044",
+    "split": "test",
+    "as_of": "2026-05-03T00:00:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "sim-0045:component:000",
+    "group_id": "sim-0045",
+    "split": "test",
+    "as_of": "2026-05-03T00:00:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "sim-0045:component:001",
+    "group_id": "sim-0045",
+    "split": "test",
+    "as_of": "2026-05-03T00:00:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "sim-0046:component:000",
+    "group_id": "sim-0046",
+    "split": "test",
+    "as_of": "2026-05-03T00:00:00+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "AMLSIM_SAR"
+  },
+  {
+    "case_id": "sim-0046:component:001",
+    "group_id": "sim-0046",
+    "split": "test",
+    "as_of": "2026-05-03T00:00:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "sim-0047:component:000",
+    "group_id": "sim-0047",
+    "split": "test",
+    "as_of": "2026-05-03T00:00:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "sim-0047:component:001",
+    "group_id": "sim-0047",
+    "split": "test",
+    "as_of": "2026-05-03T00:00:00+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "AMLSIM_SAR"
+  }
+]

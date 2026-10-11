@@ -1,0 +1,2012 @@
+{
+  "case_id": "sim-0038:component:000",
+  "as_of": "2026-05-03T00:00:00+00:00",
+  "observed_until": "2026-05-03T00:00:00+00:00",
+  "events": [
+    {
+      "event_id": "sim-0038:row:1",
+      "event_type": "TRANSACTION",
+      "event_time": "2026-05-01T00:00:00+00:00",
+      "arrival_time": "2026-05-01T00:00:00+00:00",
+      "payload": {
+        "sender_account_id": "sim-0038:18",
+        "receiver_account_id": "sim-0038:44",
+        "amount": 597.09,
+        "channel": "TRANSFER"
+      }
+    },
+    {
+      "event_id": "sim-0038:row:2",
+      "event_type": "TRANSACTION",
+      "event_time": "2026-05-01T00:00:00+00:00",
+      "arrival_time": "2026-05-01T00:00:00+00:00",
+      "payload": {
+        "sender_account_id": "sim-0038:34",
+        "receiver_account_id": "sim-0038:44",
+        "amount": 272.87,
+        "channel": "TRANSFER"
+      }
+    },
+    {
+      "event_id": "sim-0038:row:3",
+      "event_type": "TRANSACTION",
+      "event_time": "2026-05-01T00:00:00+00:00",
+      "arrival_time": "2026-05-01T00:00:00+00:00",
+      "payload": {
+        "sender_account_id": "sim-0038:5",
+        "receiver_account_id": "sim-0038:33",
+        "amount": 377.67,
+        "channel": "TRANSFER"
+      }
+    },
+    {
+      "event_id": "sim-0038:row:4",
+      "event_type": "TRANSACTION",
+      "event_time": "2026-05-01T00:00:00+00:00",
+      "arrival_time": "2026-05-01T00:00:00+00:00",
+      "payload": {
+        "sender_account_id": "sim-0038:3",
+        "receiver_account_id": "sim-0038:82",
+        "amount": 381.52,
+        "channel": "TRANSFER"
+      }
+    },
+    {
+      "event_id": "sim-0038:row:5",
+      "event_type": "TRANSACTION",
+      "event_time": "2026-05-01T00:00:00+00:00",
+      "arrival_time": "2026-05-01T00:00:00+00:00",
+      "payload": {
+        "sender_account_id": "sim-0038:51",
+        "receiver_account_id": "sim-0038:4",
+        "amount": 471.64,
+        "channel": "TRANSFER"
+      }
+    },
+    {
+      "event_id": "sim-0038:row:6",
+      "event_type": "TRANSACTION",
+      "event_time": "2026-05-01T00:00:00+00:00",
+      "arrival_time": "2026-05-01T00:00:00+00:00",
+      "payload": {
+        "sender_account_id": "sim-0038:7",
+        "receiver_account_id": "sim-0038:0",
+        "amount": 195.43,
+        "channel": "TRANSFER"
+      }
+    },
+    {
+      "event_id": "sim-0038:row:7",
+      "event_type": "TRANSACTION",
+      "event_time": "2026-05-01T01:00:00+00:00",
+      "arrival_time": "2026-05-01T01:00:00+00:00",
+      "payload": {
+        "sender_account_id": "sim-0038:7",
+        "receiver_account_id": "sim-0038:49",
+        "amount": 550.74,
+        "channel": "TRANSFER"
+      }
+    },
+    {
+      "event_id": "sim-0038:row:8",
+      "event_type": "TRANSACTION",
+      "event_time": "2026-05-01T01:00:00+00:00",
+      "arrival_time": "2026-05-01T01:00:00+00:00",
+      "payload": {
+        "sender_account_id": "sim-0038:18",
+        "receiver_account_id": "sim-0038:23",
+        "amount": 902.38,
+        "channel": "TRANSFER"
+      }
+    },
+    {
+      "event_id": "sim-0038:row:9",
+      "event_type": "TRANSACTION",
+      "event_time": "2026-05-01T01:00:00+00:00",
+      "arrival_time": "2026-05-01T01:00:00+00:00",
+      "payload": {
+        "sender_account_id": "sim-0038:29",
+        "receiver_account_id": "sim-0038:31",
+        "amount": 591.01,
+        "channel": "TRANSFER"
+      }
+    },
+    {
+      "event_id": "sim-0038:row:10",
+      "event_type": "TRANSACTION",
+      "event_time": "2026-05-01T01:00:00+00:00",
+      "arrival_time": "2026-05-01T01:00:00+00:00",
+      "payload": {
+        "sender_account_id": "sim-0038:4",
+        "receiver_account_id": "sim-0038:28",
+        "amount": 180.59,
+        "channel": "TRANSFER"
+      }
+    },
+    {
+      "event_id": "sim-0038:row:11",
+      "event_type": "TRANSACTION",
+      "event_time": "2026-05-01T01:00:00+00:00",
+      "arrival_time": "2026-05-01T01:00:00+00:00",
+      "payload": {
+        "sender_account_id": "sim-0038:17",
+        "receiver_account_id": "sim-0038:70",
+        "amount": 853.81,
+        "channel": "TRANSFER"
+      }
+    },
+    {
+      "event_id": "sim-0038:row:12",
+      "event_type": "TRANSACTION",
+      "event_time": "2026-05-01T02:00:00+00:00",
+      "arrival_time": "2026-05-01T02:00:00+00:00",
+      "payload": {
+        "sender_account_id": "sim-0038:26",
+        "receiver_account_id": "sim-0038:0",
+        "amount": 288.31,
+        "channel": "TRANSFER"
+      }
+    },
+    {
+      "event_id": "sim-0038:row:13",
+      "event_type": "TRANSACTION",
+      "event_time": "2026-05-01T02:00:00+00:00",
+      "arrival_time": "2026-05-01T02:00:00+00:00",
+      "payload": {
+        "sender_account_id": "sim-0038:3",
+        "receiver_account_id": "sim-0038:82",
+        "amount": 680.24,
+        "channel": "TRANSFER"
+      }
+    },
+    {
+      "event_id": "sim-0038:row:14",
+      "event_type": "TRANSACTION",
+      "event_time": "2026-05-01T03:00:00+00:00",
+      "arrival_time": "2026-05-01T03:00:00+00:00",
+      "payload": {
+        "sender_account_id": "sim-0038:31",
+        "receiver_account_id": "sim-0038:34",
+        "amount": 760.95,
+        "channel": "TRANSFER"
+      }
+    },
+    {
+      "event_id": "sim-0038:row:16",
+      "event_type": "TRANSACTION",
+      "event_time": "2026-05-01T04:00:00+00:00",
+      "arrival_time": "2026-05-01T04:00:00+00:00",
+      "payload": {
+        "sender_account_id": "sim-0038:5",
+        "receiver_account_id": "sim-0038:62",
+        "amount": 611.46,
+        "channel": "TRANSFER"
+      }
+    },
+    {
+      "event_id": "sim-0038:row:18",
+      "event_type": "TRANSACTION",
+      "event_time": "2026-05-01T04:00:00+00:00",
+      "arrival_time": "2026-05-01T04:00:00+00:00",
+      "payload": {
+        "sender_account_id": "sim-0038:29",
+        "receiver_account_id": "sim-0038:31",
+        "amount": 402.46,
+        "channel": "TRANSFER"
+      }
+    },
+    {
+      "event_id": "sim-0038:row:19",
+      "event_type": "TRANSACTION",
+      "event_time": "2026-05-01T05:00:00+00:00",
+      "arrival_time": "2026-05-01T05:00:00+00:00",
+      "payload": {
+        "sender_account_id": "sim-0038:0",
+        "receiver_account_id": "sim-0038:17",
+        "amount": 289.53,
+        "channel": "TRANSFER"
+      }
+    },
+    {
+      "event_id": "sim-0038:row:20",
+      "event_type": "TRANSACTION",
+      "event_time": "2026-05-01T05:00:00+00:00",
+      "arrival_time": "2026-05-01T05:00:00+00:00",
+      "payload": {
+        "sender_account_id": "sim-0038:29",
+        "receiver_account_id": "sim-0038:12",
+        "amount": 221.91,
+        "channel": "TRANSFER"
+      }
+    },
+    {
+      "event_id": "sim-0038:row:21",
+      "event_type": "TRANSACTION",
+      "event_time": "2026-05-01T05:00:00+00:00",
+      "arrival_time": "2026-05-01T05:00:00+00:00",
+      "payload": {
+        "sender_account_id": "sim-0038:66",
+        "receiver_account_id": "sim-0038:33",
+        "amount": 510.57,
+        "channel": "TRANSFER"
+      }
+    },
+    {
+      "event_id": "sim-0038:row:22",
+      "event_type": "TRANSACTION",
+      "event_time": "2026-05-01T05:00:00+00:00",
+      "arrival_time": "2026-05-01T05:00:00+00:00",
+      "payload": {
+        "sender_account_id": "sim-0038:3",
+        "receiver_account_id": "sim-0038:36",
+        "amount": 513.37,
+        "channel": "TRANSFER"
+      }
+    },
+    {
+      "event_id": "sim-0038:row:23",
+      "event_type": "TRANSACTION",
+      "event_time": "2026-05-01T05:00:00+00:00",
+      "arrival_time": "2026-05-01T05:00:00+00:00",
+      "payload": {
+        "sender_account_id": "sim-0038:0",
+        "receiver_account_id": "sim-0038:7",
+        "amount": 579.85,
+        "channel": "TRANSFER"
+      }
+    },
+    {
+      "event_id": "sim-0038:row:24",
+      "event_type": "TRANSACTION",
+      "event_time": "2026-05-01T06:00:00+00:00",
+      "arrival_time": "2026-05-01T06:00:00+00:00",
+      "payload": {
+        "sender_account_id": "sim-0038:32",
+        "receiver_account_id": "sim-0038:26",
+        "amount": 869.12,
+        "channel": "TRANSFER"
+      }
+    },
+    {
+      "event_id": "sim-0038:row:25",
+      "event_type": "TRANSACTION",
+      "event_time": "2026-05-01T06:00:00+00:00",
+      "arrival_time": "2026-05-01T06:00:00+00:00",
+      "payload": {
+        "sender_account_id": "sim-0038:5",
+        "receiver_account_id": "sim-0038:62",
+        "amount": 566.05,
+        "channel": "TRANSFER"
+      }
+    },
+    {
+      "event_id": "sim-0038:row:26",
+      "event_type": "TRANSACTION",
+      "event_time": "2026-05-01T06:00:00+00:00",
+      "arrival_time": "2026-05-01T06:00:00+00:00",
+      "payload": {
+        "sender_account_id": "sim-0038:7",
+        "receiver_account_id": "sim-0038:49",
+        "amount": 361.88,
+        "channel": "TRANSFER"
+      }
+    },
+    {
+      "event_id": "sim-0038:row:27",
+      "event_type": "TRANSACTION",
+      "event_time": "2026-05-01T06:00:00+00:00",
+      "arrival_time": "2026-05-01T06:00:00+00:00",
+      "payload": {
+        "sender_account_id": "sim-0038:3",
+        "receiver_account_id": "sim-0038:82",
+        "amount": 946.3,
+        "channel": "TRANSFER"
+      }
+    },
+    {
+      "event_id": "sim-0038:row:28",
+      "event_type": "TRANSACTION",
+      "event_time": "2026-05-01T06:00:00+00:00",
+      "arrival_time": "2026-05-01T06:00:00+00:00",
+      "payload": {
+        "sender_account_id": "sim-0038:18",
+        "receiver_account_id": "sim-0038:44",
+        "amount": 995.85,
+        "channel": "TRANSFER"
+      }
+    },
+    {
+      "event_id": "sim-0038:row:29",
+      "event_type": "TRANSACTION",
+      "event_time": "2026-05-01T07:00:00+00:00",
+      "arrival_time": "2026-05-01T07:00:00+00:00",
+      "payload": {
+        "sender_account_id": "sim-0038:34",
+        "receiver_account_id": "sim-0038:33",
+        "amount": 267.03,
+        "channel": "TRANSFER"
+      }
+    },
+    {
+      "event_id": "sim-0038:row:30",
+      "event_type": "TRANSACTION",
+      "event_time": "2026-05-01T07:00:00+00:00",
+      "arrival_time": "2026-05-01T07:00:00+00:00",
+      "payload": {
+        "sender_account_id": "sim-0038:33",
+        "receiver_account_id": "sim-0038:9",
+        "amount": 952.0,
+        "channel": "TRANSFER"
+      }
+    },
+    {
+      "event_id": "sim-0038:row:31",
+      "event_type": "TRANSACTION",
+      "event_time": "2026-05-01T07:00:00+00:00",
+      "arrival_time": "2026-05-01T07:00:00+00:00",
+      "payload": {
+        "sender_account_id": "sim-0038:18",
+        "receiver_account_id": "sim-0038:23",
+        "amount": 789.08,
+        "channel": "TRANSFER"
+      }
+    },
+    {
+      "event_id": "sim-0038:row:32",
+      "event_type": "TRANSACTION",
+      "event_time": "2026-05-01T07:00:00+00:00",
+      "arrival_time": "2026-05-01T07:00:00+00:00",
+      "payload": {
+        "sender_account_id": "sim-0038:5",
+        "receiver_account_id": "sim-0038:33",
+        "amount": 283.38,
+        "channel": "TRANSFER"
+      }
+    },
+    {
+      "event_id": "sim-0038:row:33",
+      "event_type": "TRANSACTION",
+      "event_time": "2026-05-01T07:00:00+00:00",
+      "arrival_time": "2026-05-01T07:00:00+00:00",
+      "payload": {
+        "sender_account_id": "sim-0038:51",
+        "receiver_account_id": "sim-0038:27",
+        "amount": 558.11,
+        "channel": "TRANSFER"
+      }
+    },
+    {
+      "event_id": "sim-0038:row:34",
+      "event_type": "TRANSACTION",
+      "event_time": "2026-05-01T07:00:00+00:00",
+      "arrival_time": "2026-05-01T07:00:00+00:00",
+      "payload": {
+        "sender_account_id": "sim-0038:3",
+        "receiver_account_id": "sim-0038:82",
+        "amount": 318.2,
+        "channel": "TRANSFER"
+      }
+    },
+    {
+      "event_id": "sim-0038:row:35",
+      "event_type": "TRANSACTION",
+      "event_time": "2026-05-01T07:00:00+00:00",
+      "arrival_time": "2026-05-01T07:00:00+00:00",
+      "payload": {
+        "sender_account_id": "sim-0038:7",
+        "receiver_account_id": "sim-0038:0",
+        "amount": 854.2,
+        "channel": "TRANSFER"
+      }
+    },
+    {
+      "event_id": "sim-0038:row:36",
+      "event_type": "TRANSACTION",
+      "event_time": "2026-05-01T08:00:00+00:00",
+      "arrival_time": "2026-05-01T08:00:00+00:00",
+      "payload": {
+        "sender_account_id": "sim-0038:29",
+        "receiver_account_id": "sim-0038:31",
+        "amount": 839.36,
+        "channel": "TRANSFER"
+      }
+    },
+    {
+      "event_id": "sim-0038:row:37",
+      "event_type": "TRANSACTION",
+      "event_time": "2026-05-01T08:00:00+00:00",
+      "arrival_time": "2026-05-01T08:00:00+00:00",
+      "payload": {
+        "sender_account_id": "sim-0038:4",
+        "receiver_account_id": "sim-0038:26",
+        "amount": 398.64,
+        "channel": "TRANSFER"
+      }
+    },
+    {
+      "event_id": "sim-0038:row:38",
+      "event_type": "TRANSACTION",
+      "event_time": "2026-05-01T08:00:00+00:00",
+      "arrival_time": "2026-05-01T08:00:00+00:00",
+      "payload": {
+        "sender_account_id": "sim-0038:17",
+        "receiver_account_id": "sim-0038:85",
+        "amount": 101.66,
+        "channel": "TRANSFER"
+      }
+    },
+    {
+      "event_id": "sim-0038:row:39",
+      "event_type": "TRANSACTION",
+      "event_time": "2026-05-01T08:00:00+00:00",
+      "arrival_time": "2026-05-01T08:00:00+00:00",
+      "payload": {
+        "sender_account_id": "sim-0038:18",
+        "receiver_account_id": "sim-0038:23",
+        "amount": 970.42,
+        "channel": "TRANSFER"
+      }
+    },
+    {
+      "event_id": "sim-0038:row:40",
+      "event_type": "TRANSACTION",
+      "event_time": "2026-05-01T08:00:00+00:00",
+      "arrival_time": "2026-05-01T08:00:00+00:00",
+      "payload": {
+        "sender_account_id": "sim-0038:7",
+        "receiver_account_id": "sim-0038:0",
+        "amount": 131.09,
+        "channel": "TRANSFER"
+      }
+    },
+    {
+      "event_id": "sim-0038:row:41",
+      "event_type": "TRANSACTION",
+      "event_time": "2026-05-01T09:00:00+00:00",
+      "arrival_time": "2026-05-01T09:00:00+00:00",
+      "payload": {
+        "sender_account_id": "sim-0038:18",
+        "receiver_account_id": "sim-0038:23",
+        "amount": 349.08,
+        "channel": "TRANSFER"
+      }
+    },
+    {
+      "event_id": "sim-0038:row:42",
+      "event_type": "TRANSACTION",
+      "event_time": "2026-05-01T09:00:00+00:00",
+      "arrival_time": "2026-05-01T09:00:00+00:00",
+      "payload": {
+        "sender_account_id": "sim-0038:3",
+        "receiver_account_id": "sim-0038:0",
+        "amount": 841.87,
+        "channel": "TRANSFER"
+      }
+    },
+    {
+      "event_id": "sim-0038:row:44",
+      "event_type": "TRANSACTION",
+      "event_time": "2026-05-01T10:00:00+00:00",
+      "arrival_time": "2026-05-01T10:00:00+00:00",
+      "payload": {
+        "sender_account_id": "sim-0038:31",
+        "receiver_account_id": "sim-0038:56",
+        "amount": 829.53,
+        "channel": "TRANSFER"
+      }
+    },
+    {
+      "event_id": "sim-0038:row:46",
+      "event_type": "TRANSACTION",
+      "event_time": "2026-05-01T11:00:00+00:00",
+      "arrival_time": "2026-05-01T11:00:00+00:00",
+      "payload": {
+        "sender_account_id": "sim-0038:5",
+        "receiver_account_id": "sim-0038:62",
+        "amount": 965.22,
+        "channel": "TRANSFER"
+      }
+    },
+    {
+      "event_id": "sim-0038:row:48",
+      "event_type": "TRANSACTION",
+      "event_time": "2026-05-01T11:00:00+00:00",
+      "arrival_time": "2026-05-01T11:00:00+00:00",
+      "payload": {
+        "sender_account_id": "sim-0038:29",
+        "receiver_account_id": "sim-0038:12",
+        "amount": 283.73,
+        "channel": "TRANSFER"
+      }
+    },
+    {
+      "event_id": "sim-0038:row:49",
+      "event_type": "TRANSACTION",
+      "event_time": "2026-05-01T12:00:00+00:00",
+      "arrival_time": "2026-05-01T12:00:00+00:00",
+      "payload": {
+        "sender_account_id": "sim-0038:29",
+        "receiver_account_id": "sim-0038:12",
+        "amount": 432.3,
+        "channel": "TRANSFER"
+      }
+    },
+    {
+      "event_id": "sim-0038:row:50",
+      "event_type": "TRANSACTION",
+      "event_time": "2026-05-01T12:00:00+00:00",
+      "arrival_time": "2026-05-01T12:00:00+00:00",
+      "payload": {
+        "sender_account_id": "sim-0038:3",
+        "receiver_account_id": "sim-0038:36",
+        "amount": 474.07,
+        "channel": "TRANSFER"
+      }
+    },
+    {
+      "event_id": "sim-0038:row:51",
+      "event_type": "TRANSACTION",
+      "event_time": "2026-05-01T12:00:00+00:00",
+      "arrival_time": "2026-05-01T12:00:00+00:00",
+      "payload": {
+        "sender_account_id": "sim-0038:0",
+        "receiver_account_id": "sim-0038:7",
+        "amount": 315.11,
+        "channel": "TRANSFER"
+      }
+    },
+    {
+      "event_id": "sim-0038:row:52",
+      "event_type": "TRANSACTION",
+      "event_time": "2026-05-01T13:00:00+00:00",
+      "arrival_time": "2026-05-01T13:00:00+00:00",
+      "payload": {
+        "sender_account_id": "sim-0038:3",
+        "receiver_account_id": "sim-0038:0",
+        "amount": 578.6,
+        "channel": "TRANSFER"
+      }
+    },
+    {
+      "event_id": "sim-0038:row:53",
+      "event_type": "TRANSACTION",
+      "event_time": "2026-05-01T13:00:00+00:00",
+      "arrival_time": "2026-05-01T13:00:00+00:00",
+      "payload": {
+        "sender_account_id": "sim-0038:18",
+        "receiver_account_id": "sim-0038:44",
+        "amount": 113.49,
+        "channel": "TRANSFER"
+      }
+    },
+    {
+      "event_id": "sim-0038:row:54",
+      "event_type": "TRANSACTION",
+      "event_time": "2026-05-01T13:00:00+00:00",
+      "arrival_time": "2026-05-01T13:00:00+00:00",
+      "payload": {
+        "sender_account_id": "sim-0038:5",
+        "receiver_account_id": "sim-0038:33",
+        "amount": 270.73,
+        "channel": "TRANSFER"
+      }
+    },
+    {
+      "event_id": "sim-0038:row:55",
+      "event_type": "TRANSACTION",
+      "event_time": "2026-05-01T13:00:00+00:00",
+      "arrival_time": "2026-05-01T13:00:00+00:00",
+      "payload": {
+        "sender_account_id": "sim-0038:7",
+        "receiver_account_id": "sim-0038:49",
+        "amount": 764.49,
+        "channel": "TRANSFER"
+      }
+    },
+    {
+      "event_id": "sim-0038:row:56",
+      "event_type": "TRANSACTION",
+      "event_time": "2026-05-01T13:00:00+00:00",
+      "arrival_time": "2026-05-01T13:00:00+00:00",
+      "payload": {
+        "sender_account_id": "sim-0038:32",
+        "receiver_account_id": "sim-0038:4",
+        "amount": 444.17,
+        "channel": "TRANSFER"
+      }
+    },
+    {
+      "event_id": "sim-0038:row:57",
+      "event_type": "TRANSACTION",
+      "event_time": "2026-05-01T14:00:00+00:00",
+      "arrival_time": "2026-05-01T14:00:00+00:00",
+      "payload": {
+        "sender_account_id": "sim-0038:34",
+        "receiver_account_id": "sim-0038:70",
+        "amount": 334.06,
+        "channel": "TRANSFER"
+      }
+    },
+    {
+      "event_id": "sim-0038:row:58",
+      "event_type": "TRANSACTION",
+      "event_time": "2026-05-01T14:00:00+00:00",
+      "arrival_time": "2026-05-01T14:00:00+00:00",
+      "payload": {
+        "sender_account_id": "sim-0038:3",
+        "receiver_account_id": "sim-0038:82",
+        "amount": 230.0,
+        "channel": "TRANSFER"
+      }
+    },
+    {
+      "event_id": "sim-0038:row:59",
+      "event_type": "TRANSACTION",
+      "event_time": "2026-05-01T14:00:00+00:00",
+      "arrival_time": "2026-05-01T14:00:00+00:00",
+      "payload": {
+        "sender_account_id": "sim-0038:18",
+        "receiver_account_id": "sim-0038:44",
+        "amount": 447.43,
+        "channel": "TRANSFER"
+      }
+    },
+    {
+      "event_id": "sim-0038:row:60",
+      "event_type": "TRANSACTION",
+      "event_time": "2026-05-01T14:00:00+00:00",
+      "arrival_time": "2026-05-01T14:00:00+00:00",
+      "payload": {
+        "sender_account_id": "sim-0038:5",
+        "receiver_account_id": "sim-0038:33",
+        "amount": 592.93,
+        "channel": "TRANSFER"
+      }
+    },
+    {
+      "event_id": "sim-0038:row:61",
+      "event_type": "TRANSACTION",
+      "event_time": "2026-05-01T14:00:00+00:00",
+      "arrival_time": "2026-05-01T14:00:00+00:00",
+      "payload": {
+        "sender_account_id": "sim-0038:51",
+        "receiver_account_id": "sim-0038:62",
+        "amount": 681.9,
+        "channel": "TRANSFER"
+      }
+    },
+    {
+      "event_id": "sim-0038:row:62",
+      "event_type": "TRANSACTION",
+      "event_time": "2026-05-01T14:00:00+00:00",
+      "arrival_time": "2026-05-01T14:00:00+00:00",
+      "payload": {
+        "sender_account_id": "sim-0038:7",
+        "receiver_account_id": "sim-0038:0",
+        "amount": 191.26,
+        "channel": "TRANSFER"
+      }
+    },
+    {
+      "event_id": "sim-0038:row:64",
+      "event_type": "TRANSACTION",
+      "event_time": "2026-05-01T15:00:00+00:00",
+      "arrival_time": "2026-05-01T15:00:00+00:00",
+      "payload": {
+        "sender_account_id": "sim-0038:7",
+        "receiver_account_id": "sim-0038:49",
+        "amount": 622.36,
+        "channel": "TRANSFER"
+      }
+    },
+    {
+      "event_id": "sim-0038:row:65",
+      "event_type": "TRANSACTION",
+      "event_time": "2026-05-01T15:00:00+00:00",
+      "arrival_time": "2026-05-01T15:00:00+00:00",
+      "payload": {
+        "sender_account_id": "sim-0038:4",
+        "receiver_account_id": "sim-0038:28",
+        "amount": 778.33,
+        "channel": "TRANSFER"
+      }
+    },
+    {
+      "event_id": "sim-0038:row:66",
+      "event_type": "TRANSACTION",
+      "event_time": "2026-05-01T15:00:00+00:00",
+      "arrival_time": "2026-05-01T15:00:00+00:00",
+      "payload": {
+        "sender_account_id": "sim-0038:29",
+        "receiver_account_id": "sim-0038:31",
+        "amount": 792.88,
+        "channel": "TRANSFER"
+      }
+    },
+    {
+      "event_id": "sim-0038:row:67",
+      "event_type": "TRANSACTION",
+      "event_time": "2026-05-01T15:00:00+00:00",
+      "arrival_time": "2026-05-01T15:00:00+00:00",
+      "payload": {
+        "sender_account_id": "sim-0038:18",
+        "receiver_account_id": "sim-0038:23",
+        "amount": 868.69,
+        "channel": "TRANSFER"
+      }
+    },
+    {
+      "event_id": "sim-0038:row:68",
+      "event_type": "TRANSACTION",
+      "event_time": "2026-05-01T15:00:00+00:00",
+      "arrival_time": "2026-05-01T15:00:00+00:00",
+      "payload": {
+        "sender_account_id": "sim-0038:17",
+        "receiver_account_id": "sim-0038:24",
+        "amount": 664.07,
+        "channel": "TRANSFER"
+      }
+    },
+    {
+      "event_id": "sim-0038:row:69",
+      "event_type": "TRANSACTION",
+      "event_time": "2026-05-01T16:00:00+00:00",
+      "arrival_time": "2026-05-01T16:00:00+00:00",
+      "payload": {
+        "sender_account_id": "sim-0038:3",
+        "receiver_account_id": "sim-0038:36",
+        "amount": 865.99,
+        "channel": "TRANSFER"
+      }
+    },
+    {
+      "event_id": "sim-0038:row:71",
+      "event_type": "TRANSACTION",
+      "event_time": "2026-05-01T17:00:00+00:00",
+      "arrival_time": "2026-05-01T17:00:00+00:00",
+      "payload": {
+        "sender_account_id": "sim-0038:31",
+        "receiver_account_id": "sim-0038:28",
+        "amount": 930.97,
+        "channel": "TRANSFER"
+      }
+    },
+    {
+      "event_id": "sim-0038:row:72",
+      "event_type": "TRANSACTION",
+      "event_time": "2026-05-01T18:00:00+00:00",
+      "arrival_time": "2026-05-01T18:00:00+00:00",
+      "payload": {
+        "sender_account_id": "sim-0038:9",
+        "receiver_account_id": "sim-0038:66",
+        "amount": 224.31,
+        "channel": "TRANSFER"
+      }
+    },
+    {
+      "event_id": "sim-0038:row:73",
+      "event_type": "TRANSACTION",
+      "event_time": "2026-05-01T18:00:00+00:00",
+      "arrival_time": "2026-05-01T18:00:00+00:00",
+      "payload": {
+        "sender_account_id": "sim-0038:5",
+        "receiver_account_id": "sim-0038:62",
+        "amount": 902.83,
+        "channel": "TRANSFER"
+      }
+    },
+    {
+      "event_id": "sim-0038:row:74",
+      "event_type": "TRANSACTION",
+      "event_time": "2026-05-01T18:00:00+00:00",
+      "arrival_time": "2026-05-01T18:00:00+00:00",
+      "payload": {
+        "sender_account_id": "sim-0038:29",
+        "receiver_account_id": "sim-0038:31",
+        "amount": 742.87,
+        "channel": "TRANSFER"
+      }
+    },
+    {
+      "event_id": "sim-0038:row:76",
+      "event_type": "TRANSACTION",
+      "event_time": "2026-05-01T19:00:00+00:00",
+      "arrival_time": "2026-05-01T19:00:00+00:00",
+      "payload": {
+        "sender_account_id": "sim-0038:29",
+        "receiver_account_id": "sim-0038:12",
+        "amount": 771.16,
+        "channel": "TRANSFER"
+      }
+    },
+    {
+      "event_id": "sim-0038:row:77",
+      "event_type": "TRANSACTION",
+      "event_time": "2026-05-01T19:00:00+00:00",
+      "arrival_time": "2026-05-01T19:00:00+00:00",
+      "payload": {
+        "sender_account_id": "sim-0038:0",
+        "receiver_account_id": "sim-0038:7",
+        "amount": 337.09,
+        "channel": "TRANSFER"
+      }
+    },
+    {
+      "event_id": "sim-0038:row:78",
+      "event_type": "TRANSACTION",
+      "event_time": "2026-05-01T19:00:00+00:00",
+      "arrival_time": "2026-05-01T19:00:00+00:00",
+      "payload": {
+        "sender_account_id": "sim-0038:3",
+        "receiver_account_id": "sim-0038:36",
+        "amount": 702.42,
+        "channel": "TRANSFER"
+      }
+    },
+    {
+      "event_id": "sim-0038:row:79",
+      "event_type": "TRANSACTION",
+      "event_time": "2026-05-01T20:00:00+00:00",
+      "arrival_time": "2026-05-01T20:00:00+00:00",
+      "payload": {
+        "sender_account_id": "sim-0038:18",
+        "receiver_account_id": "sim-0038:44",
+        "amount": 286.5,
+        "channel": "TRANSFER"
+      }
+    },
+    {
+      "event_id": "sim-0038:row:80",
+      "event_type": "TRANSACTION",
+      "event_time": "2026-05-01T20:00:00+00:00",
+      "arrival_time": "2026-05-01T20:00:00+00:00",
+      "payload": {
+        "sender_account_id": "sim-0038:3",
+        "receiver_account_id": "sim-0038:36",
+        "amount": 910.6,
+        "channel": "TRANSFER"
+      }
+    },
+    {
+      "event_id": "sim-0038:row:81",
+      "event_type": "TRANSACTION",
+      "event_time": "2026-05-01T20:00:00+00:00",
+      "arrival_time": "2026-05-01T20:00:00+00:00",
+      "payload": {
+        "sender_account_id": "sim-0038:5",
+        "receiver_account_id": "sim-0038:62",
+        "amount": 895.79,
+        "channel": "TRANSFER"
+      }
+    },
+    {
+      "event_id": "sim-0038:row:82",
+      "event_type": "TRANSACTION",
+      "event_time": "2026-05-01T20:00:00+00:00",
+      "arrival_time": "2026-05-01T20:00:00+00:00",
+      "payload": {
+        "sender_account_id": "sim-0038:32",
+        "receiver_account_id": "sim-0038:65",
+        "amount": 882.8,
+        "channel": "TRANSFER"
+      }
+    },
+    {
+      "event_id": "sim-0038:row:83",
+      "event_type": "TRANSACTION",
+      "event_time": "2026-05-01T20:00:00+00:00",
+      "arrival_time": "2026-05-01T20:00:00+00:00",
+      "payload": {
+        "sender_account_id": "sim-0038:7",
+        "receiver_account_id": "sim-0038:49",
+        "amount": 989.41,
+        "channel": "TRANSFER"
+      }
+    },
+    {
+      "event_id": "sim-0038:row:84",
+      "event_type": "TRANSACTION",
+      "event_time": "2026-05-01T21:00:00+00:00",
+      "arrival_time": "2026-05-01T21:00:00+00:00",
+      "payload": {
+        "sender_account_id": "sim-0038:7",
+        "receiver_account_id": "sim-0038:0",
+        "amount": 599.36,
+        "channel": "TRANSFER"
+      }
+    },
+    {
+      "event_id": "sim-0038:row:85",
+      "event_type": "TRANSACTION",
+      "event_time": "2026-05-01T21:00:00+00:00",
+      "arrival_time": "2026-05-01T21:00:00+00:00",
+      "payload": {
+        "sender_account_id": "sim-0038:34",
+        "receiver_account_id": "sim-0038:20",
+        "amount": 958.86,
+        "channel": "TRANSFER"
+      }
+    },
+    {
+      "event_id": "sim-0038:row:86",
+      "event_type": "TRANSACTION",
+      "event_time": "2026-05-01T21:00:00+00:00",
+      "arrival_time": "2026-05-01T21:00:00+00:00",
+      "payload": {
+        "sender_account_id": "sim-0038:51",
+        "receiver_account_id": "sim-0038:70",
+        "amount": 844.93,
+        "channel": "TRANSFER"
+      }
+    },
+    {
+      "event_id": "sim-0038:row:87",
+      "event_type": "TRANSACTION",
+      "event_time": "2026-05-01T21:00:00+00:00",
+      "arrival_time": "2026-05-01T21:00:00+00:00",
+      "payload": {
+        "sender_account_id": "sim-0038:5",
+        "receiver_account_id": "sim-0038:33",
+        "amount": 987.51,
+        "channel": "TRANSFER"
+      }
+    },
+    {
+      "event_id": "sim-0038:row:88",
+      "event_type": "TRANSACTION",
+      "event_time": "2026-05-01T21:00:00+00:00",
+      "arrival_time": "2026-05-01T21:00:00+00:00",
+      "payload": {
+        "sender_account_id": "sim-0038:3",
+        "receiver_account_id": "sim-0038:82",
+        "amount": 148.24,
+        "channel": "TRANSFER"
+      }
+    },
+    {
+      "event_id": "sim-0038:row:89",
+      "event_type": "TRANSACTION",
+      "event_time": "2026-05-01T21:00:00+00:00",
+      "arrival_time": "2026-05-01T21:00:00+00:00",
+      "payload": {
+        "sender_account_id": "sim-0038:18",
+        "receiver_account_id": "sim-0038:23",
+        "amount": 730.6,
+        "channel": "TRANSFER"
+      }
+    },
+    {
+      "event_id": "sim-0038:row:90",
+      "event_type": "TRANSACTION",
+      "event_time": "2026-05-01T22:00:00+00:00",
+      "arrival_time": "2026-05-01T22:00:00+00:00",
+      "payload": {
+        "sender_account_id": "sim-0038:4",
+        "receiver_account_id": "sim-0038:26",
+        "amount": 121.74,
+        "channel": "TRANSFER"
+      }
+    },
+    {
+      "event_id": "sim-0038:row:91",
+      "event_type": "TRANSACTION",
+      "event_time": "2026-05-01T22:00:00+00:00",
+      "arrival_time": "2026-05-01T22:00:00+00:00",
+      "payload": {
+        "sender_account_id": "sim-0038:17",
+        "receiver_account_id": "sim-0038:61",
+        "amount": 701.74,
+        "channel": "TRANSFER"
+      }
+    },
+    {
+      "event_id": "sim-0038:row:92",
+      "event_type": "TRANSACTION",
+      "event_time": "2026-05-01T22:00:00+00:00",
+      "arrival_time": "2026-05-01T22:00:00+00:00",
+      "payload": {
+        "sender_account_id": "sim-0038:18",
+        "receiver_account_id": "sim-0038:23",
+        "amount": 914.62,
+        "channel": "TRANSFER"
+      }
+    },
+    {
+      "event_id": "sim-0038:row:93",
+      "event_type": "TRANSACTION",
+      "event_time": "2026-05-01T22:00:00+00:00",
+      "arrival_time": "2026-05-01T22:00:00+00:00",
+      "payload": {
+        "sender_account_id": "sim-0038:29",
+        "receiver_account_id": "sim-0038:31",
+        "amount": 905.51,
+        "channel": "TRANSFER"
+      }
+    },
+    {
+      "event_id": "sim-0038:row:94",
+      "event_type": "TRANSACTION",
+      "event_time": "2026-05-01T22:00:00+00:00",
+      "arrival_time": "2026-05-01T22:00:00+00:00",
+      "payload": {
+        "sender_account_id": "sim-0038:7",
+        "receiver_account_id": "sim-0038:0",
+        "amount": 174.57,
+        "channel": "TRANSFER"
+      }
+    },
+    {
+      "event_id": "sim-0038:row:95",
+      "event_type": "TRANSACTION",
+      "event_time": "2026-05-01T23:00:00+00:00",
+      "arrival_time": "2026-05-01T23:00:00+00:00",
+      "payload": {
+        "sender_account_id": "sim-0038:3",
+        "receiver_account_id": "sim-0038:82",
+        "amount": 241.14,
+        "channel": "TRANSFER"
+      }
+    },
+    {
+      "event_id": "sim-0038:row:96",
+      "event_type": "TRANSACTION",
+      "event_time": "2026-05-02T00:00:00+00:00",
+      "arrival_time": "2026-05-02T00:00:00+00:00",
+      "payload": {
+        "sender_account_id": "sim-0038:31",
+        "receiver_account_id": "sim-0038:66",
+        "amount": 120.4,
+        "channel": "TRANSFER"
+      }
+    },
+    {
+      "event_id": "sim-0038:row:98",
+      "event_type": "TRANSACTION",
+      "event_time": "2026-05-02T01:00:00+00:00",
+      "arrival_time": "2026-05-02T01:00:00+00:00",
+      "payload": {
+        "sender_account_id": "sim-0038:7",
+        "receiver_account_id": "sim-0038:49",
+        "amount": 164.75,
+        "channel": "TRANSFER"
+      }
+    },
+    {
+      "event_id": "sim-0038:row:99",
+      "event_type": "TRANSACTION",
+      "event_time": "2026-05-02T01:00:00+00:00",
+      "arrival_time": "2026-05-02T01:00:00+00:00",
+      "payload": {
+        "sender_account_id": "sim-0038:5",
+        "receiver_account_id": "sim-0038:62",
+        "amount": 881.87,
+        "channel": "TRANSFER"
+      }
+    },
+    {
+      "event_id": "sim-0038:row:101",
+      "event_type": "TRANSACTION",
+      "event_time": "2026-05-02T01:00:00+00:00",
+      "arrival_time": "2026-05-02T01:00:00+00:00",
+      "payload": {
+        "sender_account_id": "sim-0038:29",
+        "receiver_account_id": "sim-0038:12",
+        "amount": 900.93,
+        "channel": "TRANSFER"
+      }
+    },
+    {
+      "event_id": "sim-0038:row:102",
+      "event_type": "TRANSACTION",
+      "event_time": "2026-05-02T02:00:00+00:00",
+      "arrival_time": "2026-05-02T02:00:00+00:00",
+      "payload": {
+        "sender_account_id": "sim-0038:29",
+        "receiver_account_id": "sim-0038:12",
+        "amount": 382.43,
+        "channel": "TRANSFER"
+      }
+    },
+    {
+      "event_id": "sim-0038:row:103",
+      "event_type": "TRANSACTION",
+      "event_time": "2026-05-02T02:00:00+00:00",
+      "arrival_time": "2026-05-02T02:00:00+00:00",
+      "payload": {
+        "sender_account_id": "sim-0038:3",
+        "receiver_account_id": "sim-0038:36",
+        "amount": 222.0,
+        "channel": "TRANSFER"
+      }
+    },
+    {
+      "event_id": "sim-0038:row:104",
+      "event_type": "TRANSACTION",
+      "event_time": "2026-05-02T02:00:00+00:00",
+      "arrival_time": "2026-05-02T02:00:00+00:00",
+      "payload": {
+        "sender_account_id": "sim-0038:0",
+        "receiver_account_id": "sim-0038:7",
+        "amount": 630.5,
+        "channel": "TRANSFER"
+      }
+    },
+    {
+      "event_id": "sim-0038:row:105",
+      "event_type": "TRANSACTION",
+      "event_time": "2026-05-02T03:00:00+00:00",
+      "arrival_time": "2026-05-02T03:00:00+00:00",
+      "payload": {
+        "sender_account_id": "sim-0038:18",
+        "receiver_account_id": "sim-0038:44",
+        "amount": 871.03,
+        "channel": "TRANSFER"
+      }
+    },
+    {
+      "event_id": "sim-0038:row:106",
+      "event_type": "TRANSACTION",
+      "event_time": "2026-05-02T03:00:00+00:00",
+      "arrival_time": "2026-05-02T03:00:00+00:00",
+      "payload": {
+        "sender_account_id": "sim-0038:3",
+        "receiver_account_id": "sim-0038:82",
+        "amount": 804.62,
+        "channel": "TRANSFER"
+      }
+    },
+    {
+      "event_id": "sim-0038:row:107",
+      "event_type": "TRANSACTION",
+      "event_time": "2026-05-02T03:00:00+00:00",
+      "arrival_time": "2026-05-02T03:00:00+00:00",
+      "payload": {
+        "sender_account_id": "sim-0038:7",
+        "receiver_account_id": "sim-0038:49",
+        "amount": 571.59,
+        "channel": "TRANSFER"
+      }
+    },
+    {
+      "event_id": "sim-0038:row:108",
+      "event_type": "TRANSACTION",
+      "event_time": "2026-05-02T03:00:00+00:00",
+      "arrival_time": "2026-05-02T03:00:00+00:00",
+      "payload": {
+        "sender_account_id": "sim-0038:5",
+        "receiver_account_id": "sim-0038:33",
+        "amount": 172.2,
+        "channel": "TRANSFER"
+      }
+    },
+    {
+      "event_id": "sim-0038:row:109",
+      "event_type": "TRANSACTION",
+      "event_time": "2026-05-02T03:00:00+00:00",
+      "arrival_time": "2026-05-02T03:00:00+00:00",
+      "payload": {
+        "sender_account_id": "sim-0038:32",
+        "receiver_account_id": "sim-0038:93",
+        "amount": 518.08,
+        "channel": "TRANSFER"
+      }
+    },
+    {
+      "event_id": "sim-0038:row:110",
+      "event_type": "TRANSACTION",
+      "event_time": "2026-05-02T04:00:00+00:00",
+      "arrival_time": "2026-05-02T04:00:00+00:00",
+      "payload": {
+        "sender_account_id": "sim-0038:5",
+        "receiver_account_id": "sim-0038:33",
+        "amount": 820.01,
+        "channel": "TRANSFER"
+      }
+    },
+    {
+      "event_id": "sim-0038:row:111",
+      "event_type": "TRANSACTION",
+      "event_time": "2026-05-02T04:00:00+00:00",
+      "arrival_time": "2026-05-02T04:00:00+00:00",
+      "payload": {
+        "sender_account_id": "sim-0038:34",
+        "receiver_account_id": "sim-0038:21",
+        "amount": 130.15,
+        "channel": "TRANSFER"
+      }
+    },
+    {
+      "event_id": "sim-0038:row:112",
+      "event_type": "TRANSACTION",
+      "event_time": "2026-05-02T04:00:00+00:00",
+      "arrival_time": "2026-05-02T04:00:00+00:00",
+      "payload": {
+        "sender_account_id": "sim-0038:18",
+        "receiver_account_id": "sim-0038:44",
+        "amount": 816.08,
+        "channel": "TRANSFER"
+      }
+    },
+    {
+      "event_id": "sim-0038:row:113",
+      "event_type": "TRANSACTION",
+      "event_time": "2026-05-02T04:00:00+00:00",
+      "arrival_time": "2026-05-02T04:00:00+00:00",
+      "payload": {
+        "sender_account_id": "sim-0038:7",
+        "receiver_account_id": "sim-0038:0",
+        "amount": 768.14,
+        "channel": "TRANSFER"
+      }
+    },
+    {
+      "event_id": "sim-0038:row:114",
+      "event_type": "TRANSACTION",
+      "event_time": "2026-05-02T04:00:00+00:00",
+      "arrival_time": "2026-05-02T04:00:00+00:00",
+      "payload": {
+        "sender_account_id": "sim-0038:3",
+        "receiver_account_id": "sim-0038:82",
+        "amount": 964.38,
+        "channel": "TRANSFER"
+      }
+    },
+    {
+      "event_id": "sim-0038:row:115",
+      "event_type": "TRANSACTION",
+      "event_time": "2026-05-02T04:00:00+00:00",
+      "arrival_time": "2026-05-02T04:00:00+00:00",
+      "payload": {
+        "sender_account_id": "sim-0038:51",
+        "receiver_account_id": "sim-0038:84",
+        "amount": 472.23,
+        "channel": "TRANSFER"
+      }
+    },
+    {
+      "event_id": "sim-0038:row:116",
+      "event_type": "TRANSACTION",
+      "event_time": "2026-05-02T05:00:00+00:00",
+      "arrival_time": "2026-05-02T05:00:00+00:00",
+      "payload": {
+        "sender_account_id": "sim-0038:17",
+        "receiver_account_id": "sim-0038:60",
+        "amount": 948.6,
+        "channel": "TRANSFER"
+      }
+    },
+    {
+      "event_id": "sim-0038:row:117",
+      "event_type": "TRANSACTION",
+      "event_time": "2026-05-02T05:00:00+00:00",
+      "arrival_time": "2026-05-02T05:00:00+00:00",
+      "payload": {
+        "sender_account_id": "sim-0038:29",
+        "receiver_account_id": "sim-0038:12",
+        "amount": 866.98,
+        "channel": "TRANSFER"
+      }
+    },
+    {
+      "event_id": "sim-0038:row:118",
+      "event_type": "TRANSACTION",
+      "event_time": "2026-05-02T05:00:00+00:00",
+      "arrival_time": "2026-05-02T05:00:00+00:00",
+      "payload": {
+        "sender_account_id": "sim-0038:29",
+        "receiver_account_id": "sim-0038:31",
+        "amount": 376.04,
+        "channel": "TRANSFER"
+      }
+    },
+    {
+      "event_id": "sim-0038:row:119",
+      "event_type": "TRANSACTION",
+      "event_time": "2026-05-02T05:00:00+00:00",
+      "arrival_time": "2026-05-02T05:00:00+00:00",
+      "payload": {
+        "sender_account_id": "sim-0038:4",
+        "receiver_account_id": "sim-0038:28",
+        "amount": 543.19,
+        "channel": "TRANSFER"
+      }
+    },
+    {
+      "event_id": "sim-0038:row:120",
+      "event_type": "TRANSACTION",
+      "event_time": "2026-05-02T05:00:00+00:00",
+      "arrival_time": "2026-05-02T05:00:00+00:00",
+      "payload": {
+        "sender_account_id": "sim-0038:7",
+        "receiver_account_id": "sim-0038:49",
+        "amount": 114.96,
+        "channel": "TRANSFER"
+      }
+    },
+    {
+      "event_id": "sim-0038:row:121",
+      "event_type": "TRANSACTION",
+      "event_time": "2026-05-02T05:00:00+00:00",
+      "arrival_time": "2026-05-02T05:00:00+00:00",
+      "payload": {
+        "sender_account_id": "sim-0038:18",
+        "receiver_account_id": "sim-0038:23",
+        "amount": 267.73,
+        "channel": "TRANSFER"
+      }
+    },
+    {
+      "event_id": "sim-0038:row:122",
+      "event_type": "TRANSACTION",
+      "event_time": "2026-05-02T06:00:00+00:00",
+      "arrival_time": "2026-05-02T06:00:00+00:00",
+      "payload": {
+        "sender_account_id": "sim-0038:3",
+        "receiver_account_id": "sim-0038:0",
+        "amount": 442.58,
+        "channel": "TRANSFER"
+      }
+    },
+    {
+      "event_id": "sim-0038:row:123",
+      "event_type": "TRANSACTION",
+      "event_time": "2026-05-02T06:00:00+00:00",
+      "arrival_time": "2026-05-02T06:00:00+00:00",
+      "payload": {
+        "sender_account_id": "sim-0038:5",
+        "receiver_account_id": "sim-0038:33",
+        "amount": 442.8,
+        "channel": "TRANSFER"
+      }
+    },
+    {
+      "event_id": "sim-0038:row:125",
+      "event_type": "TRANSACTION",
+      "event_time": "2026-05-02T07:00:00+00:00",
+      "arrival_time": "2026-05-02T07:00:00+00:00",
+      "payload": {
+        "sender_account_id": "sim-0038:17",
+        "receiver_account_id": "sim-0038:26",
+        "amount": 366.05,
+        "channel": "TRANSFER"
+      }
+    },
+    {
+      "event_id": "sim-0038:row:127",
+      "event_type": "TRANSACTION",
+      "event_time": "2026-05-02T07:00:00+00:00",
+      "arrival_time": "2026-05-02T07:00:00+00:00",
+      "payload": {
+        "sender_account_id": "sim-0038:31",
+        "receiver_account_id": "sim-0038:54",
+        "amount": 610.44,
+        "channel": "TRANSFER"
+      }
+    },
+    {
+      "event_id": "sim-0038:row:128",
+      "event_type": "TRANSACTION",
+      "event_time": "2026-05-02T08:00:00+00:00",
+      "arrival_time": "2026-05-02T08:00:00+00:00",
+      "payload": {
+        "sender_account_id": "sim-0038:5",
+        "receiver_account_id": "sim-0038:62",
+        "amount": 848.76,
+        "channel": "TRANSFER"
+      }
+    },
+    {
+      "event_id": "sim-0038:row:129",
+      "event_type": "TRANSACTION",
+      "event_time": "2026-05-02T08:00:00+00:00",
+      "arrival_time": "2026-05-02T08:00:00+00:00",
+      "payload": {
+        "sender_account_id": "sim-0038:29",
+        "receiver_account_id": "sim-0038:31",
+        "amount": 550.24,
+        "channel": "TRANSFER"
+      }
+    },
+    {
+      "event_id": "sim-0038:row:131",
+      "event_type": "TRANSACTION",
+      "event_time": "2026-05-02T09:00:00+00:00",
+      "arrival_time": "2026-05-02T09:00:00+00:00",
+      "payload": {
+        "sender_account_id": "sim-0038:29",
+        "receiver_account_id": "sim-0038:12",
+        "amount": 337.16,
+        "channel": "TRANSFER"
+      }
+    },
+    {
+      "event_id": "sim-0038:row:132",
+      "event_type": "TRANSACTION",
+      "event_time": "2026-05-02T09:00:00+00:00",
+      "arrival_time": "2026-05-02T09:00:00+00:00",
+      "payload": {
+        "sender_account_id": "sim-0038:3",
+        "receiver_account_id": "sim-0038:36",
+        "amount": 553.6,
+        "channel": "TRANSFER"
+      }
+    },
+    {
+      "event_id": "sim-0038:row:133",
+      "event_type": "TRANSACTION",
+      "event_time": "2026-05-02T09:00:00+00:00",
+      "arrival_time": "2026-05-02T09:00:00+00:00",
+      "payload": {
+        "sender_account_id": "sim-0038:0",
+        "receiver_account_id": "sim-0038:7",
+        "amount": 664.67,
+        "channel": "TRANSFER"
+      }
+    },
+    {
+      "event_id": "sim-0038:row:134",
+      "event_type": "TRANSACTION",
+      "event_time": "2026-05-02T10:00:00+00:00",
+      "arrival_time": "2026-05-02T10:00:00+00:00",
+      "payload": {
+        "sender_account_id": "sim-0038:3",
+        "receiver_account_id": "sim-0038:0",
+        "amount": 655.53,
+        "channel": "TRANSFER"
+      }
+    },
+    {
+      "event_id": "sim-0038:row:135",
+      "event_type": "TRANSACTION",
+      "event_time": "2026-05-02T10:00:00+00:00",
+      "arrival_time": "2026-05-02T10:00:00+00:00",
+      "payload": {
+        "sender_account_id": "sim-0038:5",
+        "receiver_account_id": "sim-0038:62",
+        "amount": 453.18,
+        "channel": "TRANSFER"
+      }
+    },
+    {
+      "event_id": "sim-0038:row:136",
+      "event_type": "TRANSACTION",
+      "event_time": "2026-05-02T10:00:00+00:00",
+      "arrival_time": "2026-05-02T10:00:00+00:00",
+      "payload": {
+        "sender_account_id": "sim-0038:18",
+        "receiver_account_id": "sim-0038:44",
+        "amount": 559.58,
+        "channel": "TRANSFER"
+      }
+    },
+    {
+      "event_id": "sim-0038:row:137",
+      "event_type": "TRANSACTION",
+      "event_time": "2026-05-02T10:00:00+00:00",
+      "arrival_time": "2026-05-02T10:00:00+00:00",
+      "payload": {
+        "sender_account_id": "sim-0038:7",
+        "receiver_account_id": "sim-0038:49",
+        "amount": 820.59,
+        "channel": "TRANSFER"
+      }
+    },
+    {
+      "event_id": "sim-0038:row:138",
+      "event_type": "TRANSACTION",
+      "event_time": "2026-05-02T10:00:00+00:00",
+      "arrival_time": "2026-05-02T10:00:00+00:00",
+      "payload": {
+        "sender_account_id": "sim-0038:32",
+        "receiver_account_id": "sim-0038:15",
+        "amount": 476.02,
+        "channel": "TRANSFER"
+      }
+    },
+    {
+      "event_id": "sim-0038:row:139",
+      "event_type": "TRANSACTION",
+      "event_time": "2026-05-02T11:00:00+00:00",
+      "arrival_time": "2026-05-02T11:00:00+00:00",
+      "payload": {
+        "sender_account_id": "sim-0038:18",
+        "receiver_account_id": "sim-0038:23",
+        "amount": 408.73,
+        "channel": "TRANSFER"
+      }
+    },
+    {
+      "event_id": "sim-0038:row:140",
+      "event_type": "TRANSACTION",
+      "event_time": "2026-05-02T11:00:00+00:00",
+      "arrival_time": "2026-05-02T11:00:00+00:00",
+      "payload": {
+        "sender_account_id": "sim-0038:34",
+        "receiver_account_id": "sim-0038:11",
+        "amount": 945.0,
+        "channel": "TRANSFER"
+      }
+    },
+    {
+      "event_id": "sim-0038:row:141",
+      "event_type": "TRANSACTION",
+      "event_time": "2026-05-02T11:00:00+00:00",
+      "arrival_time": "2026-05-02T11:00:00+00:00",
+      "payload": {
+        "sender_account_id": "sim-0038:51",
+        "receiver_account_id": "sim-0038:97",
+        "amount": 886.68,
+        "channel": "TRANSFER"
+      }
+    },
+    {
+      "event_id": "sim-0038:row:142",
+      "event_type": "TRANSACTION",
+      "event_time": "2026-05-02T11:00:00+00:00",
+      "arrival_time": "2026-05-02T11:00:00+00:00",
+      "payload": {
+        "sender_account_id": "sim-0038:5",
+        "receiver_account_id": "sim-0038:33",
+        "amount": 596.47,
+        "channel": "TRANSFER"
+      }
+    },
+    {
+      "event_id": "sim-0038:row:143",
+      "event_type": "TRANSACTION",
+      "event_time": "2026-05-02T11:00:00+00:00",
+      "arrival_time": "2026-05-02T11:00:00+00:00",
+      "payload": {
+        "sender_account_id": "sim-0038:7",
+        "receiver_account_id": "sim-0038:0",
+        "amount": 709.04,
+        "channel": "TRANSFER"
+      }
+    },
+    {
+      "event_id": "sim-0038:row:144",
+      "event_type": "TRANSACTION",
+      "event_time": "2026-05-02T11:00:00+00:00",
+      "arrival_time": "2026-05-02T11:00:00+00:00",
+      "payload": {
+        "sender_account_id": "sim-0038:3",
+        "receiver_account_id": "sim-0038:82",
+        "amount": 689.09,
+        "channel": "TRANSFER"
+      }
+    },
+    {
+      "event_id": "sim-0038:row:145",
+      "event_type": "TRANSACTION",
+      "event_time": "2026-05-02T12:00:00+00:00",
+      "arrival_time": "2026-05-02T12:00:00+00:00",
+      "payload": {
+        "sender_account_id": "sim-0038:29",
+        "receiver_account_id": "sim-0038:31",
+        "amount": 543.87,
+        "channel": "TRANSFER"
+      }
+    },
+    {
+      "event_id": "sim-0038:row:146",
+      "event_type": "TRANSACTION",
+      "event_time": "2026-05-02T12:00:00+00:00",
+      "arrival_time": "2026-05-02T12:00:00+00:00",
+      "payload": {
+        "sender_account_id": "sim-0038:18",
+        "receiver_account_id": "sim-0038:23",
+        "amount": 342.88,
+        "channel": "TRANSFER"
+      }
+    },
+    {
+      "event_id": "sim-0038:row:147",
+      "event_type": "TRANSACTION",
+      "event_time": "2026-05-02T12:00:00+00:00",
+      "arrival_time": "2026-05-02T12:00:00+00:00",
+      "payload": {
+        "sender_account_id": "sim-0038:7",
+        "receiver_account_id": "sim-0038:0",
+        "amount": 304.95,
+        "channel": "TRANSFER"
+      }
+    },
+    {
+      "event_id": "sim-0038:row:148",
+      "event_type": "TRANSACTION",
+      "event_time": "2026-05-02T12:00:00+00:00",
+      "arrival_time": "2026-05-02T12:00:00+00:00",
+      "payload": {
+        "sender_account_id": "sim-0038:4",
+        "receiver_account_id": "sim-0038:26",
+        "amount": 187.7,
+        "channel": "TRANSFER"
+      }
+    },
+    {
+      "event_id": "sim-0038:row:149",
+      "event_type": "TRANSACTION",
+      "event_time": "2026-05-02T12:00:00+00:00",
+      "arrival_time": "2026-05-02T12:00:00+00:00",
+      "payload": {
+        "sender_account_id": "sim-0038:17",
+        "receiver_account_id": "sim-0038:6",
+        "amount": 334.49,
+        "channel": "TRANSFER"
+      }
+    },
+    {
+      "event_id": "sim-0038:row:150",
+      "event_type": "TRANSACTION",
+      "event_time": "2026-05-02T13:00:00+00:00",
+      "arrival_time": "2026-05-02T13:00:00+00:00",
+      "payload": {
+        "sender_account_id": "sim-0038:3",
+        "receiver_account_id": "sim-0038:36",
+        "amount": 250.2,
+        "channel": "TRANSFER"
+      }
+    },
+    {
+      "event_id": "sim-0038:row:152",
+      "event_type": "TRANSACTION",
+      "event_time": "2026-05-02T14:00:00+00:00",
+      "arrival_time": "2026-05-02T14:00:00+00:00",
+      "payload": {
+        "sender_account_id": "sim-0038:31",
+        "receiver_account_id": "sim-0038:82",
+        "amount": 306.21,
+        "channel": "TRANSFER"
+      }
+    },
+    {
+      "event_id": "sim-0038:row:154",
+      "event_type": "TRANSACTION",
+      "event_time": "2026-05-02T15:00:00+00:00",
+      "arrival_time": "2026-05-02T15:00:00+00:00",
+      "payload": {
+        "sender_account_id": "sim-0038:3",
+        "receiver_account_id": "sim-0038:36",
+        "amount": 470.44,
+        "channel": "TRANSFER"
+      }
+    },
+    {
+      "event_id": "sim-0038:row:155",
+      "event_type": "TRANSACTION",
+      "event_time": "2026-05-02T15:00:00+00:00",
+      "arrival_time": "2026-05-02T15:00:00+00:00",
+      "payload": {
+        "sender_account_id": "sim-0038:29",
+        "receiver_account_id": "sim-0038:12",
+        "amount": 620.73,
+        "channel": "TRANSFER"
+      }
+    },
+    {
+      "event_id": "sim-0038:row:156",
+      "event_type": "TRANSACTION",
+      "event_time": "2026-05-02T15:00:00+00:00",
+      "arrival_time": "2026-05-02T15:00:00+00:00",
+      "payload": {
+        "sender_account_id": "sim-0038:5",
+        "receiver_account_id": "sim-0038:62",
+        "amount": 977.56,
+        "channel": "TRANSFER"
+      }
+    },
+    {
+      "event_id": "sim-0038:row:157",
+      "event_type": "TRANSACTION",
+      "event_time": "2026-05-02T16:00:00+00:00",
+      "arrival_time": "2026-05-02T16:00:00+00:00",
+      "payload": {
+        "sender_account_id": "sim-0038:0",
+        "receiver_account_id": "sim-0038:7",
+        "amount": 404.9,
+        "channel": "TRANSFER"
+      }
+    },
+    {
+      "event_id": "sim-0038:row:158",
+      "event_type": "TRANSACTION",
+      "event_time": "2026-05-02T16:00:00+00:00",
+      "arrival_time": "2026-05-02T16:00:00+00:00",
+      "payload": {
+        "sender_account_id": "sim-0038:3",
+        "receiver_account_id": "sim-0038:36",
+        "amount": 642.58,
+        "channel": "TRANSFER"
+      }
+    },
+    {
+      "event_id": "sim-0038:row:159",
+      "event_type": "TRANSACTION",
+      "event_time": "2026-05-02T16:00:00+00:00",
+      "arrival_time": "2026-05-02T16:00:00+00:00",
+      "payload": {
+        "sender_account_id": "sim-0038:29",
+        "receiver_account_id": "sim-0038:12",
+        "amount": 143.52,
+        "channel": "TRANSFER"
+      }
+    },
+    {
+      "event_id": "sim-0038:row:160",
+      "event_type": "TRANSACTION",
+      "event_time": "2026-05-02T17:00:00+00:00",
+      "arrival_time": "2026-05-02T17:00:00+00:00",
+      "payload": {
+        "sender_account_id": "sim-0038:7",
+        "receiver_account_id": "sim-0038:49",
+        "amount": 902.5,
+        "channel": "TRANSFER"
+      }
+    },
+    {
+      "event_id": "sim-0038:row:161",
+      "event_type": "TRANSACTION",
+      "event_time": "2026-05-02T17:00:00+00:00",
+      "arrival_time": "2026-05-02T17:00:00+00:00",
+      "payload": {
+        "sender_account_id": "sim-0038:18",
+        "receiver_account_id": "sim-0038:44",
+        "amount": 882.82,
+        "channel": "TRANSFER"
+      }
+    },
+    {
+      "event_id": "sim-0038:row:162",
+      "event_type": "TRANSACTION",
+      "event_time": "2026-05-02T17:00:00+00:00",
+      "arrival_time": "2026-05-02T17:00:00+00:00",
+      "payload": {
+        "sender_account_id": "sim-0038:5",
+        "receiver_account_id": "sim-0038:33",
+        "amount": 687.2,
+        "channel": "TRANSFER"
+      }
+    },
+    {
+      "event_id": "sim-0038:row:163",
+      "event_type": "TRANSACTION",
+      "event_time": "2026-05-02T17:00:00+00:00",
+      "arrival_time": "2026-05-02T17:00:00+00:00",
+      "payload": {
+        "sender_account_id": "sim-0038:3",
+        "receiver_account_id": "sim-0038:36",
+        "amount": 779.42,
+        "channel": "TRANSFER"
+      }
+    },
+    {
+      "event_id": "sim-0038:row:164",
+      "event_type": "TRANSACTION",
+      "event_time": "2026-05-02T17:00:00+00:00",
+      "arrival_time": "2026-05-02T17:00:00+00:00",
+      "payload": {
+        "sender_account_id": "sim-0038:32",
+        "receiver_account_id": "sim-0038:94",
+        "amount": 362.43,
+        "channel": "TRANSFER"
+      }
+    },
+    {
+      "event_id": "sim-0038:row:165",
+      "event_type": "TRANSACTION",
+      "event_time": "2026-05-02T18:00:00+00:00",
+      "arrival_time": "2026-05-02T18:00:00+00:00",
+      "payload": {
+        "sender_account_id": "sim-0038:34",
+        "receiver_account_id": "sim-0038:44",
+        "amount": 135.86,
+        "channel": "TRANSFER"
+      }
+    },
+    {
+      "event_id": "sim-0038:row:166",
+      "event_type": "TRANSACTION",
+      "event_time": "2026-05-02T18:00:00+00:00",
+      "arrival_time": "2026-05-02T18:00:00+00:00",
+      "payload": {
+        "sender_account_id": "sim-0038:18",
+        "receiver_account_id": "sim-0038:44",
+        "amount": 441.91,
+        "channel": "TRANSFER"
+      }
+    },
+    {
+      "event_id": "sim-0038:row:167",
+      "event_type": "TRANSACTION",
+      "event_time": "2026-05-02T18:00:00+00:00",
+      "arrival_time": "2026-05-02T18:00:00+00:00",
+      "payload": {
+        "sender_account_id": "sim-0038:51",
+        "receiver_account_id": "sim-0038:4",
+        "amount": 349.29,
+        "channel": "TRANSFER"
+      }
+    },
+    {
+      "event_id": "sim-0038:row:168",
+      "event_type": "TRANSACTION",
+      "event_time": "2026-05-02T18:00:00+00:00",
+      "arrival_time": "2026-05-02T18:00:00+00:00",
+      "payload": {
+        "sender_account_id": "sim-0038:7",
+        "receiver_account_id": "sim-0038:0",
+        "amount": 122.86,
+        "channel": "TRANSFER"
+      }
+    },
+    {
+      "event_id": "sim-0038:row:169",
+      "event_type": "TRANSACTION",
+      "event_time": "2026-05-02T18:00:00+00:00",
+      "arrival_time": "2026-05-02T18:00:00+00:00",
+      "payload": {
+        "sender_account_id": "sim-0038:3",
+        "receiver_account_id": "sim-0038:82",
+        "amount": 302.99,
+        "channel": "TRANSFER"
+      }
+    },
+    {
+      "event_id": "sim-0038:row:170",
+      "event_type": "TRANSACTION",
+      "event_time": "2026-05-02T18:00:00+00:00",
+      "arrival_time": "2026-05-02T18:00:00+00:00",
+      "payload": {
+        "sender_account_id": "sim-0038:5",
+        "receiver_account_id": "sim-0038:33",
+        "amount": 827.67,
+        "channel": "TRANSFER"
+      }
+    },
+    {
+      "event_id": "sim-0038:row:171",
+      "event_type": "TRANSACTION",
+      "event_time": "2026-05-02T19:00:00+00:00",
+      "arrival_time": "2026-05-02T19:00:00+00:00",
+      "payload": {
+        "sender_account_id": "sim-0038:17",
+        "receiver_account_id": "sim-0038:70",
+        "amount": 902.03,
+        "channel": "TRANSFER"
+      }
+    },
+    {
+      "event_id": "sim-0038:row:172",
+      "event_type": "TRANSACTION",
+      "event_time": "2026-05-02T19:00:00+00:00",
+      "arrival_time": "2026-05-02T19:00:00+00:00",
+      "payload": {
+        "sender_account_id": "sim-0038:18",
+        "receiver_account_id": "sim-0038:23",
+        "amount": 662.92,
+        "channel": "TRANSFER"
+      }
+    },
+    {
+      "event_id": "sim-0038:row:173",
+      "event_type": "TRANSACTION",
+      "event_time": "2026-05-02T19:00:00+00:00",
+      "arrival_time": "2026-05-02T19:00:00+00:00",
+      "payload": {
+        "sender_account_id": "sim-0038:4",
+        "receiver_account_id": "sim-0038:28",
+        "amount": 178.58,
+        "channel": "TRANSFER"
+      }
+    },
+    {
+      "event_id": "sim-0038:row:174",
+      "event_type": "TRANSACTION",
+      "event_time": "2026-05-02T19:00:00+00:00",
+      "arrival_time": "2026-05-02T19:00:00+00:00",
+      "payload": {
+        "sender_account_id": "sim-0038:7",
+        "receiver_account_id": "sim-0038:49",
+        "amount": 103.83,
+        "channel": "TRANSFER"
+      }
+    },
+    {
+      "event_id": "sim-0038:row:175",
+      "event_type": "TRANSACTION",
+      "event_time": "2026-05-02T19:00:00+00:00",
+      "arrival_time": "2026-05-02T19:00:00+00:00",
+      "payload": {
+        "sender_account_id": "sim-0038:29",
+        "receiver_account_id": "sim-0038:31",
+        "amount": 954.21,
+        "channel": "TRANSFER"
+      }
+    },
+    {
+      "event_id": "sim-0038:row:176",
+      "event_type": "TRANSACTION",
+      "event_time": "2026-05-02T20:00:00+00:00",
+      "arrival_time": "2026-05-02T20:00:00+00:00",
+      "payload": {
+        "sender_account_id": "sim-0038:3",
+        "receiver_account_id": "sim-0038:82",
+        "amount": 391.38,
+        "channel": "TRANSFER"
+      }
+    },
+    {
+      "event_id": "sim-0038:row:178",
+      "event_type": "TRANSACTION",
+      "event_time": "2026-05-02T21:00:00+00:00",
+      "arrival_time": "2026-05-02T21:00:00+00:00",
+      "payload": {
+        "sender_account_id": "sim-0038:31",
+        "receiver_account_id": "sim-0038:34",
+        "amount": 267.81,
+        "channel": "TRANSFER"
+      }
+    },
+    {
+      "event_id": "sim-0038:row:180",
+      "event_type": "TRANSACTION",
+      "event_time": "2026-05-02T22:00:00+00:00",
+      "arrival_time": "2026-05-02T22:00:00+00:00",
+      "payload": {
+        "sender_account_id": "sim-0038:29",
+        "receiver_account_id": "sim-0038:31",
+        "amount": 327.14,
+        "channel": "TRANSFER"
+      }
+    },
+    {
+      "event_id": "sim-0038:row:181",
+      "event_type": "TRANSACTION",
+      "event_time": "2026-05-02T22:00:00+00:00",
+      "arrival_time": "2026-05-02T22:00:00+00:00",
+      "payload": {
+        "sender_account_id": "sim-0038:5",
+        "receiver_account_id": "sim-0038:62",
+        "amount": 300.51,
+        "channel": "TRANSFER"
+      }
+    },
+    {
+      "event_id": "sim-0038:row:182",
+      "event_type": "TRANSACTION",
+      "event_time": "2026-05-02T23:00:00+00:00",
+      "arrival_time": "2026-05-02T23:00:00+00:00",
+      "payload": {
+        "sender_account_id": "sim-0038:0",
+        "receiver_account_id": "sim-0038:7",
+        "amount": 141.81,
+        "channel": "TRANSFER"
+      }
+    },
+    {
+      "event_id": "sim-0038:row:183",
+      "event_type": "TRANSACTION",
+      "event_time": "2026-05-02T23:00:00+00:00",
+      "arrival_time": "2026-05-02T23:00:00+00:00",
+      "payload": {
+        "sender_account_id": "sim-0038:29",
+        "receiver_account_id": "sim-0038:12",
+        "amount": 182.37,
+        "channel": "TRANSFER"
+      }
+    },
+    {
+      "event_id": "sim-0038:row:184",
+      "event_type": "TRANSACTION",
+      "event_time": "2026-05-02T23:00:00+00:00",
+      "arrival_time": "2026-05-02T23:00:00+00:00",
+      "payload": {
+        "sender_account_id": "sim-0038:3",
+        "receiver_account_id": "sim-0038:36",
+        "amount": 292.73,
+        "channel": "TRANSFER"
+      }
+    }
+  ],
+  "accounts": []
+}

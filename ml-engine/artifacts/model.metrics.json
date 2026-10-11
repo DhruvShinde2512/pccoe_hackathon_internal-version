@@ -1,0 +1,71 @@
+{
+  "device": "cuda",
+  "test_count": 2500,
+  "test_positive_count": 75,
+  "test_circular_count": 3,
+  "metrics": {
+    "autoencoder": {
+      "precision": 0.7184466019417476,
+      "recall": 0.9866666666666667,
+      "pr_auc": 0.9239629231312966,
+      "false_positive_rate": 0.011958762886597939
+    },
+    "isolation_forest": {
+      "precision": 0.725,
+      "recall": 0.7733333333333333,
+      "pr_auc": 0.8031069500493231,
+      "false_positive_rate": 0.009072164948453608
+    },
+    "xgboost": {
+      "precision": 0.974025974025974,
+      "recall": 1.0,
+      "pr_auc": 0.9994666034455508,
+      "false_positive_rate": 0.0008247422680412372,
+      "scenario_accuracy": 0.9992,
+      "circular_recall": 1.0
+    }
+  },
+  "top_anomaly_score_correlations": [
+    [
+      "is_dormant_sender",
+      0.8631923465772423
+    ],
+    [
+      "last_access_override_alert",
+      0.7214633296907023
+    ],
+    [
+      "tx_count_1h",
+      0.7025952855807339
+    ],
+    [
+      "tx_count_6h",
+      0.6934635012331901
+    ],
+    [
+      "tx_count_24h",
+      0.6594751320993901
+    ],
+    [
+      "near_reporting_limit",
+      0.5216128029982311
+    ],
+    [
+      "seconds_since_access",
+      -0.1258783360541621
+    ],
+    [
+      "tx_sum_6h",
+      0.10030102418439153
+    ],
+    [
+      "tx_sum_1h",
+      0.10007214554870604
+    ],
+    [
+      "tx_sum_24h",
+      0.09980662565723407
+    ]
+  ],
+  "note": "Synthetic repeated-template row holdout; not a prospective deployment estimate."
+}

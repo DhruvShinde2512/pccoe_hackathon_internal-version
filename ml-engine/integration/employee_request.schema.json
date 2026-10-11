@@ -1,0 +1,120 @@
+{
+  "$defs": {
+    "DailyActivity": {
+      "additionalProperties": false,
+      "description": "Completed daily counts from an audit aggregator; unknown values are rejected.",
+      "properties": {
+        "day": {
+          "format": "date",
+          "title": "Day",
+          "type": "string"
+        },
+        "total_logon_activity": {
+          "minimum": 0,
+          "title": "Total Logon Activity",
+          "type": "number"
+        },
+        "after_hours_activity": {
+          "minimum": 0,
+          "title": "After Hours Activity",
+          "type": "number"
+        },
+        "http_activity_count": {
+          "minimum": 0,
+          "title": "Http Activity Count",
+          "type": "number"
+        },
+        "total_emails": {
+          "minimum": 0,
+          "title": "Total Emails",
+          "type": "number"
+        },
+        "file_activity_count": {
+          "minimum": 0,
+          "title": "File Activity Count",
+          "type": "number"
+        },
+        "usb_activity_count": {
+          "minimum": 0,
+          "title": "Usb Activity Count",
+          "type": "number"
+        },
+        "arrival_time": {
+          "anyOf": [
+            {
+              "format": "date-time",
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Arrival Time"
+        },
+        "source_ids": {
+          "items": {
+            "type": "string"
+          },
+          "maxItems": 10000,
+          "title": "Source Ids",
+          "type": "array"
+        }
+      },
+      "required": [
+        "day",
+        "total_logon_activity",
+        "after_hours_activity",
+        "http_activity_count",
+        "total_emails",
+        "file_activity_count",
+        "usb_activity_count"
+      ],
+      "title": "DailyActivity",
+      "type": "object"
+    }
+  },
+  "additionalProperties": false,
+  "description": "Employee and visible daily history; excludes labels and split metadata.",
+  "properties": {
+    "emp_id": {
+      "minLength": 1,
+      "title": "Emp Id",
+      "type": "string"
+    },
+    "as_of": {
+      "format": "date-time",
+      "title": "As Of",
+      "type": "string"
+    },
+    "observed_until": {
+      "anyOf": [
+        {
+          "format": "date-time",
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Observed Until"
+    },
+    "observations": {
+      "items": {
+        "$ref": "#/$defs/DailyActivity"
+      },
+      "maxItems": 64,
+      "minItems": 1,
+      "title": "Observations",
+      "type": "array"
+    }
+  },
+  "required": [
+    "emp_id",
+    "as_of",
+    "observations"
+  ],
+  "title": "EmployeeScoreRequest",
+  "type": "object"
+}

@@ -1,0 +1,31 @@
+{
+  "health": {
+    "status": "ok",
+    "model_loaded": true,
+    "inference_device": "cuda",
+    "training_device": "cuda",
+    "gpu_used_for_inference": true,
+    "gpu_name": "NVIDIA GeForce RTX 4060 Laptop GPU",
+    "cpu_architecture": "AMD64",
+    "case_model_loaded": true,
+    "case_model_id": "103d920e878eefb0",
+    "employee_model_loaded": true,
+    "employee_model_id": "3ee718f5a2a01c1a",
+    "amlsim_model_loaded": true,
+    "xgboost_inference_device": "cpu",
+    "tree_shap_device": "cpu"
+  },
+  "endpoint_checks": [
+    "/health",
+    "/models",
+    "/score-transaction",
+    "/score-case",
+    "/score-case?profile=amlsim",
+    "/score-employee"
+  ],
+  "sdk_check": "catalog and case scoring succeeded over real HTTP",
+  "employee_model_id": "3ee718f5a2a01c1a",
+  "integrated_case_model_id": "103d920e878eefb0",
+  "amlsim_model_id": "7bb93d47347b2453",
+  "checked_at_unix": 1791634982.3851845
+}

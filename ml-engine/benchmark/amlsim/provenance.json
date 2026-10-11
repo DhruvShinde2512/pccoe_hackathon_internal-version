@@ -1,0 +1,671 @@
+{
+  "source": "https://github.com/IBM/AMLSim",
+  "source_commit": null,
+  "source_commit_note": "Not present in the local export metadata; raw exports and configs are SHA-256 recorded below.",
+  "created_at": "2026-10-10T10:16:16.221088+00:00",
+  "runs": 48,
+  "case_count": 142,
+  "transfer_count": 8671,
+  "step_seconds": 3600,
+  "time_mapping": "Explicitly map one simulator step to the requested seconds; chosen value is synthetic, not upstream wall-clock time.",
+  "split_policy": "Sort completed run names; first 60% train, next 20% validation, final 20% test; all components from a run stay together.",
+  "label_assumption": "A weakly connected transfer component is suspicious if any transaction has isSAR=1; flags remain synthetic simulator labels.",
+  "limitations": [
+    "This is synthetic AMLSim data, not a bank's employee-access history.",
+    "isSAR is a simulator label, not proof of real wrongdoing.",
+    "Run-level splitting holds generated accounts and run scenarios apart, but AMLSim typologies are reused across splits.",
+    "Cases with identical transfer behavior but different SAR flags can be observationally indistinguishable.",
+    "Employee, dormant-account, role-change and cross-silo insider performance are not evaluated.",
+    "All simulated events are received immediately; AMLSim exports do not test duplicate or late delivery."
+  ],
+  "runs_manifest": [
+    {
+      "run_id": "sim-0000",
+      "split": "train",
+      "seed": 20261010,
+      "mode": "routine",
+      "typologies": [],
+      "case_count": 1,
+      "sar_case_count": 0,
+      "transfer_count": 176,
+      "raw_export_sha256": "f29ad7b020b7cfef2439872402f1139eb99dca30706d318a8bc9f331c4ab962c",
+      "config_sha256": "01329f10f4ffdc2a3d10d77e2f595ef836b44746739aff6a39f8abc61b7f450c"
+    },
+    {
+      "run_id": "sim-0001",
+      "split": "train",
+      "seed": 20261011,
+      "mode": "legitimate_lookalike",
+      "typologies": [
+        "fan_in"
+      ],
+      "case_count": 1,
+      "sar_case_count": 0,
+      "transfer_count": 188,
+      "raw_export_sha256": "72092394ec5d5c67724df4af35d9cbfb6526e45774c2a9a0d23121ad64624bdd",
+      "config_sha256": "94062c0c515dfaea1f27451ac373c8c58e41657f390592c7e75f176479d42246"
+    },
+    {
+      "run_id": "sim-0002",
+      "split": "train",
+      "seed": 20261012,
+      "mode": "sar",
+      "typologies": [
+        "cycle"
+      ],
+      "case_count": 3,
+      "sar_case_count": 1,
+      "transfer_count": 182,
+      "raw_export_sha256": "26ad80063f56ad016e7ed2fffdce8b88f40d88aa863041b4e5111295e413be8b",
+      "config_sha256": "6608a3cd0f61a544baf5ea6166f2c718a1055db9a6cac57bf035509b85d445d8"
+    },
+    {
+      "run_id": "sim-0003",
+      "split": "train",
+      "seed": 20261013,
+      "mode": "sar",
+      "typologies": [
+        "cycle"
+      ],
+      "case_count": 4,
+      "sar_case_count": 0,
+      "transfer_count": 174,
+      "raw_export_sha256": "a3f09c9d50bb9211795ecea9cfeb8f4cfc4af4203809d00a47c2e21b1c0c9e31",
+      "config_sha256": "310dcec2f942c5fd1cc7a6650308cc4b294e49742d594a0bdb75a6a7aaf625c0"
+    },
+    {
+      "run_id": "sim-0004",
+      "split": "train",
+      "seed": 20261014,
+      "mode": "routine",
+      "typologies": [],
+      "case_count": 2,
+      "sar_case_count": 0,
+      "transfer_count": 178,
+      "raw_export_sha256": "5ad595580691042a2f27b9d6968319923f430278dcf0188f5f0a8d278872d4d8",
+      "config_sha256": "8e70422dfe82236b6886b71f4e27d999bbc1948300d9a81efadeeabae8d31b85"
+    },
+    {
+      "run_id": "sim-0005",
+      "split": "train",
+      "seed": 20261015,
+      "mode": "legitimate_lookalike",
+      "typologies": [
+        "scatter_gather"
+      ],
+      "case_count": 3,
+      "sar_case_count": 0,
+      "transfer_count": 180,
+      "raw_export_sha256": "9c0e74c518ee738859b0a99ef91d76f8f31b964ed7ad6a5d3a4f8f902a5568e2",
+      "config_sha256": "a869e8b7cd36e2c2cad40d21450c08781de6be1124ac28a9a5abd8302b2d6a11"
+    },
+    {
+      "run_id": "sim-0006",
+      "split": "train",
+      "seed": 20261016,
+      "mode": "sar",
+      "typologies": [
+        "gather_scatter"
+      ],
+      "case_count": 1,
+      "sar_case_count": 1,
+      "transfer_count": 189,
+      "raw_export_sha256": "cb78b00d797102569322b342bc392e8d5d9180d7d9c85548319973315b6a4b57",
+      "config_sha256": "e95ff8dca1318d52bb5a982098919a88550c9ae4ec6a1413ad17117bafbb8f18"
+    },
+    {
+      "run_id": "sim-0007",
+      "split": "train",
+      "seed": 20261017,
+      "mode": "sar",
+      "typologies": [
+        "cycle"
+      ],
+      "case_count": 4,
+      "sar_case_count": 0,
+      "transfer_count": 176,
+      "raw_export_sha256": "217b629e103c075a241e3ad56f31bf4d45feb3d30229f6b2602e08c509a4c7a8",
+      "config_sha256": "35cd45a284876f68894e1c3d8251fd4bf030c9cb1b262afd347cb6ad44f9c29c"
+    },
+    {
+      "run_id": "sim-0008",
+      "split": "train",
+      "seed": 20261018,
+      "mode": "routine",
+      "typologies": [],
+      "case_count": 4,
+      "sar_case_count": 0,
+      "transfer_count": 176,
+      "raw_export_sha256": "0b4d560b884b9c10e5e02f4abd56a0a389cfa7db64dd7fc2d291b89834f99e1a",
+      "config_sha256": "42eab2bd47125183147ac30e0ee2ebadc78203c3ff8a1dc5bb35552360122ac5"
+    },
+    {
+      "run_id": "sim-0009",
+      "split": "train",
+      "seed": 20261019,
+      "mode": "legitimate_lookalike",
+      "typologies": [
+        "cycle"
+      ],
+      "case_count": 3,
+      "sar_case_count": 0,
+      "transfer_count": 178,
+      "raw_export_sha256": "6877d5f738124da5c39177c2845cc3d15f0a6df54a814e0809d713fda75f5cbd",
+      "config_sha256": "274797ab09ebb38d658a60b9b42dec1690b44c3f242dfffae9514349a4342a42"
+    },
+    {
+      "run_id": "sim-0010",
+      "split": "train",
+      "seed": 20261020,
+      "mode": "sar",
+      "typologies": [
+        "fan_in"
+      ],
+      "case_count": 2,
+      "sar_case_count": 1,
+      "transfer_count": 174,
+      "raw_export_sha256": "5ff0d517aeb3795baeda67e7dc970b89731043885c979248298c59926f6fe887",
+      "config_sha256": "babe4397366bdfb10bed53899a5d38819ef559a59c057a21a6fe3ac40bd84646"
+    },
+    {
+      "run_id": "sim-0011",
+      "split": "train",
+      "seed": 20261021,
+      "mode": "sar",
+      "typologies": [
+        "fan_in"
+      ],
+      "case_count": 3,
+      "sar_case_count": 1,
+      "transfer_count": 177,
+      "raw_export_sha256": "357d2aa55fb4c68832d6097acae01ebaab5e0ddffd08b9b64e5868da3241c5da",
+      "config_sha256": "5ab0c6b51f40e701fa51041e62e80266b0b3a39d269564a25fa12caebb35defe"
+    },
+    {
+      "run_id": "sim-0012",
+      "split": "train",
+      "seed": 20261022,
+      "mode": "routine",
+      "typologies": [],
+      "case_count": 4,
+      "sar_case_count": 0,
+      "transfer_count": 173,
+      "raw_export_sha256": "21d2a5036643823afc02b2607e7d635343ce822a402e0b17354d2d9221dadc00",
+      "config_sha256": "1529d22aa61751c96f37bf261b3fb4192cffdf256903164c466d2955f5372744"
+    },
+    {
+      "run_id": "sim-0013",
+      "split": "train",
+      "seed": 20261023,
+      "mode": "legitimate_lookalike",
+      "typologies": [
+        "cycle"
+      ],
+      "case_count": 1,
+      "sar_case_count": 0,
+      "transfer_count": 188,
+      "raw_export_sha256": "3d7d02876793f0b132373e749258b1f518d7a42ca2b0cfdff91bc98c8d63075e",
+      "config_sha256": "2204792bdb1aa6c0d6e38bb54b72b8ed08bc85c788aee8abd04157bdfea7b288"
+    },
+    {
+      "run_id": "sim-0014",
+      "split": "train",
+      "seed": 20261024,
+      "mode": "sar",
+      "typologies": [
+        "scatter_gather"
+      ],
+      "case_count": 5,
+      "sar_case_count": 1,
+      "transfer_count": 188,
+      "raw_export_sha256": "529318c423cbf6ef608d8b1582503449408c39408b9cee8ec72c4d8a1956532c",
+      "config_sha256": "74c1a692fa052b0c8f11679f40a1eb2677ff3bccffb54d3b84bcb48c95ad84b1"
+    },
+    {
+      "run_id": "sim-0015",
+      "split": "train",
+      "seed": 20261025,
+      "mode": "sar",
+      "typologies": [
+        "scatter_gather"
+      ],
+      "case_count": 3,
+      "sar_case_count": 1,
+      "transfer_count": 191,
+      "raw_export_sha256": "913be50353d7df2628626415e0d5bd4bd9e890644ce81e3aa5eaa565accd421c",
+      "config_sha256": "9f20a1f285165d5cf3ec938ed6abeb9a3087dd4d54231ae7e5fe1049897373fd"
+    },
+    {
+      "run_id": "sim-0016",
+      "split": "train",
+      "seed": 20261026,
+      "mode": "routine",
+      "typologies": [],
+      "case_count": 4,
+      "sar_case_count": 0,
+      "transfer_count": 177,
+      "raw_export_sha256": "d956d21e72def52739e5bb53721fdafdeb725c8910fe544c975ce35d264ec03b",
+      "config_sha256": "60793ccf380f024e24ffe6997a2c6f1401e02a24a9c270e8786c6536653621c3"
+    },
+    {
+      "run_id": "sim-0017",
+      "split": "train",
+      "seed": 20261027,
+      "mode": "legitimate_lookalike",
+      "typologies": [
+        "scatter_gather"
+      ],
+      "case_count": 2,
+      "sar_case_count": 0,
+      "transfer_count": 183,
+      "raw_export_sha256": "63dc357b7087188efba3cb8e1033cf2ee4ecf674d5dcec9c0acef6364d969e5c",
+      "config_sha256": "e8120fabe8cf4ed3eb1f3205b911665b823b6e7fc862f3a275a539b8de93029b"
+    },
+    {
+      "run_id": "sim-0018",
+      "split": "train",
+      "seed": 20261028,
+      "mode": "sar",
+      "typologies": [
+        "fan_out"
+      ],
+      "case_count": 6,
+      "sar_case_count": 1,
+      "transfer_count": 179,
+      "raw_export_sha256": "cfed194271e5b839ac8df875aa7cdfa9fff218bc6d37772d9d830467a0c07211",
+      "config_sha256": "f9585bac826bcaca54d8a7f799ba096e75c28d040ca799c800fe24d581b15975"
+    },
+    {
+      "run_id": "sim-0019",
+      "split": "train",
+      "seed": 20261029,
+      "mode": "sar",
+      "typologies": [
+        "cycle"
+      ],
+      "case_count": 4,
+      "sar_case_count": 0,
+      "transfer_count": 178,
+      "raw_export_sha256": "30cfeacfe258fdb4a441136137a57d73174d54f39f3d322338a7f5386085090f",
+      "config_sha256": "9a9281b1f106031663a0a0c3bae7f4d6c7aeef1e4d7dc1a0eb134ea2217a1240"
+    },
+    {
+      "run_id": "sim-0020",
+      "split": "train",
+      "seed": 20261030,
+      "mode": "routine",
+      "typologies": [],
+      "case_count": 6,
+      "sar_case_count": 0,
+      "transfer_count": 176,
+      "raw_export_sha256": "18c18dfaa81f7cd949c5121925bd9e6b616cc51581e4dbfff0f5a8243e9c6913",
+      "config_sha256": "9aa149f916f5db69d46d976a2f2f782e741528f93a58af708d1974b5fc69c3a9"
+    },
+    {
+      "run_id": "sim-0021",
+      "split": "train",
+      "seed": 20261031,
+      "mode": "legitimate_lookalike",
+      "typologies": [
+        "gather_scatter"
+      ],
+      "case_count": 2,
+      "sar_case_count": 0,
+      "transfer_count": 184,
+      "raw_export_sha256": "5003e746710092add89f3b8d96e3510f6f22c9440ee36dc005c37b395895afce",
+      "config_sha256": "d2729c9a94fc1895939518a6bee4f5001ab5461ea20fdcea59f6d619b7f10a88"
+    },
+    {
+      "run_id": "sim-0022",
+      "split": "train",
+      "seed": 20261032,
+      "mode": "sar",
+      "typologies": [
+        "fan_out"
+      ],
+      "case_count": 2,
+      "sar_case_count": 2,
+      "transfer_count": 180,
+      "raw_export_sha256": "fa310f40864de02abfeb269b8663702cbddbaa68bfb5205ece38fe98e3296a53",
+      "config_sha256": "a94d70566974bd4063614222a745bbc8870b11683aab6db8624ec244f0d33bec"
+    },
+    {
+      "run_id": "sim-0023",
+      "split": "train",
+      "seed": 20261033,
+      "mode": "sar",
+      "typologies": [
+        "scatter_gather"
+      ],
+      "case_count": 2,
+      "sar_case_count": 1,
+      "transfer_count": 192,
+      "raw_export_sha256": "ebcc3109df166fcc06fa66c63bf705eb8d42e8609d221c80bcefc1b2843fab12",
+      "config_sha256": "d04c54f1dfbf68076b6b7b2f5c8ecc0f68275030dc3ae0724f7c47568ca0d88c"
+    },
+    {
+      "run_id": "sim-0024",
+      "split": "train",
+      "seed": 20261034,
+      "mode": "routine",
+      "typologies": [],
+      "case_count": 3,
+      "sar_case_count": 0,
+      "transfer_count": 175,
+      "raw_export_sha256": "b7f412c39fb557b80dabf72a6a4c056f024a8933069468e331b525d8f92b237e",
+      "config_sha256": "14bbed439a98572dba93956510e77718a69e3cf285682ed126ab3fdc20ead54d"
+    },
+    {
+      "run_id": "sim-0025",
+      "split": "train",
+      "seed": 20261035,
+      "mode": "legitimate_lookalike",
+      "typologies": [
+        "scatter_gather"
+      ],
+      "case_count": 1,
+      "sar_case_count": 0,
+      "transfer_count": 188,
+      "raw_export_sha256": "b0cad115496383362fbb7261623fd992b907f4f19a2474fb3d8f545aee1f1108",
+      "config_sha256": "4168e43a11373c7c13d54e8917084b548e00d803c84acff326a7a603bb802311"
+    },
+    {
+      "run_id": "sim-0026",
+      "split": "train",
+      "seed": 20261036,
+      "mode": "sar",
+      "typologies": [
+        "cycle"
+      ],
+      "case_count": 1,
+      "sar_case_count": 1,
+      "transfer_count": 178,
+      "raw_export_sha256": "20c2aca5d63aa0b4c8bde1922f44fba5d910f751b161654d243f97156ee4c97f",
+      "config_sha256": "953fed5216719ca2fd8184b87f20d834ecc51b3077b9e8fdc6086608fcb527f4"
+    },
+    {
+      "run_id": "sim-0027",
+      "split": "train",
+      "seed": 20261037,
+      "mode": "sar",
+      "typologies": [
+        "gather_scatter"
+      ],
+      "case_count": 1,
+      "sar_case_count": 1,
+      "transfer_count": 181,
+      "raw_export_sha256": "1b358bd8023fc32805fd3b29ab72a6818aa2dc526b7f87291d392c85c3a3055c",
+      "config_sha256": "7082d441356aaa2269151dab437d12ba6fa3399cb8df535c221fa56fb2aae3aa"
+    },
+    {
+      "run_id": "sim-0028",
+      "split": "validation",
+      "seed": 20261038,
+      "mode": "routine",
+      "typologies": [],
+      "case_count": 4,
+      "sar_case_count": 0,
+      "transfer_count": 169,
+      "raw_export_sha256": "6660524ab54671bfe4e9e35e34557fe35b9ccab1fc8e261aa3f001b2579303a2",
+      "config_sha256": "34eb072fdf27a039746526f304a02bea34345dc577c17d67056622b452263eeb"
+    },
+    {
+      "run_id": "sim-0029",
+      "split": "validation",
+      "seed": 20261039,
+      "mode": "legitimate_lookalike",
+      "typologies": [
+        "scatter_gather"
+      ],
+      "case_count": 2,
+      "sar_case_count": 0,
+      "transfer_count": 197,
+      "raw_export_sha256": "4fca6ff2a544a327585ce43bd1ab2758dd7459914f8abd51e37be12f2d06c973",
+      "config_sha256": "034c8b3698d8f20cff452a61cce7f9b6353267fb471692baaedfef292f1fc4f9"
+    },
+    {
+      "run_id": "sim-0030",
+      "split": "validation",
+      "seed": 20261040,
+      "mode": "sar",
+      "typologies": [
+        "gather_scatter"
+      ],
+      "case_count": 1,
+      "sar_case_count": 1,
+      "transfer_count": 185,
+      "raw_export_sha256": "961fa510874b4a3bce185e9e1ab8a13df65b225a36ee5d8c03b37756675080ce",
+      "config_sha256": "05c5390630ede2eaa1ecd37b197357b6f50d4f40131557c904495f424bdff00c"
+    },
+    {
+      "run_id": "sim-0031",
+      "split": "validation",
+      "seed": 20261041,
+      "mode": "sar",
+      "typologies": [
+        "fan_out"
+      ],
+      "case_count": 3,
+      "sar_case_count": 2,
+      "transfer_count": 177,
+      "raw_export_sha256": "607c017ee7cd00caf390dd5834f3d2e742a7a67644a05bdb4126c3e196b9912a",
+      "config_sha256": "5117ac4f2d7bc782cdf75b4344332624d01e74078c2b6de606995b3017ced049"
+    },
+    {
+      "run_id": "sim-0032",
+      "split": "validation",
+      "seed": 20261042,
+      "mode": "routine",
+      "typologies": [],
+      "case_count": 2,
+      "sar_case_count": 0,
+      "transfer_count": 177,
+      "raw_export_sha256": "38a442448e860b243892a5f46daaad700315cfbb1bbf4fed9bae56eacbb796d3",
+      "config_sha256": "11ee5506737a1d723ccea99278f587a26882430008874fac35dd51f15562c617"
+    },
+    {
+      "run_id": "sim-0033",
+      "split": "validation",
+      "seed": 20261043,
+      "mode": "legitimate_lookalike",
+      "typologies": [
+        "cycle"
+      ],
+      "case_count": 3,
+      "sar_case_count": 0,
+      "transfer_count": 180,
+      "raw_export_sha256": "1898e78e80cdb8cb05bc9992d481f5a733b58f936fe5fcf0b0dc1e62cfe3ba8f",
+      "config_sha256": "2d3f91b8525dec20d728a40cbf64d7d840608aff19f5c4d2971a22f9fc1cba33"
+    },
+    {
+      "run_id": "sim-0034",
+      "split": "validation",
+      "seed": 20261044,
+      "mode": "sar",
+      "typologies": [
+        "fan_in"
+      ],
+      "case_count": 6,
+      "sar_case_count": 2,
+      "transfer_count": 181,
+      "raw_export_sha256": "7ab9abd699046132dba85c60376d2e64afe614e403184593739a5b2504e73696",
+      "config_sha256": "444767f089663181e3eecd9d55647c0e606ad4669058c255ea64ef5c989e23ad"
+    },
+    {
+      "run_id": "sim-0035",
+      "split": "validation",
+      "seed": 20261045,
+      "mode": "sar",
+      "typologies": [
+        "cycle"
+      ],
+      "case_count": 3,
+      "sar_case_count": 1,
+      "transfer_count": 181,
+      "raw_export_sha256": "5778be8959e25659fd2806e3b84bc8197dc59f30ff413ca60965190797855026",
+      "config_sha256": "05985a73cda2cc4e171a592d49699817b6cc0b8fb90afcad5b9fd60ce39d88c3"
+    },
+    {
+      "run_id": "sim-0036",
+      "split": "validation",
+      "seed": 20261046,
+      "mode": "routine",
+      "typologies": [],
+      "case_count": 6,
+      "sar_case_count": 0,
+      "transfer_count": 176,
+      "raw_export_sha256": "4e0431c9791a56cc0b1231b02c82631a739b2143e2ebaa6a1cf03d9558922dbe",
+      "config_sha256": "73d59f75ad0d64eb6832f164b00083060c92cc5fd899b9da0ca1397c471dc9d6"
+    },
+    {
+      "run_id": "sim-0037",
+      "split": "test",
+      "seed": 20261047,
+      "mode": "legitimate_lookalike",
+      "typologies": [
+        "fan_out"
+      ],
+      "case_count": 1,
+      "sar_case_count": 0,
+      "transfer_count": 177,
+      "raw_export_sha256": "f19d7b8719217206859804cc998192299f0e6c180dd5f12f1d78e4a416c71c5c",
+      "config_sha256": "5dedbea42886b5867daf9ac8260f25ab035e6be9999c138514ab858a162c76c7"
+    },
+    {
+      "run_id": "sim-0038",
+      "split": "test",
+      "seed": 20261048,
+      "mode": "sar",
+      "typologies": [
+        "cycle"
+      ],
+      "case_count": 4,
+      "sar_case_count": 2,
+      "transfer_count": 184,
+      "raw_export_sha256": "80d22b93d68b043620ad3d92965436833009db257e1afc4161872aab25a01c84",
+      "config_sha256": "ae26251f892ac8e8b6461fda7b2beb65db4ff15ae0ded7830701aef9b0e58f33"
+    },
+    {
+      "run_id": "sim-0039",
+      "split": "test",
+      "seed": 20261049,
+      "mode": "sar",
+      "typologies": [
+        "fan_in"
+      ],
+      "case_count": 3,
+      "sar_case_count": 1,
+      "transfer_count": 181,
+      "raw_export_sha256": "f74067d337b0de35068357085addadaa8877dc71fbe05dfdfe3f15f05f162cf0",
+      "config_sha256": "8fa43e0997dc9f860d719f74e01cd610ab0f8a5afadbbd6f328305e358f4e71d"
+    },
+    {
+      "run_id": "sim-0040",
+      "split": "test",
+      "seed": 20261050,
+      "mode": "routine",
+      "typologies": [],
+      "case_count": 3,
+      "sar_case_count": 0,
+      "transfer_count": 172,
+      "raw_export_sha256": "77a69f23afbe3e81a2d1682a0293533ac18854003a0a2a92e6277512e3f50d7c",
+      "config_sha256": "5f7ab24395cb44710702e2b36cdb129dca06b20338091cc94f390aa62218bb61"
+    },
+    {
+      "run_id": "sim-0041",
+      "split": "test",
+      "seed": 20261051,
+      "mode": "legitimate_lookalike",
+      "typologies": [
+        "gather_scatter"
+      ],
+      "case_count": 5,
+      "sar_case_count": 0,
+      "transfer_count": 186,
+      "raw_export_sha256": "e87d433e9577aee02446eeaf49b5a7cd0e49164cc58c3f0399b02889545de4a4",
+      "config_sha256": "c31652b6cd96bc9b850a012d351c8a1b1ec6452bf27ff8fb1c1d478f531936dd"
+    },
+    {
+      "run_id": "sim-0042",
+      "split": "test",
+      "seed": 20261052,
+      "mode": "sar",
+      "typologies": [
+        "gather_scatter"
+      ],
+      "case_count": 5,
+      "sar_case_count": 1,
+      "transfer_count": 181,
+      "raw_export_sha256": "1f18d8d987c809c5c54c7563bd7605b0d290659bae161837415d21f1b5248eed",
+      "config_sha256": "ab474a3aaf7863fb22c5a0b4fdc5a07043dc2d6e9467b15f4a1c709529c2030e"
+    },
+    {
+      "run_id": "sim-0043",
+      "split": "test",
+      "seed": 20261053,
+      "mode": "sar",
+      "typologies": [
+        "fan_out"
+      ],
+      "case_count": 2,
+      "sar_case_count": 1,
+      "transfer_count": 182,
+      "raw_export_sha256": "36f3d1e6ba396e92f3a3215161ac7e6b989008ce4097a1ea4b759f5f00ad4917",
+      "config_sha256": "bc73d006a7b3ee1a23614e8489da247b9aab861fe44a13680aff43ae6aa4cf4d"
+    },
+    {
+      "run_id": "sim-0044",
+      "split": "test",
+      "seed": 20261054,
+      "mode": "routine",
+      "typologies": [],
+      "case_count": 5,
+      "sar_case_count": 0,
+      "transfer_count": 178,
+      "raw_export_sha256": "e68681c1930d3e1bc2a35b015259e5ef9ae89a80d023240aee86bed95fd757bf",
+      "config_sha256": "701e235625f87331d23ed6d46b3e9143242be6036d96761633ab2a166aabd203"
+    },
+    {
+      "run_id": "sim-0045",
+      "split": "test",
+      "seed": 20261055,
+      "mode": "legitimate_lookalike",
+      "typologies": [
+        "fan_out"
+      ],
+      "case_count": 2,
+      "sar_case_count": 0,
+      "transfer_count": 187,
+      "raw_export_sha256": "00bdb96458c2babb2e14a716d9cb62dfdadf1b691df8c171e7b1945869b9feca",
+      "config_sha256": "9f4d6defe5b93fbccb475b3043d187e29a5633f9f483ed72966e99203374176a"
+    },
+    {
+      "run_id": "sim-0046",
+      "split": "test",
+      "seed": 20261056,
+      "mode": "sar",
+      "typologies": [
+        "fan_out"
+      ],
+      "case_count": 2,
+      "sar_case_count": 1,
+      "transfer_count": 178,
+      "raw_export_sha256": "c40011f2280c9e25f9e51a115305da01cb51e9a69823016412b4d2d4f1dd6095",
+      "config_sha256": "34f2be8113056b736d8ba91c19d794e2f9329dab5cfb6b9713e630656c47960f"
+    },
+    {
+      "run_id": "sim-0047",
+      "split": "test",
+      "seed": 20261057,
+      "mode": "sar",
+      "typologies": [
+        "fan_in"
+      ],
+      "case_count": 2,
+      "sar_case_count": 1,
+      "transfer_count": 183,
+      "raw_export_sha256": "1dbb0a1aa6f0e10f049fe0776ca49a5a447854fa81d0fd01b43a264590017354",
+      "config_sha256": "bac5b48b43bda1f765600a42f051da1ec2cd839c43d1d9bbdc7057e097f876e3"
+    }
+  ]
+}

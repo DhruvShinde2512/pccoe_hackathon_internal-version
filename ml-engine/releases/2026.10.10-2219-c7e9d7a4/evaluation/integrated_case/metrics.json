@@ -1,0 +1,77 @@
+{
+  "dataset_sha256": "f26c1f7f83146f3fdd274dfc673efd0991549029c5b030fb59198b64bc5ee070",
+  "feature_version": "case-graph-temporal-v1",
+  "model_id": "2f35a7011bdd78eb",
+  "unit": "case",
+  "metrics": {
+    "rule_baseline": {
+      "unit": "case",
+      "count": 78,
+      "positive_count": 19,
+      "negative_count": 59,
+      "threshold": 0.5,
+      "tp": 1,
+      "fp": 3,
+      "fn": 18,
+      "tn": 56,
+      "precision": 0.25,
+      "recall": 0.05263157894736842,
+      "false_positive_rate": 0.05084745762711865,
+      "average_precision": 0.24392712550607287
+    },
+    "autoencoder": {
+      "unit": "case",
+      "count": 78,
+      "positive_count": 19,
+      "negative_count": 59,
+      "threshold": 2.909817695617676,
+      "tp": 19,
+      "fp": 5,
+      "fn": 0,
+      "tn": 54,
+      "precision": 0.7916666666666666,
+      "recall": 1.0,
+      "false_positive_rate": 0.0847457627118644,
+      "average_precision": 0.759304938977506
+    },
+    "isolation_forest": {
+      "unit": "case",
+      "count": 78,
+      "positive_count": 19,
+      "negative_count": 59,
+      "threshold": 0.2102118608759046,
+      "tp": 16,
+      "fp": 3,
+      "fn": 3,
+      "tn": 56,
+      "precision": 0.8421052631578947,
+      "recall": 0.8421052631578947,
+      "false_positive_rate": 0.05084745762711865,
+      "average_precision": 0.7613715557702847
+    },
+    "xgboost": {
+      "unit": "case",
+      "count": 78,
+      "positive_count": 19,
+      "negative_count": 59,
+      "threshold": 0.6622781753540039,
+      "tp": 19,
+      "fp": 0,
+      "fn": 0,
+      "tn": 59,
+      "precision": 1.0,
+      "recall": 1.0,
+      "false_positive_rate": 0.0,
+      "average_precision": 1.0
+    }
+  },
+  "rule_description": "Flag at least one chronological 2/3-edge cycle within 48h OR (at least 3 sender transfers in 1h AND >=0.5 of transfers within 1000 of illustrative 10000 limit AND at least one transfer <=2h after MODIFY_PHONE/OVERRIDE_ALERT). No label inputs or tuned rule thresholds.",
+  "threshold_selection": "maximum validation F1; ties choose higher threshold; no test tuning",
+  "training_device": "cpu",
+  "limits": [
+    "Synthetic benchmark; not real-bank accuracy",
+    "Supplied case membership, not evaluated case discovery",
+    "Final snapshots; streaming revision correctness tested separately",
+    "Scores are not calibrated fraud probabilities"
+  ]
+}

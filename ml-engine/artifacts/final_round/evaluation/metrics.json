@@ -1,0 +1,77 @@
+{
+  "dataset_sha256": "1d90d04df89f489262d9b8065ab637fd898f32b7148f9ffd4065229f4046ca85",
+  "feature_version": "case-graph-temporal-v1",
+  "model_id": "103d920e878eefb0",
+  "unit": "case",
+  "metrics": {
+    "rule_baseline": {
+      "unit": "case",
+      "count": 120,
+      "positive_count": 38,
+      "negative_count": 82,
+      "threshold": 0.5,
+      "tp": 20,
+      "fp": 20,
+      "fn": 18,
+      "tn": 62,
+      "precision": 0.5,
+      "recall": 0.5263157894736842,
+      "false_positive_rate": 0.24390243902439024,
+      "average_precision": 0.41315789473684206
+    },
+    "autoencoder": {
+      "unit": "case",
+      "count": 120,
+      "positive_count": 38,
+      "negative_count": 82,
+      "threshold": 0.8183509707450867,
+      "tp": 36,
+      "fp": 18,
+      "fn": 2,
+      "tn": 64,
+      "precision": 0.6666666666666666,
+      "recall": 0.9473684210526315,
+      "false_positive_rate": 0.21951219512195122,
+      "average_precision": 0.8394489362263751
+    },
+    "isolation_forest": {
+      "unit": "case",
+      "count": 120,
+      "positive_count": 38,
+      "negative_count": 82,
+      "threshold": 0.04075932241133351,
+      "tp": 30,
+      "fp": 9,
+      "fn": 8,
+      "tn": 73,
+      "precision": 0.7692307692307693,
+      "recall": 0.7894736842105263,
+      "false_positive_rate": 0.10975609756097561,
+      "average_precision": 0.8644253607277226
+    },
+    "xgboost": {
+      "unit": "case",
+      "count": 120,
+      "positive_count": 38,
+      "negative_count": 82,
+      "threshold": 0.9860095977783203,
+      "tp": 37,
+      "fp": 0,
+      "fn": 1,
+      "tn": 82,
+      "precision": 1.0,
+      "recall": 0.9736842105263158,
+      "false_positive_rate": 0.0,
+      "average_precision": 1.0
+    }
+  },
+  "rule_description": "Flag at least one chronological 2/3-edge cycle within 48h OR (at least 3 sender transfers in 1h AND >=0.5 of transfers within 1000 of illustrative 10000 limit AND at least one transfer <=2h after MODIFY_PHONE/OVERRIDE_ALERT). No label inputs or tuned rule thresholds.",
+  "threshold_selection": "maximum validation F1; ties choose higher threshold; no test tuning",
+  "training_device": "cuda",
+  "limits": [
+    "Synthetic benchmark; not real-bank accuracy",
+    "Supplied case membership, not evaluated case discovery",
+    "Final snapshots; streaming revision correctness tested separately",
+    "Scores are not calibrated fraud probabilities"
+  ]
+}

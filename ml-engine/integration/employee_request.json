@@ -1,0 +1,78 @@
+{
+  "emp_id": "NWT0098",
+  "as_of": "2011-02-08T00:00:00Z",
+  "observations": [
+    {
+      "day": "2011-01-31",
+      "total_logon_activity": 2.0,
+      "after_hours_activity": 0.0,
+      "http_activity_count": 95.0,
+      "total_emails": 9.0,
+      "file_activity_count": 3.0,
+      "usb_activity_count": 2.0,
+      "source_ids": [
+        "CERT-DAILY:NWT0098:2011-01-31"
+      ]
+    },
+    {
+      "day": "2011-02-01",
+      "total_logon_activity": 2.0,
+      "after_hours_activity": 0.0,
+      "http_activity_count": 95.0,
+      "total_emails": 9.0,
+      "file_activity_count": 0.0,
+      "usb_activity_count": 6.0,
+      "source_ids": [
+        "CERT-DAILY:NWT0098:2011-02-01"
+      ]
+    },
+    {
+      "day": "2011-02-02",
+      "total_logon_activity": 2.0,
+      "after_hours_activity": 0.0,
+      "http_activity_count": 95.0,
+      "total_emails": 9.0,
+      "file_activity_count": 4.0,
+      "usb_activity_count": 6.0,
+      "source_ids": [
+        "CERT-DAILY:NWT0098:2011-02-02"
+      ]
+    },
+    {
+      "day": "2011-02-03",
+      "total_logon_activity": 2.0,
+      "after_hours_activity": 0.0,
+      "http_activity_count": 95.0,
+      "total_emails": 9.0,
+      "file_activity_count": 5.0,
+      "usb_activity_count": 4.0,
+      "source_ids": [
+        "CERT-DAILY:NWT0098:2011-02-03"
+      ]
+    },
+    {
+      "day": "2011-02-04",
+      "total_logon_activity": 2.0,
+      "after_hours_activity": 0.0,
+      "http_activity_count": 95.0,
+      "total_emails": 9.0,
+      "file_activity_count": 5.0,
+      "usb_activity_count": 4.0,
+      "source_ids": [
+        "CERT-DAILY:NWT0098:2011-02-04"
+      ]
+    },
+    {
+      "day": "2011-02-07",
+      "total_logon_activity": 2.0,
+      "after_hours_activity": 0.0,
+      "http_activity_count": 96.0,
+      "total_emails": 8.0,
+      "file_activity_count": 5.0,
+      "usb_activity_count": 2.0,
+      "source_ids": [
+        "CERT-DAILY:NWT0098:2011-02-07"
+      ]
+    }
+  ]
+}

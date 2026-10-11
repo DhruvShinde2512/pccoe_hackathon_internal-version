@@ -1,0 +1,106 @@
+{
+  "$defs": {
+    "EventRecord": {
+      "description": "Stable event envelope agreed for case-level ML requests.",
+      "properties": {
+        "event_id": {
+          "maxLength": 200,
+          "minLength": 1,
+          "title": "Event Id",
+          "type": "string"
+        },
+        "event_type": {
+          "enum": [
+            "TRANSACTION",
+            "EMPLOYEE_ACTION"
+          ],
+          "title": "Event Type",
+          "type": "string"
+        },
+        "event_time": {
+          "format": "date-time",
+          "title": "Event Time",
+          "type": "string"
+        },
+        "arrival_time": {
+          "format": "date-time",
+          "title": "Arrival Time",
+          "type": "string"
+        },
+        "payload": {
+          "additionalProperties": true,
+          "title": "Payload",
+          "type": "object"
+        }
+      },
+      "required": [
+        "event_id",
+        "event_type",
+        "event_time",
+        "arrival_time",
+        "payload"
+      ],
+      "title": "EventRecord",
+      "type": "object"
+    }
+  },
+  "additionalProperties": false,
+  "description": "Evidence snapshot only: labels and split metadata are forbidden at inference.",
+  "properties": {
+    "case_id": {
+      "minLength": 1,
+      "title": "Case Id",
+      "type": "string"
+    },
+    "revision": {
+      "default": 1,
+      "minimum": 1,
+      "title": "Revision",
+      "type": "integer"
+    },
+    "as_of": {
+      "format": "date-time",
+      "title": "As Of",
+      "type": "string"
+    },
+    "observed_until": {
+      "anyOf": [
+        {
+          "format": "date-time",
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Observed Until"
+    },
+    "events": {
+      "items": {
+        "$ref": "#/$defs/EventRecord"
+      },
+      "maxItems": 10000,
+      "title": "Events",
+      "type": "array"
+    },
+    "accounts": {
+      "items": {
+        "additionalProperties": {
+          "type": "string"
+        },
+        "type": "object"
+      },
+      "maxItems": 10000,
+      "title": "Accounts",
+      "type": "array"
+    }
+  },
+  "required": [
+    "case_id",
+    "as_of",
+    "events"
+  ],
+  "title": "CaseScoreRequest",
+  "type": "object"
+}

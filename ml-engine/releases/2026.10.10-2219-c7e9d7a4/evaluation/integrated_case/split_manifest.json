@@ -1,0 +1,2242 @@
+[
+  {
+    "case_id": "CASE-CYC-ACC-T-0100#ACC-T-0100",
+    "group_id": "CASE-CYC-ACC-T-0100#ACC-T-0100",
+    "split": "train",
+    "as_of": "2026-06-17T14:22:33+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-CYC-ACC-T-0786#ACC-T-0786",
+    "group_id": "CASE-CYC-ACC-T-0786#ACC-T-0786",
+    "split": "train",
+    "as_of": "2026-02-25T12:36:29+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-CYC-ACC-T-0803#ACC-T-0803",
+    "group_id": "CASE-CYC-ACC-T-0803#ACC-T-0803",
+    "split": "train",
+    "as_of": "2026-04-19T17:05:29+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-CYC-ACC-T-POOL-0001#ACC-T-POOL-0001",
+    "group_id": "CASE-CYC-ACC-T-POOL-0001#ACC-T-POOL-0001",
+    "split": "train",
+    "as_of": "2026-08-09T17:50:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-CYC-ACC-T-POOL-0004#ACC-T-POOL-0004",
+    "group_id": "CASE-CYC-ACC-T-POOL-0004#ACC-T-POOL-0004",
+    "split": "train",
+    "as_of": "2026-08-09T17:50:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-INS-EMP-T-002#ACC-T-0226",
+    "group_id": "CASE-INS-EMP-T-002#ACC-T-0226",
+    "split": "train",
+    "as_of": "2026-02-23T16:23:41+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-INS-EMP-T-006#ACC-T-0230",
+    "group_id": "CASE-INS-EMP-T-006#ACC-T-0230",
+    "split": "train",
+    "as_of": "2026-02-20T00:13:25+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-INS-EMP-T-007#ACC-T-0536",
+    "group_id": "CASE-INS-EMP-T-007#ACC-T-0536",
+    "split": "train",
+    "as_of": "2026-05-19T14:24:33+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-INS-EMP-T-007#ACC-T-0631",
+    "group_id": "CASE-INS-EMP-T-007#ACC-T-0536",
+    "split": "train",
+    "as_of": "2026-03-05T17:04:37+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-INS-EMP-T-008#ACC-T-0434",
+    "group_id": "CASE-CYC-ACC-T-0803#ACC-T-0803",
+    "split": "train",
+    "as_of": "2026-06-08T01:48:02+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-INS-EMP-T-009#ACC-T-0195",
+    "group_id": "CASE-INS-EMP-T-009#ACC-T-0195",
+    "split": "train",
+    "as_of": "2026-03-23T22:19:37+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-INS-EMP-T-009#ACC-T-0280",
+    "group_id": "CASE-INS-EMP-T-009#ACC-T-0195",
+    "split": "train",
+    "as_of": "2026-05-09T14:57:37+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-INS-EMP-T-011#ACC-T-0046",
+    "group_id": "CASE-INS-EMP-T-011#ACC-T-0046",
+    "split": "train",
+    "as_of": "2026-04-28T12:37:37+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-INS-EMP-T-011#ACC-T-0065",
+    "group_id": "CASE-INS-EMP-T-011#ACC-T-0046",
+    "split": "train",
+    "as_of": "2026-03-28T10:40:32+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-INS-EMP-T-012#ACC-T-0554",
+    "group_id": "CASE-INS-EMP-T-012#ACC-T-0554",
+    "split": "train",
+    "as_of": "2026-08-05T15:05:54+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-INS-EMP-T-013#ACC-T-0035",
+    "group_id": "CASE-INS-EMP-T-013#ACC-T-0035",
+    "split": "train",
+    "as_of": "2026-08-02T14:43:25+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-INS-EMP-T-013#ACC-T-0315",
+    "group_id": "CASE-INS-EMP-T-013#ACC-T-0035",
+    "split": "train",
+    "as_of": "2026-04-16T15:43:44+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-INS-EMP-T-013#ACC-T-0340",
+    "group_id": "CASE-INS-EMP-T-013#ACC-T-0035",
+    "split": "train",
+    "as_of": "2026-07-21T14:33:36+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-INS-EMP-T-016#ACC-T-0235",
+    "group_id": "CASE-INS-EMP-T-016#ACC-T-0235",
+    "split": "train",
+    "as_of": "2026-08-08T04:31:59+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-INS-EMP-T-016#ACC-T-0457",
+    "group_id": "CASE-INS-EMP-T-016#ACC-T-0235",
+    "split": "train",
+    "as_of": "2026-04-04T13:24:43+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-INS-EMP-T-018#ACC-T-0374",
+    "group_id": "CASE-INS-EMP-T-018#ACC-T-0374",
+    "split": "train",
+    "as_of": "2026-05-24T12:33:39+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-INS-EMP-T-018#ACC-T-0399",
+    "group_id": "CASE-INS-EMP-T-018#ACC-T-0374",
+    "split": "train",
+    "as_of": "2026-08-01T15:40:19+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-INS-EMP-T-019#ACC-T-0093",
+    "group_id": "CASE-INS-EMP-T-019#ACC-T-0093",
+    "split": "train",
+    "as_of": "2026-05-08T18:45:10+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-INS-EMP-T-019#ACC-T-0096",
+    "group_id": "CASE-INS-EMP-T-019#ACC-T-0093",
+    "split": "train",
+    "as_of": "2026-07-23T11:11:53+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-INS-EMP-T-020#ACC-T-0014",
+    "group_id": "CASE-INS-EMP-T-007#ACC-T-0536",
+    "split": "train",
+    "as_of": "2026-07-26T12:30:39+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-INS-EMP-T-021#ACC-T-0053",
+    "group_id": "CASE-CYC-ACC-T-0803#ACC-T-0803",
+    "split": "train",
+    "as_of": "2026-03-06T18:28:50+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-INS-EMP-T-024#ACC-T-0001",
+    "group_id": "CASE-INS-EMP-T-024#ACC-T-0001",
+    "split": "train",
+    "as_of": "2026-07-25T14:45:36+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-INS-EMP-T-024#ACC-T-0051",
+    "group_id": "CASE-INS-EMP-T-024#ACC-T-0001",
+    "split": "train",
+    "as_of": "2026-05-31T15:51:02+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-INS-EMP-T-024#ACC-T-0117",
+    "group_id": "CASE-INS-EMP-T-024#ACC-T-0001",
+    "split": "train",
+    "as_of": "2026-04-20T14:39:02+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-INS-EMP-T-025#ACC-T-0377",
+    "group_id": "CASE-INS-EMP-T-025#ACC-T-0377",
+    "split": "train",
+    "as_of": "2026-05-25T20:23:27+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-INS-EMP-T-025#ACC-T-PHONE-0005",
+    "group_id": "CASE-INS-EMP-T-025#ACC-T-0377",
+    "split": "train",
+    "as_of": "2026-03-28T15:36:18.203419+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-INS-EMP-T-028#ACC-T-0727",
+    "group_id": "CASE-INS-EMP-T-028#ACC-T-0727",
+    "split": "train",
+    "as_of": "2026-04-19T18:08:42+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-INS-EMP-T-032#ACC-T-PHONE-0019",
+    "group_id": "CASE-INS-EMP-T-032#ACC-T-PHONE-0019",
+    "split": "train",
+    "as_of": "2026-05-02T18:52:18.537550+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-INS-EMP-T-033#ACC-T-0087",
+    "group_id": "CASE-CYC-ACC-T-0803#ACC-T-0803",
+    "split": "train",
+    "as_of": "2026-05-28T10:33:38+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-INS-EMP-T-033#ACC-T-0225",
+    "group_id": "CASE-CYC-ACC-T-0803#ACC-T-0803",
+    "split": "train",
+    "as_of": "2026-05-08T17:33:55+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-INS-EMP-T-033#ACC-T-0636",
+    "group_id": "CASE-CYC-ACC-T-0803#ACC-T-0803",
+    "split": "train",
+    "as_of": "2026-05-11T16:39:32+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-INS-EMP-T-040#ACC-T-0024",
+    "group_id": "CASE-INS-EMP-T-040#ACC-T-0024",
+    "split": "train",
+    "as_of": "2026-08-09T10:46:53+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-INS-EMP-T-041#ACC-T-0015",
+    "group_id": "CASE-INS-EMP-T-041#ACC-T-0015",
+    "split": "train",
+    "as_of": "2026-05-27T16:50:21+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-INS-EMP-T-047#ACC-T-PHONE-0017",
+    "group_id": "CASE-INS-EMP-T-047#ACC-T-PHONE-0017",
+    "split": "train",
+    "as_of": "2026-04-26T20:10:52.187606+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-INS-EMP-T-050#ACC-T-0121",
+    "group_id": "CASE-INS-EMP-T-050#ACC-T-0121",
+    "split": "train",
+    "as_of": "2026-05-20T13:32:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-INS-EMP-T-054#ACC-T-0482",
+    "group_id": "CASE-INS-EMP-T-054#ACC-T-0482",
+    "split": "train",
+    "as_of": "2026-03-05T10:01:44+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-INS-EMP-T-054#ACC-T-0768",
+    "group_id": "CASE-INS-EMP-T-054#ACC-T-0482",
+    "split": "train",
+    "as_of": "2026-03-28T15:34:34+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-INS-EMP-T-057#ACC-T-0326",
+    "group_id": "CASE-INS-EMP-T-028#ACC-T-0727",
+    "split": "train",
+    "as_of": "2026-03-14T12:57:39+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-INS-EMP-T-057#ACC-T-PHONE-0013",
+    "group_id": "CASE-INS-EMP-T-028#ACC-T-0727",
+    "split": "train",
+    "as_of": "2026-03-27T09:40:57.012273+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-INS-EMP-T-058#ACC-T-0098",
+    "group_id": "CASE-INS-EMP-T-058#ACC-T-0098",
+    "split": "train",
+    "as_of": "2026-07-18T16:19:46+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-INS-EMP-T-059#ACC-T-0071",
+    "group_id": "CASE-CYC-ACC-T-0803#ACC-T-0803",
+    "split": "train",
+    "as_of": "2026-03-31T13:37:59+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-INS-EMP-T-059#ACC-T-PHONE-0009",
+    "group_id": "CASE-CYC-ACC-T-0803#ACC-T-0803",
+    "split": "train",
+    "as_of": "2026-04-07T18:00:03.777872+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-INS-EMP-T-060#ACC-T-PHONE-0007",
+    "group_id": "CASE-INS-EMP-T-060#ACC-T-PHONE-0007",
+    "split": "train",
+    "as_of": "2026-03-31T22:05:36.060948+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-INS-EMP-T-062#ACC-T-0460",
+    "group_id": "CASE-INS-EMP-T-007#ACC-T-0536",
+    "split": "train",
+    "as_of": "2026-07-22T11:13:18+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-INS-EMP-T-062#ACC-T-0568",
+    "group_id": "CASE-INS-EMP-T-007#ACC-T-0536",
+    "split": "train",
+    "as_of": "2026-04-17T09:32:32+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-INS-EMP-T-062#ACC-T-PHONE-0001",
+    "group_id": "CASE-INS-EMP-T-007#ACC-T-0536",
+    "split": "train",
+    "as_of": "2026-05-15T10:14:41.726482+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-INS-EMP-T-065#ACC-T-0289",
+    "group_id": "CASE-INS-EMP-T-065#ACC-T-0289",
+    "split": "train",
+    "as_of": "2026-05-11T12:52:47+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-INS-EMP-T-067#ACC-T-0268",
+    "group_id": "CASE-INS-EMP-T-067#ACC-T-0268",
+    "split": "train",
+    "as_of": "2026-07-08T14:16:06+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-INS-EMP-T-067#ACC-T-PHONE-0021",
+    "group_id": "CASE-INS-EMP-T-067#ACC-T-0268",
+    "split": "train",
+    "as_of": "2026-05-12T01:15:43.698541+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-INS-EMP-T-068#ACC-T-0061",
+    "group_id": "CASE-INS-EMP-T-068#ACC-T-0061",
+    "split": "train",
+    "as_of": "2026-05-07T16:57:20+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-INS-EMP-T-068#ACC-T-0152",
+    "group_id": "CASE-INS-EMP-T-068#ACC-T-0061",
+    "split": "train",
+    "as_of": "2026-06-04T14:31:03+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-INS-EMP-T-069#ACC-T-0069",
+    "group_id": "CASE-INS-EMP-T-069#ACC-T-0069",
+    "split": "train",
+    "as_of": "2026-04-16T15:33:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-INS-EMP-T-071#ACC-T-PHONE-0023",
+    "group_id": "CASE-INS-EMP-T-071#ACC-T-PHONE-0023",
+    "split": "train",
+    "as_of": "2026-03-24T01:29:16.072842+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-INS-EMP-T-072#ACC-T-0028",
+    "group_id": "CASE-INS-EMP-T-072#ACC-T-0028",
+    "split": "train",
+    "as_of": "2026-07-10T14:58:19+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-INS-EMP-T-073#ACC-T-0326",
+    "group_id": "CASE-INS-EMP-T-028#ACC-T-0727",
+    "split": "train",
+    "as_of": "2026-05-30T10:30:35+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-INS-EMP-T-074#ACC-T-0460",
+    "group_id": "CASE-INS-EMP-T-007#ACC-T-0536",
+    "split": "train",
+    "as_of": "2026-03-18T05:33:57+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-INS-EMP-T-075#ACC-T-0358",
+    "group_id": "CASE-INS-EMP-T-075#ACC-T-0358",
+    "split": "train",
+    "as_of": "2026-06-11T09:41:17+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-INS-EMP-T-075#ACC-T-PHONE-0015",
+    "group_id": "CASE-INS-EMP-T-075#ACC-T-0358",
+    "split": "train",
+    "as_of": "2026-05-11T21:21:05.330926+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-INS-EMP-T-078#ACC-T-PHONE-0003",
+    "group_id": "CASE-INS-EMP-T-078#ACC-T-PHONE-0003",
+    "split": "train",
+    "as_of": "2026-05-12T01:55:04.512759+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-INS-EMP-T-080#ACC-T-0114",
+    "group_id": "CASE-INS-EMP-T-002#ACC-T-0226",
+    "split": "train",
+    "as_of": "2026-05-27T12:18:40+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-INS-EMP-T-080#ACC-T-0226",
+    "group_id": "CASE-INS-EMP-T-002#ACC-T-0226",
+    "split": "train",
+    "as_of": "2026-07-28T14:13:39+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-INS-EMP-T-081#ACC-T-0504",
+    "group_id": "CASE-INS-EMP-T-081#ACC-T-0504",
+    "split": "train",
+    "as_of": "2026-07-15T13:35:22+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-INS-EMP-T-081#ACC-T-0597",
+    "group_id": "CASE-INS-EMP-T-081#ACC-T-0504",
+    "split": "train",
+    "as_of": "2026-05-03T15:56:41+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-INS-EMP-T-084#ACC-T-0014",
+    "group_id": "CASE-INS-EMP-T-007#ACC-T-0536",
+    "split": "train",
+    "as_of": "2026-03-13T10:42:04+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-INS-EMP-T-085#ACC-T-0066",
+    "group_id": "CASE-INS-EMP-T-085#ACC-T-0066",
+    "split": "train",
+    "as_of": "2026-06-22T15:11:34+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-INS-EMP-T-085#ACC-T-0527",
+    "group_id": "CASE-INS-EMP-T-085#ACC-T-0066",
+    "split": "train",
+    "as_of": "2026-05-22T08:11:27+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-INS-EMP-T-085#ACC-T-PHONE-0011",
+    "group_id": "CASE-INS-EMP-T-085#ACC-T-0066",
+    "split": "train",
+    "as_of": "2026-05-08T13:36:56.674381+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-INS-EMP-T-086#ACC-T-0868",
+    "group_id": "CASE-INS-EMP-T-086#ACC-T-0868",
+    "split": "train",
+    "as_of": "2026-07-25T14:32:34+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-INS-EMP-T-087#ACC-T-0064",
+    "group_id": "CASE-INS-EMP-T-087#ACC-T-0064",
+    "split": "train",
+    "as_of": "2026-03-22T11:48:53+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-INS-EMP-T-088#ACC-T-0091",
+    "group_id": "CASE-INS-EMP-T-088#ACC-T-0091",
+    "split": "train",
+    "as_of": "2026-03-10T09:14:27+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-INS-EMP-T-088#ACC-T-0189",
+    "group_id": "CASE-INS-EMP-T-088#ACC-T-0091",
+    "split": "train",
+    "as_of": "2026-05-12T15:34:48+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-INS-EMP-T-089#ACC-T-0048",
+    "group_id": "CASE-INS-EMP-T-050#ACC-T-0121",
+    "split": "train",
+    "as_of": "2026-03-02T10:08:46+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-INS-EMP-T-090#ACC-T-0254",
+    "group_id": "CASE-INS-EMP-T-090#ACC-T-0254",
+    "split": "train",
+    "as_of": "2026-02-24T09:52:52+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-INS-EMP-T-093#ACC-T-0225",
+    "group_id": "CASE-CYC-ACC-T-0803#ACC-T-0803",
+    "split": "train",
+    "as_of": "2026-03-12T17:39:21+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-INS-EMP-T-094#ACC-T-0360",
+    "group_id": "CASE-INS-EMP-T-007#ACC-T-0536",
+    "split": "train",
+    "as_of": "2026-04-22T06:11:35+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-INS-EMP-T-094#ACC-T-0492",
+    "group_id": "CASE-INS-EMP-T-007#ACC-T-0536",
+    "split": "train",
+    "as_of": "2026-04-02T11:01:36+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-INS-EMP-T-097#ACC-T-0034",
+    "group_id": "CASE-INS-EMP-T-067#ACC-T-0268",
+    "split": "train",
+    "as_of": "2026-03-06T17:58:38+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-INS-EMP-T-097#ACC-T-0268",
+    "group_id": "CASE-INS-EMP-T-067#ACC-T-0268",
+    "split": "train",
+    "as_of": "2026-04-23T17:27:57+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-INS-EMP-T-098#ACC-T-0130",
+    "group_id": "CASE-INS-EMP-T-098#ACC-T-0130",
+    "split": "train",
+    "as_of": "2026-02-17T22:56:42+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-INS-EMP-T-098#ACC-T-0277",
+    "group_id": "CASE-INS-EMP-T-098#ACC-T-0130",
+    "split": "train",
+    "as_of": "2026-03-28T08:14:26+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-INS-EMP-T-098#ACC-T-0505",
+    "group_id": "CASE-INS-EMP-T-098#ACC-T-0130",
+    "split": "train",
+    "as_of": "2026-02-19T11:03:35+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-INS-EMP-T-099#ACC-T-0609",
+    "group_id": "CASE-INS-EMP-T-099#ACC-T-0609",
+    "split": "train",
+    "as_of": "2026-08-10T08:57:29+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-INS-EMP-T-100#ACC-T-0024",
+    "group_id": "CASE-INS-EMP-T-040#ACC-T-0024",
+    "split": "train",
+    "as_of": "2026-03-08T09:15:17+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-INS-EMP-T-A-001#ACC-T-A-0001",
+    "group_id": "CASE-INS-EMP-T-A-001#ACC-T-A-0001",
+    "split": "train",
+    "as_of": "2026-06-11T19:31:25.899392+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "STRUCTURING"
+  },
+  {
+    "case_id": "CASE-INS-EMP-T-A-001#ACC-T-A-0009",
+    "group_id": "CASE-INS-EMP-T-A-001#ACC-T-A-0001",
+    "split": "train",
+    "as_of": "2026-06-03T09:18:51.871899+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "STRUCTURING"
+  },
+  {
+    "case_id": "CASE-INS-EMP-T-A-001#ACC-T-A-0017",
+    "group_id": "CASE-INS-EMP-T-A-001#ACC-T-A-0001",
+    "split": "train",
+    "as_of": "2026-07-02T14:13:09.351235+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "STRUCTURING"
+  },
+  {
+    "case_id": "CASE-INS-EMP-T-A-001#ACC-T-A-0025",
+    "group_id": "CASE-INS-EMP-T-A-001#ACC-T-A-0001",
+    "split": "train",
+    "as_of": "2026-02-15T04:18:29.355735+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "STRUCTURING"
+  },
+  {
+    "case_id": "CASE-INS-EMP-T-A-001#ACC-T-A-0033",
+    "group_id": "CASE-INS-EMP-T-A-001#ACC-T-A-0001",
+    "split": "train",
+    "as_of": "2026-07-13T18:19:01.323244+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "STRUCTURING"
+  },
+  {
+    "case_id": "CASE-INS-EMP-T-A-002#ACC-T-A-0002",
+    "group_id": "CASE-INS-EMP-T-A-002#ACC-T-A-0002",
+    "split": "train",
+    "as_of": "2026-04-04T10:54:23.554777+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "STRUCTURING"
+  },
+  {
+    "case_id": "CASE-INS-EMP-T-A-002#ACC-T-A-0010",
+    "group_id": "CASE-INS-EMP-T-A-002#ACC-T-A-0002",
+    "split": "train",
+    "as_of": "2026-07-06T16:00:54.289693+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "STRUCTURING"
+  },
+  {
+    "case_id": "CASE-INS-EMP-T-A-002#ACC-T-A-0018",
+    "group_id": "CASE-INS-EMP-T-A-002#ACC-T-A-0002",
+    "split": "train",
+    "as_of": "2026-07-03T06:00:43.333668+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "STRUCTURING"
+  },
+  {
+    "case_id": "CASE-INS-EMP-T-A-002#ACC-T-A-0026",
+    "group_id": "CASE-INS-EMP-T-A-002#ACC-T-A-0002",
+    "split": "train",
+    "as_of": "2026-05-27T04:55:21.596768+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "STRUCTURING"
+  },
+  {
+    "case_id": "CASE-INS-EMP-T-A-002#ACC-T-A-0034",
+    "group_id": "CASE-INS-EMP-T-A-002#ACC-T-A-0002",
+    "split": "train",
+    "as_of": "2026-02-21T14:13:36.334099+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "STRUCTURING"
+  },
+  {
+    "case_id": "CASE-INS-EMP-T-A-003#ACC-T-A-0003",
+    "group_id": "CASE-INS-EMP-T-A-003#ACC-T-A-0003",
+    "split": "train",
+    "as_of": "2026-05-31T12:10:00.412127+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "STRUCTURING"
+  },
+  {
+    "case_id": "CASE-INS-EMP-T-A-003#ACC-T-A-0011",
+    "group_id": "CASE-INS-EMP-T-A-003#ACC-T-A-0003",
+    "split": "train",
+    "as_of": "2026-04-01T16:10:56.689303+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "STRUCTURING"
+  },
+  {
+    "case_id": "CASE-INS-EMP-T-A-003#ACC-T-A-0019",
+    "group_id": "CASE-INS-EMP-T-A-003#ACC-T-A-0003",
+    "split": "train",
+    "as_of": "2026-03-19T21:20:30.747177+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "STRUCTURING"
+  },
+  {
+    "case_id": "CASE-INS-EMP-T-A-003#ACC-T-A-0027",
+    "group_id": "CASE-INS-EMP-T-A-003#ACC-T-A-0003",
+    "split": "train",
+    "as_of": "2026-03-23T12:31:16.648286+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "STRUCTURING"
+  },
+  {
+    "case_id": "CASE-INS-EMP-T-A-003#ACC-T-A-0035",
+    "group_id": "CASE-INS-EMP-T-A-003#ACC-T-A-0003",
+    "split": "train",
+    "as_of": "2026-07-11T00:37:07.853804+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "STRUCTURING"
+  },
+  {
+    "case_id": "CASE-INS-EMP-T-A-004#ACC-T-A-0004",
+    "group_id": "CASE-INS-EMP-T-A-004#ACC-T-A-0004",
+    "split": "train",
+    "as_of": "2026-06-23T00:56:00.285797+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "STRUCTURING"
+  },
+  {
+    "case_id": "CASE-INS-EMP-T-A-004#ACC-T-A-0012",
+    "group_id": "CASE-INS-EMP-T-A-004#ACC-T-A-0004",
+    "split": "train",
+    "as_of": "2026-03-20T22:43:31.229591+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "STRUCTURING"
+  },
+  {
+    "case_id": "CASE-INS-EMP-T-A-004#ACC-T-A-0020",
+    "group_id": "CASE-INS-EMP-T-A-004#ACC-T-A-0004",
+    "split": "train",
+    "as_of": "2026-02-13T19:43:30.791113+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "STRUCTURING"
+  },
+  {
+    "case_id": "CASE-INS-EMP-T-A-004#ACC-T-A-0028",
+    "group_id": "CASE-INS-EMP-T-A-004#ACC-T-A-0004",
+    "split": "train",
+    "as_of": "2026-03-31T22:35:54.480967+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "STRUCTURING"
+  },
+  {
+    "case_id": "CASE-INS-EMP-T-A-004#ACC-T-A-0036",
+    "group_id": "CASE-INS-EMP-T-A-004#ACC-T-A-0004",
+    "split": "train",
+    "as_of": "2026-07-30T22:46:44.237455+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "STRUCTURING"
+  },
+  {
+    "case_id": "CASE-INS-EMP-T-A-005#ACC-T-A-0005",
+    "group_id": "CASE-INS-EMP-T-A-005#ACC-T-A-0005",
+    "split": "train",
+    "as_of": "2026-05-09T16:37:46.534553+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "STRUCTURING"
+  },
+  {
+    "case_id": "CASE-INS-EMP-T-A-005#ACC-T-A-0013",
+    "group_id": "CASE-INS-EMP-T-A-005#ACC-T-A-0005",
+    "split": "train",
+    "as_of": "2026-05-05T13:09:05.614494+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "STRUCTURING"
+  },
+  {
+    "case_id": "CASE-INS-EMP-T-A-005#ACC-T-A-0021",
+    "group_id": "CASE-INS-EMP-T-A-005#ACC-T-A-0005",
+    "split": "train",
+    "as_of": "2026-06-13T19:51:12.868687+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "STRUCTURING"
+  },
+  {
+    "case_id": "CASE-INS-EMP-T-A-005#ACC-T-A-0029",
+    "group_id": "CASE-INS-EMP-T-A-005#ACC-T-A-0005",
+    "split": "train",
+    "as_of": "2026-05-11T16:45:09.101172+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "STRUCTURING"
+  },
+  {
+    "case_id": "CASE-INS-EMP-T-A-005#ACC-T-A-0037",
+    "group_id": "CASE-INS-EMP-T-A-005#ACC-T-A-0005",
+    "split": "train",
+    "as_of": "2026-07-11T13:39:39.322761+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "STRUCTURING"
+  },
+  {
+    "case_id": "CASE-INS-EMP-T-A-006#ACC-T-A-0006",
+    "group_id": "CASE-INS-EMP-T-A-006#ACC-T-A-0006",
+    "split": "train",
+    "as_of": "2026-04-19T08:43:12.512839+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "STRUCTURING"
+  },
+  {
+    "case_id": "CASE-INS-EMP-T-A-006#ACC-T-A-0014",
+    "group_id": "CASE-INS-EMP-T-A-006#ACC-T-A-0006",
+    "split": "train",
+    "as_of": "2026-06-25T21:49:25.929888+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "STRUCTURING"
+  },
+  {
+    "case_id": "CASE-INS-EMP-T-A-006#ACC-T-A-0022",
+    "group_id": "CASE-INS-EMP-T-A-006#ACC-T-A-0006",
+    "split": "train",
+    "as_of": "2026-05-10T17:52:16.864445+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "STRUCTURING"
+  },
+  {
+    "case_id": "CASE-INS-EMP-T-A-006#ACC-T-A-0030",
+    "group_id": "CASE-INS-EMP-T-A-006#ACC-T-A-0006",
+    "split": "train",
+    "as_of": "2026-06-24T20:30:04.734891+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "STRUCTURING"
+  },
+  {
+    "case_id": "CASE-INS-EMP-T-A-006#ACC-T-A-0038",
+    "group_id": "CASE-INS-EMP-T-A-006#ACC-T-A-0006",
+    "split": "train",
+    "as_of": "2026-03-08T16:58:27.814100+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "STRUCTURING"
+  },
+  {
+    "case_id": "CASE-INS-EMP-T-A-007#ACC-T-A-0007",
+    "group_id": "CASE-INS-EMP-T-A-007#ACC-T-A-0007",
+    "split": "train",
+    "as_of": "2026-04-28T19:53:00.667853+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "STRUCTURING"
+  },
+  {
+    "case_id": "CASE-INS-EMP-T-A-007#ACC-T-A-0015",
+    "group_id": "CASE-INS-EMP-T-A-007#ACC-T-A-0007",
+    "split": "train",
+    "as_of": "2026-04-12T09:19:28.630910+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "STRUCTURING"
+  },
+  {
+    "case_id": "CASE-INS-EMP-T-A-007#ACC-T-A-0023",
+    "group_id": "CASE-INS-EMP-T-A-007#ACC-T-A-0007",
+    "split": "train",
+    "as_of": "2026-03-21T10:38:21.130911+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "STRUCTURING"
+  },
+  {
+    "case_id": "CASE-INS-EMP-T-A-007#ACC-T-A-0031",
+    "group_id": "CASE-INS-EMP-T-A-007#ACC-T-A-0007",
+    "split": "train",
+    "as_of": "2026-05-08T10:33:27.423877+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "STRUCTURING"
+  },
+  {
+    "case_id": "CASE-INS-EMP-T-A-007#ACC-T-A-0039",
+    "group_id": "CASE-INS-EMP-T-A-007#ACC-T-A-0007",
+    "split": "train",
+    "as_of": "2026-06-21T19:11:45.318494+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "STRUCTURING"
+  },
+  {
+    "case_id": "CASE-INS-EMP-T-A-008#ACC-T-A-0008",
+    "group_id": "CASE-INS-EMP-T-A-008#ACC-T-A-0008",
+    "split": "train",
+    "as_of": "2026-03-30T02:13:25.081078+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "STRUCTURING"
+  },
+  {
+    "case_id": "CASE-INS-EMP-T-A-008#ACC-T-A-0016",
+    "group_id": "CASE-INS-EMP-T-A-008#ACC-T-A-0008",
+    "split": "train",
+    "as_of": "2026-04-23T12:56:49.620002+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "STRUCTURING"
+  },
+  {
+    "case_id": "CASE-INS-EMP-T-A-008#ACC-T-A-0024",
+    "group_id": "CASE-INS-EMP-T-A-008#ACC-T-A-0008",
+    "split": "train",
+    "as_of": "2026-08-09T13:13:46.840988+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "STRUCTURING"
+  },
+  {
+    "case_id": "CASE-INS-EMP-T-A-008#ACC-T-A-0032",
+    "group_id": "CASE-INS-EMP-T-A-008#ACC-T-A-0008",
+    "split": "train",
+    "as_of": "2026-03-23T18:59:55.939634+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "STRUCTURING"
+  },
+  {
+    "case_id": "CASE-INS-EMP-T-A-008#ACC-T-A-0040",
+    "group_id": "CASE-INS-EMP-T-A-008#ACC-T-A-0008",
+    "split": "train",
+    "as_of": "2026-05-17T18:12:16.170196+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "STRUCTURING"
+  },
+  {
+    "case_id": "CASE-INS-EMP-T-B-001#ACC-T-B-0001",
+    "group_id": "CASE-INS-EMP-T-B-001#ACC-T-B-0001",
+    "split": "train",
+    "as_of": "2026-08-03T22:07:24+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "CIRCULAR_FLOW"
+  },
+  {
+    "case_id": "CASE-INS-EMP-T-B-001#ACC-T-B-0013",
+    "group_id": "CASE-INS-EMP-T-B-001#ACC-T-B-0001",
+    "split": "train",
+    "as_of": "2026-03-17T11:49:40+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "CIRCULAR_FLOW"
+  },
+  {
+    "case_id": "CASE-INS-EMP-T-B-001#ACC-T-B-0025",
+    "group_id": "CASE-INS-EMP-T-B-001#ACC-T-B-0001",
+    "split": "train",
+    "as_of": "2026-04-28T17:10:39+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "CIRCULAR_FLOW"
+  },
+  {
+    "case_id": "CASE-INS-EMP-T-B-002#ACC-T-B-0004",
+    "group_id": "CASE-INS-EMP-T-B-002#ACC-T-B-0004",
+    "split": "train",
+    "as_of": "2026-05-29T10:46:04+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "CIRCULAR_FLOW"
+  },
+  {
+    "case_id": "CASE-INS-EMP-T-B-002#ACC-T-B-0016",
+    "group_id": "CASE-INS-EMP-T-B-002#ACC-T-B-0004",
+    "split": "train",
+    "as_of": "2026-04-07T22:29:07+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "CIRCULAR_FLOW"
+  },
+  {
+    "case_id": "CASE-INS-EMP-T-B-002#ACC-T-B-0028",
+    "group_id": "CASE-INS-EMP-T-B-002#ACC-T-B-0004",
+    "split": "train",
+    "as_of": "2026-07-16T16:25:45+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "CIRCULAR_FLOW"
+  },
+  {
+    "case_id": "CASE-INS-EMP-T-B-003#ACC-T-B-0007",
+    "group_id": "CASE-INS-EMP-T-B-003#ACC-T-B-0007",
+    "split": "train",
+    "as_of": "2026-04-20T23:37:44+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "CIRCULAR_FLOW"
+  },
+  {
+    "case_id": "CASE-INS-EMP-T-B-003#ACC-T-B-0019",
+    "group_id": "CASE-INS-EMP-T-B-003#ACC-T-B-0007",
+    "split": "train",
+    "as_of": "2026-04-02T02:27:27+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "CIRCULAR_FLOW"
+  },
+  {
+    "case_id": "CASE-INS-EMP-T-B-004#ACC-T-B-0010",
+    "group_id": "CASE-INS-EMP-T-B-004#ACC-T-B-0010",
+    "split": "train",
+    "as_of": "2026-02-14T23:30:49+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "CIRCULAR_FLOW"
+  },
+  {
+    "case_id": "CASE-INS-EMP-T-B-004#ACC-T-B-0022",
+    "group_id": "CASE-INS-EMP-T-B-004#ACC-T-B-0010",
+    "split": "train",
+    "as_of": "2026-06-05T03:17:48+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "CIRCULAR_FLOW"
+  },
+  {
+    "case_id": "CASE-STR-ACC-T-PAY-0001#ACC-T-PAY-0001",
+    "group_id": "CASE-STR-ACC-T-PAY-0001#ACC-T-PAY-0001",
+    "split": "train",
+    "as_of": "2026-07-31T09:00:54+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-STR-ACC-T-PAY-0063#ACC-T-PAY-0063",
+    "group_id": "CASE-STR-ACC-T-PAY-0063#ACC-T-PAY-0063",
+    "split": "train",
+    "as_of": "2026-07-31T09:00:58+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-CYC-ACC-V-0014#ACC-V-0014",
+    "group_id": "CASE-CYC-ACC-V-0014#ACC-V-0014",
+    "split": "validation",
+    "as_of": "2026-08-21T11:32:28+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-CYC-ACC-V-0193#ACC-V-0193",
+    "group_id": "CASE-CYC-ACC-V-0193#ACC-V-0193",
+    "split": "validation",
+    "as_of": "2026-08-21T13:55:45+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-CYC-ACC-V-POOL-0001#ACC-V-POOL-0001",
+    "group_id": "CASE-CYC-ACC-V-POOL-0001#ACC-V-POOL-0001",
+    "split": "validation",
+    "as_of": "2026-08-22T17:50:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-INS-EMP-V-001#ACC-V-0018",
+    "group_id": "CASE-INS-EMP-V-001#ACC-V-0018",
+    "split": "validation",
+    "as_of": "2026-08-22T12:56:21+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-INS-EMP-V-002#ACC-V-0041",
+    "group_id": "CASE-INS-EMP-V-002#ACC-V-0041",
+    "split": "validation",
+    "as_of": "2026-08-19T14:20:45+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-INS-EMP-V-002#ACC-V-0046",
+    "group_id": "CASE-INS-EMP-V-002#ACC-V-0041",
+    "split": "validation",
+    "as_of": "2026-08-15T17:02:46+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-INS-EMP-V-003#ACC-V-0164",
+    "group_id": "CASE-INS-EMP-V-003#ACC-V-0164",
+    "split": "validation",
+    "as_of": "2026-08-17T12:40:39+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-INS-EMP-V-006#ACC-V-0065",
+    "group_id": "CASE-INS-EMP-V-006#ACC-V-0065",
+    "split": "validation",
+    "as_of": "2026-08-17T10:11:22+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-INS-EMP-V-008#ACC-V-PHONE-0005",
+    "group_id": "CASE-INS-EMP-V-008#ACC-V-PHONE-0005",
+    "split": "validation",
+    "as_of": "2026-08-20T16:49:43.865896+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-INS-EMP-V-009#ACC-V-0026",
+    "group_id": "CASE-INS-EMP-V-009#ACC-V-0026",
+    "split": "validation",
+    "as_of": "2026-08-23T14:27:01+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-INS-EMP-V-009#ACC-V-0087",
+    "group_id": "CASE-INS-EMP-V-009#ACC-V-0026",
+    "split": "validation",
+    "as_of": "2026-08-16T13:40:19+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-INS-EMP-V-009#ACC-V-0139",
+    "group_id": "CASE-INS-EMP-V-009#ACC-V-0026",
+    "split": "validation",
+    "as_of": "2026-08-23T13:02:15+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-INS-EMP-V-010#ACC-V-0073",
+    "group_id": "CASE-INS-EMP-V-010#ACC-V-0073",
+    "split": "validation",
+    "as_of": "2026-08-18T14:08:44+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-INS-EMP-V-010#ACC-V-PHONE-0001",
+    "group_id": "CASE-INS-EMP-V-010#ACC-V-0073",
+    "split": "validation",
+    "as_of": "2026-08-23T00:10:47.847127+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-INS-EMP-V-011#ACC-V-0007",
+    "group_id": "CASE-INS-EMP-V-009#ACC-V-0026",
+    "split": "validation",
+    "as_of": "2026-08-15T15:12:40+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-INS-EMP-V-011#ACC-V-0039",
+    "group_id": "CASE-INS-EMP-V-009#ACC-V-0026",
+    "split": "validation",
+    "as_of": "2026-08-20T22:26:39+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-INS-EMP-V-011#ACC-V-0060",
+    "group_id": "CASE-INS-EMP-V-009#ACC-V-0026",
+    "split": "validation",
+    "as_of": "2026-08-20T01:57:15+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-INS-EMP-V-012#ACC-V-0145",
+    "group_id": "CASE-INS-EMP-V-012#ACC-V-0145",
+    "split": "validation",
+    "as_of": "2026-08-22T12:46:39+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-INS-EMP-V-016#ACC-V-0060",
+    "group_id": "CASE-INS-EMP-V-009#ACC-V-0026",
+    "split": "validation",
+    "as_of": "2026-08-18T04:45:16+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-INS-EMP-V-016#ACC-V-0087",
+    "group_id": "CASE-INS-EMP-V-009#ACC-V-0026",
+    "split": "validation",
+    "as_of": "2026-08-20T16:44:54+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-INS-EMP-V-016#ACC-V-0138",
+    "group_id": "CASE-INS-EMP-V-009#ACC-V-0026",
+    "split": "validation",
+    "as_of": "2026-08-22T03:00:22+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-INS-EMP-V-017#ACC-V-0048",
+    "group_id": "CASE-INS-EMP-V-010#ACC-V-0073",
+    "split": "validation",
+    "as_of": "2026-08-15T18:13:39+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-INS-EMP-V-017#ACC-V-0073",
+    "group_id": "CASE-INS-EMP-V-010#ACC-V-0073",
+    "split": "validation",
+    "as_of": "2026-08-15T16:42:07+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-INS-EMP-V-017#ACC-V-0125",
+    "group_id": "CASE-INS-EMP-V-010#ACC-V-0073",
+    "split": "validation",
+    "as_of": "2026-08-21T18:32:03+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-INS-EMP-V-019#ACC-V-0060",
+    "group_id": "CASE-INS-EMP-V-009#ACC-V-0026",
+    "split": "validation",
+    "as_of": "2026-08-20T01:57:15+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-INS-EMP-V-019#ACC-V-0086",
+    "group_id": "CASE-INS-EMP-V-009#ACC-V-0026",
+    "split": "validation",
+    "as_of": "2026-08-22T06:45:46+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-INS-EMP-V-020#ACC-V-0265",
+    "group_id": "CASE-INS-EMP-V-003#ACC-V-0164",
+    "split": "validation",
+    "as_of": "2026-08-16T13:40:11+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-INS-EMP-V-021#ACC-V-0109",
+    "group_id": "CASE-INS-EMP-V-021#ACC-V-0109",
+    "split": "validation",
+    "as_of": "2026-08-16T13:32:25+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-INS-EMP-V-022#ACC-V-0060",
+    "group_id": "CASE-INS-EMP-V-009#ACC-V-0026",
+    "split": "validation",
+    "as_of": "2026-08-20T13:35:22+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-INS-EMP-V-022#ACC-V-0227",
+    "group_id": "CASE-INS-EMP-V-009#ACC-V-0026",
+    "split": "validation",
+    "as_of": "2026-08-23T22:29:31+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-INS-EMP-V-022#ACC-V-PHONE-0007",
+    "group_id": "CASE-INS-EMP-V-009#ACC-V-0026",
+    "split": "validation",
+    "as_of": "2026-08-21T12:00:29.402582+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-INS-EMP-V-023#ACC-V-0044",
+    "group_id": "CASE-INS-EMP-V-023#ACC-V-0044",
+    "split": "validation",
+    "as_of": "2026-08-22T17:31:24+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-INS-EMP-V-024#ACC-V-PHONE-0009",
+    "group_id": "CASE-INS-EMP-V-024#ACC-V-PHONE-0009",
+    "split": "validation",
+    "as_of": "2026-08-21T11:27:09.874383+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-INS-EMP-V-026#ACC-V-0015",
+    "group_id": "CASE-INS-EMP-V-026#ACC-V-0015",
+    "split": "validation",
+    "as_of": "2026-08-22T17:41:15+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-INS-EMP-V-028#ACC-V-0116",
+    "group_id": "CASE-INS-EMP-V-009#ACC-V-0026",
+    "split": "validation",
+    "as_of": "2026-08-18T13:47:32+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-INS-EMP-V-029#ACC-V-0268",
+    "group_id": "CASE-INS-EMP-V-009#ACC-V-0026",
+    "split": "validation",
+    "as_of": "2026-08-19T01:59:03+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-INS-EMP-V-029#ACC-V-PHONE-0003",
+    "group_id": "CASE-INS-EMP-V-009#ACC-V-0026",
+    "split": "validation",
+    "as_of": "2026-08-21T07:12:06.197098+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-INS-EMP-V-030#ACC-V-0017",
+    "group_id": "CASE-INS-EMP-V-030#ACC-V-0017",
+    "split": "validation",
+    "as_of": "2026-08-21T15:53:02+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-INS-EMP-V-032#ACC-V-0040",
+    "group_id": "CASE-INS-EMP-V-006#ACC-V-0065",
+    "split": "validation",
+    "as_of": "2026-08-22T11:28:24+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-INS-EMP-V-032#ACC-V-0106",
+    "group_id": "CASE-INS-EMP-V-006#ACC-V-0065",
+    "split": "validation",
+    "as_of": "2026-08-18T02:43:25+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-INS-EMP-V-036#ACC-V-0076",
+    "group_id": "CASE-INS-EMP-V-036#ACC-V-0076",
+    "split": "validation",
+    "as_of": "2026-08-23T16:48:16+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-INS-EMP-V-036#ACC-V-0180",
+    "group_id": "CASE-INS-EMP-V-036#ACC-V-0076",
+    "split": "validation",
+    "as_of": "2026-08-15T14:53:06+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-INS-EMP-V-037#ACC-V-0097",
+    "group_id": "CASE-INS-EMP-V-009#ACC-V-0026",
+    "split": "validation",
+    "as_of": "2026-08-23T11:50:10+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-INS-EMP-V-037#ACC-V-0138",
+    "group_id": "CASE-INS-EMP-V-009#ACC-V-0026",
+    "split": "validation",
+    "as_of": "2026-08-19T03:03:49+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-INS-EMP-V-038#ACC-V-0113",
+    "group_id": "CASE-INS-EMP-V-009#ACC-V-0026",
+    "split": "validation",
+    "as_of": "2026-08-22T10:54:27+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-INS-EMP-V-038#ACC-V-0116",
+    "group_id": "CASE-INS-EMP-V-009#ACC-V-0026",
+    "split": "validation",
+    "as_of": "2026-08-19T13:19:51+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-INS-EMP-V-039#ACC-V-0018",
+    "group_id": "CASE-INS-EMP-V-001#ACC-V-0018",
+    "split": "validation",
+    "as_of": "2026-08-22T12:56:21+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-INS-EMP-V-040#ACC-V-0036",
+    "group_id": "CASE-INS-EMP-V-040#ACC-V-0036",
+    "split": "validation",
+    "as_of": "2026-08-22T17:37:35+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-INS-EMP-V-A-001#ACC-V-A-0001",
+    "group_id": "CASE-INS-EMP-V-A-001#ACC-V-A-0001",
+    "split": "validation",
+    "as_of": "2026-08-19T08:09:47.185376+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "STRUCTURING"
+  },
+  {
+    "case_id": "CASE-INS-EMP-V-A-001#ACC-V-A-0004",
+    "group_id": "CASE-INS-EMP-V-A-001#ACC-V-A-0001",
+    "split": "validation",
+    "as_of": "2026-08-19T23:42:06.343113+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "STRUCTURING"
+  },
+  {
+    "case_id": "CASE-INS-EMP-V-A-001#ACC-V-A-0007",
+    "group_id": "CASE-INS-EMP-V-A-001#ACC-V-A-0001",
+    "split": "validation",
+    "as_of": "2026-08-22T18:01:34.179996+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "STRUCTURING"
+  },
+  {
+    "case_id": "CASE-INS-EMP-V-A-001#ACC-V-A-0010",
+    "group_id": "CASE-INS-EMP-V-A-001#ACC-V-A-0001",
+    "split": "validation",
+    "as_of": "2026-08-15T16:42:07.600716+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "STRUCTURING"
+  },
+  {
+    "case_id": "CASE-INS-EMP-V-A-002#ACC-V-A-0002",
+    "group_id": "CASE-INS-EMP-V-A-002#ACC-V-A-0002",
+    "split": "validation",
+    "as_of": "2026-08-14T18:04:11.269563+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "STRUCTURING"
+  },
+  {
+    "case_id": "CASE-INS-EMP-V-A-002#ACC-V-A-0005",
+    "group_id": "CASE-INS-EMP-V-A-002#ACC-V-A-0002",
+    "split": "validation",
+    "as_of": "2026-08-19T16:44:25.042494+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "STRUCTURING"
+  },
+  {
+    "case_id": "CASE-INS-EMP-V-A-002#ACC-V-A-0008",
+    "group_id": "CASE-INS-EMP-V-A-002#ACC-V-A-0002",
+    "split": "validation",
+    "as_of": "2026-08-22T17:16:32.016217+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "STRUCTURING"
+  },
+  {
+    "case_id": "CASE-INS-EMP-V-A-003#ACC-V-A-0003",
+    "group_id": "CASE-INS-EMP-V-A-003#ACC-V-A-0003",
+    "split": "validation",
+    "as_of": "2026-08-14T20:52:37.563628+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "STRUCTURING"
+  },
+  {
+    "case_id": "CASE-INS-EMP-V-A-003#ACC-V-A-0006",
+    "group_id": "CASE-INS-EMP-V-A-003#ACC-V-A-0003",
+    "split": "validation",
+    "as_of": "2026-08-23T22:27:42.936276+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "STRUCTURING"
+  },
+  {
+    "case_id": "CASE-INS-EMP-V-A-003#ACC-V-A-0009",
+    "group_id": "CASE-INS-EMP-V-A-003#ACC-V-A-0003",
+    "split": "validation",
+    "as_of": "2026-08-22T18:48:38.533024+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "STRUCTURING"
+  },
+  {
+    "case_id": "CASE-INS-EMP-V-B-001#ACC-V-B-0001",
+    "group_id": "CASE-INS-EMP-V-B-001#ACC-V-B-0001",
+    "split": "validation",
+    "as_of": "2026-08-23T21:29:40+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "CIRCULAR_FLOW"
+  },
+  {
+    "case_id": "CASE-INS-EMP-V-B-001#ACC-V-B-0007",
+    "group_id": "CASE-INS-EMP-V-B-001#ACC-V-B-0001",
+    "split": "validation",
+    "as_of": "2026-08-19T23:40:33+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "CIRCULAR_FLOW"
+  },
+  {
+    "case_id": "CASE-INS-EMP-V-B-002#ACC-V-B-0004",
+    "group_id": "CASE-INS-EMP-V-B-002#ACC-V-B-0004",
+    "split": "validation",
+    "as_of": "2026-08-23T00:28:19+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "CIRCULAR_FLOW"
+  },
+  {
+    "case_id": "CASE-INS-EMP-V-B-002#ACC-V-B-0010",
+    "group_id": "CASE-INS-EMP-V-B-002#ACC-V-B-0004",
+    "split": "validation",
+    "as_of": "2026-08-17T19:27:49+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "CIRCULAR_FLOW"
+  },
+  {
+    "case_id": "CASE-CYC-ACC-H-0133#ACC-H-0133",
+    "group_id": "CASE-CYC-ACC-H-0133#ACC-H-0133",
+    "split": "test",
+    "as_of": "2026-10-01T16:18:28+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-CYC-ACC-H-0303#ACC-H-0303",
+    "group_id": "CASE-CYC-ACC-H-0303#ACC-H-0303",
+    "split": "test",
+    "as_of": "2026-09-12T17:41:33+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-CYC-ACC-H-L4-0001#ACC-H-L4-0001",
+    "group_id": "CASE-CYC-ACC-H-L4-0001#ACC-H-L4-0001",
+    "split": "test",
+    "as_of": "2026-10-08T17:50:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-CYC-ACC-H-L4-0004#ACC-H-L4-0004",
+    "group_id": "CASE-CYC-ACC-H-L4-0004#ACC-H-L4-0004",
+    "split": "test",
+    "as_of": "2026-10-08T17:50:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-INS-EMP-H-001#ACC-H-0009",
+    "group_id": "CASE-INS-EMP-H-001#ACC-H-0009",
+    "split": "test",
+    "as_of": "2026-09-07T14:03:17+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-INS-EMP-H-002#ACC-H-0023",
+    "group_id": "CASE-INS-EMP-H-002#ACC-H-0023",
+    "split": "test",
+    "as_of": "2026-10-09T12:50:43+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-INS-EMP-H-003#ACC-H-0024",
+    "group_id": "CASE-INS-EMP-H-003#ACC-H-0024",
+    "split": "test",
+    "as_of": "2026-09-02T18:28:01+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-INS-EMP-H-003#ACC-H-0259",
+    "group_id": "CASE-INS-EMP-H-003#ACC-H-0024",
+    "split": "test",
+    "as_of": "2026-09-02T08:26:24+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-INS-EMP-H-004#ACC-H-0165",
+    "group_id": "CASE-INS-EMP-H-004#ACC-H-0165",
+    "split": "test",
+    "as_of": "2026-08-29T15:01:24+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-INS-EMP-H-005#ACC-H-0009",
+    "group_id": "CASE-INS-EMP-H-001#ACC-H-0009",
+    "split": "test",
+    "as_of": "2026-09-24T17:24:02+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-INS-EMP-H-008#ACC-H-0084",
+    "group_id": "CASE-INS-EMP-H-008#ACC-H-0084",
+    "split": "test",
+    "as_of": "2026-09-23T18:36:01+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-INS-EMP-H-009#ACC-H-0048",
+    "group_id": "CASE-INS-EMP-H-001#ACC-H-0009",
+    "split": "test",
+    "as_of": "2026-08-27T12:19:47+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-INS-EMP-H-009#ACC-H-0074",
+    "group_id": "CASE-INS-EMP-H-001#ACC-H-0009",
+    "split": "test",
+    "as_of": "2026-09-21T14:47:05+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-INS-EMP-H-012#ACC-H-0026",
+    "group_id": "CASE-INS-EMP-H-012#ACC-H-0026",
+    "split": "test",
+    "as_of": "2026-09-22T14:44:44+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-INS-EMP-H-013#ACC-H-0036",
+    "group_id": "CASE-INS-EMP-H-013#ACC-H-0036",
+    "split": "test",
+    "as_of": "2026-09-11T13:29:57+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-INS-EMP-H-014#ACC-H-L3-0011",
+    "group_id": "CASE-INS-EMP-H-014#ACC-H-L3-0011",
+    "split": "test",
+    "as_of": "2026-09-22T20:59:04.328637+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-INS-EMP-H-015#ACC-H-0240",
+    "group_id": "CASE-INS-EMP-H-001#ACC-H-0009",
+    "split": "test",
+    "as_of": "2026-09-30T18:33:07+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-INS-EMP-H-017#ACC-H-0006",
+    "group_id": "CASE-INS-EMP-H-017#ACC-H-0006",
+    "split": "test",
+    "as_of": "2026-10-01T03:27:19+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-INS-EMP-H-020#ACC-H-0037",
+    "group_id": "CASE-INS-EMP-H-020#ACC-H-0037",
+    "split": "test",
+    "as_of": "2026-10-08T09:43:49+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-INS-EMP-H-020#ACC-H-0103",
+    "group_id": "CASE-INS-EMP-H-020#ACC-H-0037",
+    "split": "test",
+    "as_of": "2026-09-02T18:14:22+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-INS-EMP-H-020#ACC-H-0265",
+    "group_id": "CASE-INS-EMP-H-020#ACC-H-0037",
+    "split": "test",
+    "as_of": "2026-10-04T15:00:39+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-INS-EMP-H-020#ACC-H-L3-0007",
+    "group_id": "CASE-INS-EMP-H-020#ACC-H-0037",
+    "split": "test",
+    "as_of": "2026-10-05T01:11:40.478154+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-INS-EMP-H-021#ACC-H-0135",
+    "group_id": "CASE-INS-EMP-H-001#ACC-H-0009",
+    "split": "test",
+    "as_of": "2026-10-06T08:09:04+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-INS-EMP-H-021#ACC-H-L3-0009",
+    "group_id": "CASE-INS-EMP-H-001#ACC-H-0009",
+    "split": "test",
+    "as_of": "2026-09-27T11:24:14.650359+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-INS-EMP-H-022#ACC-H-0043",
+    "group_id": "CASE-INS-EMP-H-022#ACC-H-0043",
+    "split": "test",
+    "as_of": "2026-10-03T22:13:48+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-INS-EMP-H-024#ACC-H-0085",
+    "group_id": "CASE-INS-EMP-H-024#ACC-H-0085",
+    "split": "test",
+    "as_of": "2026-09-03T18:08:09+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-INS-EMP-H-025#ACC-H-0088",
+    "group_id": "CASE-INS-EMP-H-025#ACC-H-0088",
+    "split": "test",
+    "as_of": "2026-10-04T08:14:54+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-INS-EMP-H-026#ACC-H-0045",
+    "group_id": "CASE-INS-EMP-H-001#ACC-H-0009",
+    "split": "test",
+    "as_of": "2026-09-21T16:38:48+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-INS-EMP-H-026#ACC-H-0135",
+    "group_id": "CASE-INS-EMP-H-001#ACC-H-0009",
+    "split": "test",
+    "as_of": "2026-09-21T18:10:08+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-INS-EMP-H-027#ACC-H-L3-0015",
+    "group_id": "CASE-INS-EMP-H-027#ACC-H-L3-0015",
+    "split": "test",
+    "as_of": "2026-09-27T07:05:13.336787+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-INS-EMP-H-029#ACC-H-0004",
+    "group_id": "CASE-INS-EMP-H-029#ACC-H-0004",
+    "split": "test",
+    "as_of": "2026-10-01T14:38:35+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-INS-EMP-H-029#ACC-H-0131",
+    "group_id": "CASE-INS-EMP-H-029#ACC-H-0004",
+    "split": "test",
+    "as_of": "2026-09-25T08:56:06+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-INS-EMP-H-030#ACC-H-0335",
+    "group_id": "CASE-INS-EMP-H-030#ACC-H-0335",
+    "split": "test",
+    "as_of": "2026-08-28T00:28:56+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-INS-EMP-H-031#ACC-H-0129",
+    "group_id": "CASE-INS-EMP-H-031#ACC-H-0129",
+    "split": "test",
+    "as_of": "2026-10-02T03:51:19+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-INS-EMP-H-035#ACC-H-L3-0019",
+    "group_id": "CASE-INS-EMP-H-035#ACC-H-L3-0019",
+    "split": "test",
+    "as_of": "2026-10-03T06:28:40.212496+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-INS-EMP-H-037#ACC-H-0196",
+    "group_id": "CASE-INS-EMP-H-037#ACC-H-0196",
+    "split": "test",
+    "as_of": "2026-09-25T14:51:29+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-INS-EMP-H-038#ACC-H-0079",
+    "group_id": "CASE-INS-EMP-H-038#ACC-H-0079",
+    "split": "test",
+    "as_of": "2026-09-27T13:22:37+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-INS-EMP-H-038#ACC-H-0164",
+    "group_id": "CASE-INS-EMP-H-038#ACC-H-0079",
+    "split": "test",
+    "as_of": "2026-09-12T19:05:34+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-INS-EMP-H-038#ACC-H-0264",
+    "group_id": "CASE-INS-EMP-H-038#ACC-H-0079",
+    "split": "test",
+    "as_of": "2026-08-29T14:58:13+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-INS-EMP-H-038#ACC-H-0314",
+    "group_id": "CASE-INS-EMP-H-038#ACC-H-0079",
+    "split": "test",
+    "as_of": "2026-09-15T17:49:44+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-INS-EMP-H-038#ACC-H-L3-0013",
+    "group_id": "CASE-INS-EMP-H-038#ACC-H-0079",
+    "split": "test",
+    "as_of": "2026-10-08T04:18:01.651534+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-INS-EMP-H-039#ACC-H-0385",
+    "group_id": "CASE-INS-EMP-H-001#ACC-H-0009",
+    "split": "test",
+    "as_of": "2026-10-07T16:35:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-INS-EMP-H-040#ACC-H-0093",
+    "group_id": "CASE-INS-EMP-H-003#ACC-H-0024",
+    "split": "test",
+    "as_of": "2026-10-08T12:05:52+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-INS-EMP-H-041#ACC-H-0102",
+    "group_id": "CASE-INS-EMP-H-041#ACC-H-0102",
+    "split": "test",
+    "as_of": "2026-10-04T17:37:17+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-INS-EMP-H-041#ACC-H-0104",
+    "group_id": "CASE-INS-EMP-H-041#ACC-H-0102",
+    "split": "test",
+    "as_of": "2026-09-04T10:12:44+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-INS-EMP-H-043#ACC-H-0233",
+    "group_id": "CASE-INS-EMP-H-043#ACC-H-0233",
+    "split": "test",
+    "as_of": "2026-09-12T08:20:07+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-INS-EMP-H-043#ACC-H-L3-0001",
+    "group_id": "CASE-INS-EMP-H-043#ACC-H-0233",
+    "split": "test",
+    "as_of": "2026-09-26T18:13:57.550278+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-INS-EMP-H-047#ACC-H-0317",
+    "group_id": "CASE-INS-EMP-H-017#ACC-H-0006",
+    "split": "test",
+    "as_of": "2026-08-26T17:16:14+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-INS-EMP-H-048#ACC-H-0305",
+    "group_id": "CASE-INS-EMP-H-048#ACC-H-0305",
+    "split": "test",
+    "as_of": "2026-09-21T10:17:11+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-INS-EMP-H-050#ACC-H-0209",
+    "group_id": "CASE-INS-EMP-H-008#ACC-H-0084",
+    "split": "test",
+    "as_of": "2026-10-02T15:54:49+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-INS-EMP-H-051#ACC-H-L3-0005",
+    "group_id": "CASE-INS-EMP-H-051#ACC-H-L3-0005",
+    "split": "test",
+    "as_of": "2026-10-01T03:33:37.120552+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-INS-EMP-H-053#ACC-H-0285",
+    "group_id": "CASE-INS-EMP-H-053#ACC-H-0285",
+    "split": "test",
+    "as_of": "2026-09-24T16:57:13+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-INS-EMP-H-057#ACC-H-0151",
+    "group_id": "CASE-INS-EMP-H-057#ACC-H-0151",
+    "split": "test",
+    "as_of": "2026-09-05T12:12:02+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-INS-EMP-H-057#ACC-H-L3-0017",
+    "group_id": "CASE-INS-EMP-H-057#ACC-H-0151",
+    "split": "test",
+    "as_of": "2026-09-19T22:50:40.691424+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-INS-EMP-H-059#ACC-H-0223",
+    "group_id": "CASE-INS-EMP-H-030#ACC-H-0335",
+    "split": "test",
+    "as_of": "2026-09-19T21:04:47+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-INS-EMP-H-059#ACC-H-0335",
+    "group_id": "CASE-INS-EMP-H-030#ACC-H-0335",
+    "split": "test",
+    "as_of": "2026-09-04T14:41:09+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-INS-EMP-H-059#ACC-H-L3-0003",
+    "group_id": "CASE-INS-EMP-H-030#ACC-H-0335",
+    "split": "test",
+    "as_of": "2026-09-17T02:16:10.737680+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-INS-EMP-H-060#ACC-H-0123",
+    "group_id": "CASE-INS-EMP-H-060#ACC-H-0123",
+    "split": "test",
+    "as_of": "2026-09-11T08:36:26+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-INS-EMP-H-A2-001#ACC-H-A2-0001",
+    "group_id": "CASE-INS-EMP-H-A2-001#ACC-H-A2-0001",
+    "split": "test",
+    "as_of": "2026-09-21T13:38:34.366181+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "STRUCTURING"
+  },
+  {
+    "case_id": "CASE-INS-EMP-H-A2-001#ACC-H-A2-0002",
+    "group_id": "CASE-INS-EMP-H-A2-001#ACC-H-A2-0001",
+    "split": "test",
+    "as_of": "2026-09-07T03:31:05.144058+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "STRUCTURING"
+  },
+  {
+    "case_id": "CASE-INS-EMP-H-A2-001#ACC-H-A2-0003",
+    "group_id": "CASE-INS-EMP-H-A2-001#ACC-H-A2-0001",
+    "split": "test",
+    "as_of": "2026-09-17T22:58:14.224679+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "STRUCTURING"
+  },
+  {
+    "case_id": "CASE-INS-EMP-H-A2-001#ACC-H-A2-0004",
+    "group_id": "CASE-INS-EMP-H-A2-001#ACC-H-A2-0001",
+    "split": "test",
+    "as_of": "2026-08-29T00:59:52.520221+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "STRUCTURING"
+  },
+  {
+    "case_id": "CASE-INS-EMP-H-A2-001#ACC-H-A2-0005",
+    "group_id": "CASE-INS-EMP-H-A2-001#ACC-H-A2-0001",
+    "split": "test",
+    "as_of": "2026-10-07T23:51:05.715142+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "STRUCTURING"
+  },
+  {
+    "case_id": "CASE-INS-EMP-H-A2-001#ACC-H-A2-0006",
+    "group_id": "CASE-INS-EMP-H-A2-001#ACC-H-A2-0001",
+    "split": "test",
+    "as_of": "2026-09-16T14:12:43.336216+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "STRUCTURING"
+  },
+  {
+    "case_id": "CASE-INS-EMP-H-A2-001#ACC-H-A2-0007",
+    "group_id": "CASE-INS-EMP-H-A2-001#ACC-H-A2-0001",
+    "split": "test",
+    "as_of": "2026-09-05T22:24:32.434910+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "STRUCTURING"
+  },
+  {
+    "case_id": "CASE-INS-EMP-H-A2-001#ACC-H-A2-0008",
+    "group_id": "CASE-INS-EMP-H-A2-001#ACC-H-A2-0001",
+    "split": "test",
+    "as_of": "2026-09-30T13:43:57.306059+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "STRUCTURING"
+  },
+  {
+    "case_id": "CASE-INS-EMP-H-A2-001#ACC-H-A2-0009",
+    "group_id": "CASE-INS-EMP-H-A2-001#ACC-H-A2-0001",
+    "split": "test",
+    "as_of": "2026-08-27T05:41:37.880503+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "STRUCTURING"
+  },
+  {
+    "case_id": "CASE-INS-EMP-H-A2-001#ACC-H-A2-0010",
+    "group_id": "CASE-INS-EMP-H-A2-001#ACC-H-A2-0001",
+    "split": "test",
+    "as_of": "2026-09-30T13:38:48.552156+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "STRUCTURING"
+  },
+  {
+    "case_id": "CASE-INS-EMP-H-A2-001#ACC-H-A2-0011",
+    "group_id": "CASE-INS-EMP-H-A2-001#ACC-H-A2-0001",
+    "split": "test",
+    "as_of": "2026-08-27T18:24:56.782478+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "STRUCTURING"
+  },
+  {
+    "case_id": "CASE-INS-EMP-H-A2-001#ACC-H-A2-0012",
+    "group_id": "CASE-INS-EMP-H-A2-001#ACC-H-A2-0001",
+    "split": "test",
+    "as_of": "2026-10-07T17:31:02.888941+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "STRUCTURING"
+  },
+  {
+    "case_id": "CASE-INS-EMP-H-A2-001#ACC-H-A2-0013",
+    "group_id": "CASE-INS-EMP-H-A2-001#ACC-H-A2-0001",
+    "split": "test",
+    "as_of": "2026-09-23T06:29:36.555045+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "STRUCTURING"
+  },
+  {
+    "case_id": "CASE-INS-EMP-H-A2-001#ACC-H-A2-0014",
+    "group_id": "CASE-INS-EMP-H-A2-001#ACC-H-A2-0001",
+    "split": "test",
+    "as_of": "2026-09-28T19:19:05.541940+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "STRUCTURING"
+  },
+  {
+    "case_id": "CASE-INS-EMP-H-A2-001#ACC-H-A2-0015",
+    "group_id": "CASE-INS-EMP-H-A2-001#ACC-H-A2-0001",
+    "split": "test",
+    "as_of": "2026-09-27T17:19:01.648198+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "STRUCTURING"
+  },
+  {
+    "case_id": "CASE-INS-EMP-H-B2-001#ACC-H-B2-0001",
+    "group_id": "CASE-INS-EMP-H-B2-001#ACC-H-B2-0001",
+    "split": "test",
+    "as_of": "2026-09-11T18:23:54+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "CIRCULAR_FLOW"
+  },
+  {
+    "case_id": "CASE-INS-EMP-H-B2-001#ACC-H-B2-0005",
+    "group_id": "CASE-INS-EMP-H-B2-001#ACC-H-B2-0001",
+    "split": "test",
+    "as_of": "2026-08-29T13:48:54+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "CIRCULAR_FLOW"
+  },
+  {
+    "case_id": "CASE-INS-EMP-H-B2-001#ACC-H-B2-0009",
+    "group_id": "CASE-INS-EMP-H-B2-001#ACC-H-B2-0001",
+    "split": "test",
+    "as_of": "2026-10-08T12:19:39+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "CIRCULAR_FLOW"
+  },
+  {
+    "case_id": "CASE-INS-EMP-H-D1#ACC-H-D1-SRC",
+    "group_id": "CASE-INS-EMP-H-D1#ACC-H-D1-SRC",
+    "split": "test",
+    "as_of": "2026-10-09T11:30:00+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "STRUCTURING"
+  },
+  {
+    "case_id": "CASE-STR-ACC-H-L1-0001#ACC-H-L1-0001",
+    "group_id": "CASE-STR-ACC-H-L1-0001#ACC-H-L1-0001",
+    "split": "test",
+    "as_of": "2026-09-26T09:00:58.500000+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  }
+]

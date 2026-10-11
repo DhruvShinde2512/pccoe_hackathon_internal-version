@@ -1,0 +1,239 @@
+{
+  "benchmark": "CERT r4.2 employee-day behavior, curated daily counts",
+  "model_id": "3ee718f5a2a01c1a",
+  "dataset_sha256": "c1f57dc363ba480aa3d91a88f63e79c4bdc2ade8ee34ddbc15cb5c14ebb63b77",
+  "feature_version": "employee-daily-temporal-v1",
+  "training_device": "cuda",
+  "xgboost_training_device": "cuda",
+  "threshold_policy": "maximum validation F1; ties choose higher threshold; no test tuning",
+  "unit": "employee_day",
+  "split_counts": {
+    "train": {
+      "rows": 101514,
+      "positive_days": 248,
+      "employees": 600,
+      "positive_employees": 14
+    },
+    "validation": {
+      "rows": 15457,
+      "positive_days": 49,
+      "employees": 189,
+      "positive_employees": 7
+    },
+    "test": {
+      "rows": 17035,
+      "positive_days": 44,
+      "employees": 179,
+      "positive_employees": 2
+    }
+  },
+  "metrics": {
+    "autoencoder": {
+      "unit": "employee_day",
+      "count": 17035,
+      "positive_count": 44,
+      "negative_count": 16991,
+      "threshold": 1.5941812992095947,
+      "tp": 1,
+      "fp": 18,
+      "fn": 43,
+      "tn": 16973,
+      "precision": 0.05263157894736842,
+      "recall": 0.022727272727272728,
+      "false_positive_rate": 0.0010593843799658643,
+      "average_precision": 0.038397509311569274
+    },
+    "isolation_forest": {
+      "unit": "employee_day",
+      "count": 17035,
+      "positive_count": 44,
+      "negative_count": 16991,
+      "threshold": 0.14795336149655625,
+      "tp": 0,
+      "fp": 35,
+      "fn": 44,
+      "tn": 16956,
+      "precision": 0.0,
+      "recall": 0.0,
+      "false_positive_rate": 0.002059914072155847,
+      "average_precision": 0.006888766780016133
+    },
+    "xgboost": {
+      "unit": "employee_day",
+      "count": 17035,
+      "positive_count": 44,
+      "negative_count": 16991,
+      "threshold": 0.8757529258728027,
+      "tp": 32,
+      "fp": 3,
+      "fn": 12,
+      "tn": 16988,
+      "precision": 0.9142857142857143,
+      "recall": 0.7272727272727273,
+      "false_positive_rate": 0.00017656406332764406,
+      "average_precision": 0.8776518257714647
+    }
+  },
+  "employee_metrics": {
+    "autoencoder": {
+      "unit": "employee_over_test_period",
+      "count": 179,
+      "positive_count": 2,
+      "negative_count": 177,
+      "threshold": 1.5941812992095947,
+      "tp": 1,
+      "fp": 12,
+      "fn": 1,
+      "tn": 165,
+      "precision": 0.07692307692307693,
+      "recall": 0.5,
+      "false_positive_rate": 0.06779661016949153,
+      "average_precision": 0.27941176470588236
+    },
+    "isolation_forest": {
+      "unit": "employee_over_test_period",
+      "count": 179,
+      "positive_count": 2,
+      "negative_count": 177,
+      "threshold": 0.14795336149655625,
+      "tp": 0,
+      "fp": 16,
+      "fn": 2,
+      "tn": 161,
+      "precision": 0.0,
+      "recall": 0.0,
+      "false_positive_rate": 0.0903954802259887,
+      "average_precision": 0.027252906976744186
+    },
+    "xgboost": {
+      "unit": "employee_over_test_period",
+      "count": 179,
+      "positive_count": 2,
+      "negative_count": 177,
+      "threshold": 0.8757529258728027,
+      "tp": 1,
+      "fp": 1,
+      "fn": 1,
+      "tn": 176,
+      "precision": 0.5,
+      "recall": 0.5,
+      "false_positive_rate": 0.005649717514124294,
+      "average_precision": 0.6666666666666666
+    }
+  },
+  "subgroup_metrics": {
+    "autoencoder": {
+      "background_after_hours": {
+        "unit": "employee_day",
+        "count": 2107,
+        "positive_count": 0,
+        "negative_count": 2107,
+        "threshold": 1.5941812992095947,
+        "tp": 0,
+        "fp": 12,
+        "fn": 0,
+        "tn": 2095,
+        "precision": 0.0,
+        "recall": null,
+        "false_positive_rate": 0.005695301376364499,
+        "average_precision": null
+      },
+      "background_usb_usage": {
+        "unit": "employee_day",
+        "count": 2075,
+        "positive_count": 0,
+        "negative_count": 2075,
+        "threshold": 1.5941812992095947,
+        "tp": 0,
+        "fp": 4,
+        "fn": 0,
+        "tn": 2071,
+        "precision": 0.0,
+        "recall": null,
+        "false_positive_rate": 0.0019277108433734939,
+        "average_precision": null
+      }
+    },
+    "isolation_forest": {
+      "background_after_hours": {
+        "unit": "employee_day",
+        "count": 2107,
+        "positive_count": 0,
+        "negative_count": 2107,
+        "threshold": 0.14795336149655625,
+        "tp": 0,
+        "fp": 33,
+        "fn": 0,
+        "tn": 2074,
+        "precision": 0.0,
+        "recall": null,
+        "false_positive_rate": 0.01566207878500237,
+        "average_precision": null
+      },
+      "background_usb_usage": {
+        "unit": "employee_day",
+        "count": 2075,
+        "positive_count": 0,
+        "negative_count": 2075,
+        "threshold": 0.14795336149655625,
+        "tp": 0,
+        "fp": 11,
+        "fn": 0,
+        "tn": 2064,
+        "precision": 0.0,
+        "recall": null,
+        "false_positive_rate": 0.005301204819277108,
+        "average_precision": null
+      }
+    },
+    "xgboost": {
+      "background_after_hours": {
+        "unit": "employee_day",
+        "count": 2107,
+        "positive_count": 0,
+        "negative_count": 2107,
+        "threshold": 0.8757529258728027,
+        "tp": 0,
+        "fp": 0,
+        "fn": 0,
+        "tn": 2107,
+        "precision": 0.0,
+        "recall": null,
+        "false_positive_rate": 0.0,
+        "average_precision": null
+      },
+      "background_usb_usage": {
+        "unit": "employee_day",
+        "count": 2075,
+        "positive_count": 0,
+        "negative_count": 2075,
+        "threshold": 0.8757529258728027,
+        "tp": 0,
+        "fp": 0,
+        "fn": 0,
+        "tn": 2075,
+        "precision": 0.0,
+        "recall": null,
+        "false_positive_rate": 0.0,
+        "average_precision": null
+      }
+    }
+  },
+  "tree_shap": {
+    "method": "exact native TreeSHAP",
+    "sample_rows": 1000,
+    "max_additivity_error": 9.5367431640625e-06,
+    "units": "positive-class log odds"
+  },
+  "label_assumption": "A recorded employee-day is positive when it overlaps that employee's official r4.2 incident start/end interval. Other activity on the same day can be benign. Labels are not event-level guilt.",
+  "limitations": [
+    "Synthetic workplace activity, not bank employee-to-account links",
+    "Daily aggregation supplied by a third-party curator; raw r4.2 logs not independently reconstructed",
+    "Only two positive employees in this fixed held-out time/group split",
+    "r1 contains background behavior and is retained as reference, not labeled malicious training data",
+    "No personality, sentiment, identity or label fields used as model features",
+    "Classifier scores are not calibrated probabilities",
+    "Auxiliary employee model; no learned joint association with AMLSim accounts",
+    "F1 operating threshold does not impose a bank deployment false-positive target"
+  ]
+}

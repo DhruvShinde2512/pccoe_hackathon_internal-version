@@ -1,0 +1,164 @@
+/**
+ * @file Case revision history: the audit trail of how and why a case's priority changed.
+ *
+ * Newest revision first. Each entry shows the risk change (V_prev -> V_new), the events that
+ * triggered it (with "arrived late" badges for out-of-order evidence), the structured diff, and
+ * the explanation: written by the local LLM when available, otherwise the deterministic template
+ * stored with the revision. Revisions of cases merged into this one appear inline (lineage).
+ */
+
+import { ArrowRight, Clock3, GitMerge, History, Sparkles, TrendingDown, TrendingUp, FilePlus2, FileCog } from 'lucide-react';
+import { formatDateTime } from '../utils/format';
+
+const RISK_CHIP = {
+  CRITICAL: 'bg-red-500/15 text-red-300 ring-red-500/40',
+  HIGH: 'bg-orange-500/15 text-orange-300 ring-orange-500/40',
+  MEDIUM: 'bg-amber-500/15 text-amber-300 ring-amber-500/40',
+  LOW: 'bg-emerald-500/15 text-emerald-300 ring-emerald-500/40',
+};
+
+const CHANGE_META = {
+  CREATED: { label: 'Case opened', Icon: FilePlus2, dot: 'bg-sky-500' },
+  ESCALATED: { label: 'Escalated', Icon: TrendingUp, dot: 'bg-red-500' },
+  DEESCALATED: { label: 'De-escalated', Icon: TrendingDown, dot: 'bg-emerald-500' },
+  EVIDENCE_ADDED: { label: 'Evidence added', Icon: FileCog, dot: 'bg-slate-500' },
+  MERGED: { label: 'Merged', Icon: GitMerge, dot: 'bg-violet-500' },
+  RECOMPUTED: { label: 'Recomputed', Icon: FileCog, dot: 'bg-slate-500' },
+};
+
+function RiskChip({ level }) {
+  if (!level) return null;
+  return (
+    <span className={`rounded px-1.5 py-0.5 text-[10px] font-bold tracking-wider ring-1 ring-inset ${RISK_CHIP[level] ?? RISK_CHIP.LOW}`}>
+      {level}
+    </span>
+  );
+}
+
+function lateness(seconds) {
+  if (!seconds) return null;
+  const minutes = Math.round(seconds / 60);
+  return minutes >= 60 ? `${Math.floor(minutes / 60)}h ${String(minutes % 60).padStart(2, '0')}m late` : `${minutes}m late`;
+}
+
+function Chip({ children, tone = 'slate' }) {
+  const tones = {
+    slate: 'border-slate-700 bg-slate-950 text-slate-400',
+    red: 'border-red-500/40 bg-red-500/10 text-red-300',
+    violet: 'border-violet-500/40 bg-violet-500/10 text-violet-300',
+  };
+  return <span className={`rounded border px-1.5 py-0.5 font-mono text-[10px] ${tones[tone]}`}>{children}</span>;
+}
+
+function RevisionEntry({ rev, isLineage, isLatest }) {
+  const meta = CHANGE_META[rev.merged_into ? 'MERGED' : rev.change_type] ?? CHANGE_META.EVIDENCE_ADDED;
+  const { Icon } = meta;
+  const delta = rev.diff?.score_delta?.composite;
+  const fromLevel = rev.previous?.risk_level;
+  const toLevel = rev.current.risk_level;
+  const isLlm = rev.explanation.source === 'llm';
+
+  return (
+    <li className="relative pl-6">
+      <span className={`absolute left-0 top-1.5 h-2.5 w-2.5 rounded-full ring-4 ring-slate-900 ${meta.dot}`} aria-hidden />
+      <div className={`rounded-lg border p-3 ${isLatest ? 'border-sky-500/40 bg-sky-500/5' : 'border-slate-800 bg-slate-950/40'}`}>
+        <div className="flex flex-wrap items-center gap-2">
+          <Icon className="h-3.5 w-3.5 text-slate-400" aria-hidden />
+          <span className="text-xs font-semibold text-slate-100">{meta.label}</span>
+          <span className="rounded bg-slate-800 px-1.5 py-0.5 font-mono text-[10px] text-slate-300">v{rev.version}</span>
+          {isLineage && <Chip tone="violet">{rev.case_id}</Chip>}
+          <span className="ml-auto flex items-center gap-1 text-[10px] text-slate-500">
+            <Clock3 className="h-3 w-3" aria-hidden />
+            {formatDateTime(rev.created_at)}
+          </span>
+        </div>
+
+        <div className="mt-2 flex flex-wrap items-center gap-1.5 text-xs">
+          {fromLevel && fromLevel !== toLevel && (
+            <>
+              <RiskChip level={fromLevel} />
+              <ArrowRight className="h-3 w-3 text-slate-500" aria-hidden />
+            </>
+          )}
+          <RiskChip level={toLevel} />
+          <span className="tabular-nums text-slate-400">
+            score {rev.previous ? `${rev.previous.composite_score} → ` : ''}
+            {rev.current.composite_score}
+            {typeof delta === 'number' && rev.previous && (
+              <span className={delta >= 0 ? 'text-red-300' : 'text-emerald-300'}> ({delta >= 0 ? '+' : ''}{delta})</span>
+            )}
+          </span>
+          {rev.merged_into && <span className="text-slate-400">into <span className="font-mono">{rev.merged_into}</span></span>}
+        </div>
+
+        {rev.explanation.text && (
+          <p className="mt-2 text-xs leading-relaxed text-slate-200">
+            {rev.explanation.text}
+            <span
+              className={`ml-1.5 inline-flex items-center gap-0.5 rounded px-1 py-px align-middle text-[9px] font-bold uppercase tracking-wider ${
+                isLlm ? 'bg-violet-500/15 text-violet-300' : 'bg-slate-800 text-slate-400'
+              }`}
+              title={isLlm ? `Generated by ${rev.explanation.model ?? 'the local LLM'}` : 'Deterministic template (LLM text pending or unavailable)'}
+            >
+              {isLlm && <Sparkles className="h-2.5 w-2.5" aria-hidden />}
+              {isLlm ? 'AI' : 'Template'}
+            </span>
+          </p>
+        )}
+
+        {rev.triggers.length > 0 && (
+          <ul className="mt-2 space-y-1">
+            {rev.triggers.slice(0, 4).map((t) => (
+              <li key={t.event_id} className="flex flex-wrap items-center gap-1.5 text-[11px] text-slate-400">
+                <Chip>{t.record_id}</Chip>
+                <span>event {formatDateTime(t.event_timestamp)}</span>
+                {t.late && <Chip tone="red">arrived {lateness(t.lateness_seconds)}</Chip>}
+              </li>
+            ))}
+          </ul>
+        )}
+
+        {(rev.diff?.new_breaches?.length > 0 || rev.diff?.added_patterns?.length > 0) && rev.previous && (
+          <div className="mt-2 flex flex-wrap gap-1">
+            {rev.diff.new_breaches?.map((b) => (
+              <Chip key={b} tone="red">+ breach {b}</Chip>
+            ))}
+            {rev.diff.added_patterns?.map((p) => (
+              <Chip key={p}>+ {p}</Chip>
+            ))}
+          </div>
+        )}
+      </div>
+    </li>
+  );
+}
+
+/**
+ * @param {{ revisions: import('../api/client').CaseRevision[], caseId: string }} props
+ */
+export default function CaseRevisionHistory({ revisions = [], caseId }) {
+  const ordered = [...revisions].reverse();
+  return (
+    <section className="rounded-xl border border-slate-800 bg-slate-900/60 p-4">
+      <div className="mb-3 flex items-center justify-between gap-2">
+        <h3 className="panel-title flex items-center gap-2">
+          <History className="h-3.5 w-3.5 text-slate-500" aria-hidden />
+          Case revision history
+        </h3>
+        <span className="text-[10px] text-slate-500">{revisions.length} version{revisions.length === 1 ? '' : 's'}</span>
+      </div>
+      {ordered.length === 0 ? (
+        <p className="text-xs text-slate-500">No revisions recorded yet.</p>
+      ) : (
+        <ol className="relative space-y-3 before:absolute before:bottom-2 before:left-[4px] before:top-2 before:w-px before:bg-slate-800">
+          {ordered.map((rev, i) => (
+            <RevisionEntry key={`${rev.case_id}-${rev.version}`} rev={rev} isLineage={rev.case_id !== caseId} isLatest={i === 0} />
+          ))}
+        </ol>
+      )}
+      <p className="mt-3 text-[10px] text-slate-500">
+        Final case state is identical in any event order; this history records the order evidence actually arrived.
+      </p>
+    </section>
+  );
+}

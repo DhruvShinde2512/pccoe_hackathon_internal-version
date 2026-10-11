@@ -1,0 +1,4802 @@
+[
+  {
+    "case_id": "CASE-00000",
+    "group_id": "CASE-00000",
+    "split": "train",
+    "as_of": "2026-01-13T23:48:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00001",
+    "group_id": "CASE-00001",
+    "split": "train",
+    "as_of": "2026-01-15T20:15:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00002",
+    "group_id": "CASE-00002",
+    "split": "train",
+    "as_of": "2026-01-12T04:11:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00003",
+    "group_id": "CASE-00003",
+    "split": "train",
+    "as_of": "2026-01-16T05:35:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00004",
+    "group_id": "CASE-00004",
+    "split": "train",
+    "as_of": "2026-01-12T06:41:00+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "CIRCULAR_FLOW"
+  },
+  {
+    "case_id": "CASE-00005",
+    "group_id": "CASE-00005",
+    "split": "train",
+    "as_of": "2026-01-12T15:38:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00006",
+    "group_id": "CASE-00006",
+    "split": "train",
+    "as_of": "2026-01-14T13:42:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00007",
+    "group_id": "CASE-00007",
+    "split": "train",
+    "as_of": "2026-01-14T08:59:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00008",
+    "group_id": "CASE-00008",
+    "split": "train",
+    "as_of": "2026-01-12T23:12:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00009",
+    "group_id": "CASE-00009",
+    "split": "train",
+    "as_of": "2026-01-13T23:45:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00010",
+    "group_id": "CASE-00010",
+    "split": "train",
+    "as_of": "2026-01-14T18:51:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00011",
+    "group_id": "CASE-00011",
+    "split": "train",
+    "as_of": "2026-01-12T15:01:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00012",
+    "group_id": "CASE-00012",
+    "split": "train",
+    "as_of": "2026-01-15T02:27:00+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "CIRCULAR_FLOW"
+  },
+  {
+    "case_id": "CASE-00013",
+    "group_id": "CASE-00013",
+    "split": "train",
+    "as_of": "2026-01-13T08:12:00+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "CIRCULAR_FLOW"
+  },
+  {
+    "case_id": "CASE-00014",
+    "group_id": "CASE-00014",
+    "split": "train",
+    "as_of": "2026-01-16T12:31:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00015",
+    "group_id": "CASE-00015",
+    "split": "train",
+    "as_of": "2026-01-14T13:35:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00016",
+    "group_id": "CASE-00016",
+    "split": "train",
+    "as_of": "2026-01-15T05:07:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00017",
+    "group_id": "CASE-00017",
+    "split": "train",
+    "as_of": "2026-01-13T06:39:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00018",
+    "group_id": "CASE-00018",
+    "split": "train",
+    "as_of": "2026-01-12T11:23:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00019",
+    "group_id": "CASE-00019",
+    "split": "train",
+    "as_of": "2026-01-15T04:59:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00020",
+    "group_id": "CASE-00020",
+    "split": "train",
+    "as_of": "2026-01-16T18:19:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00021",
+    "group_id": "CASE-00021",
+    "split": "train",
+    "as_of": "2026-01-16T17:48:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00022",
+    "group_id": "CASE-00022",
+    "split": "train",
+    "as_of": "2026-01-12T06:03:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00023",
+    "group_id": "CASE-00023",
+    "split": "train",
+    "as_of": "2026-01-13T19:32:00+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "STRUCTURING"
+  },
+  {
+    "case_id": "CASE-00024",
+    "group_id": "CASE-00024",
+    "split": "train",
+    "as_of": "2026-01-14T10:21:00+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "STRUCTURING"
+  },
+  {
+    "case_id": "CASE-00025",
+    "group_id": "CASE-00025",
+    "split": "train",
+    "as_of": "2026-01-16T00:43:00+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "STRUCTURING"
+  },
+  {
+    "case_id": "CASE-00026",
+    "group_id": "CASE-00026",
+    "split": "train",
+    "as_of": "2026-01-15T00:34:00+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "STRUCTURING"
+  },
+  {
+    "case_id": "CASE-00027",
+    "group_id": "CASE-00027",
+    "split": "train",
+    "as_of": "2026-01-12T08:29:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00028",
+    "group_id": "CASE-00028",
+    "split": "train",
+    "as_of": "2026-01-12T18:28:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00029",
+    "group_id": "CASE-00029",
+    "split": "train",
+    "as_of": "2026-01-15T10:27:00+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "CIRCULAR_FLOW"
+  },
+  {
+    "case_id": "CASE-00030",
+    "group_id": "CASE-00030",
+    "split": "train",
+    "as_of": "2026-01-12T16:50:00+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "STRUCTURING"
+  },
+  {
+    "case_id": "CASE-00031",
+    "group_id": "CASE-00031",
+    "split": "train",
+    "as_of": "2026-01-12T12:47:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00032",
+    "group_id": "CASE-00032",
+    "split": "train",
+    "as_of": "2026-01-13T12:25:00+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "STRUCTURING"
+  },
+  {
+    "case_id": "CASE-00033",
+    "group_id": "CASE-00033",
+    "split": "train",
+    "as_of": "2026-01-15T00:41:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00034",
+    "group_id": "CASE-00034",
+    "split": "train",
+    "as_of": "2026-01-14T03:49:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00035",
+    "group_id": "CASE-00035",
+    "split": "train",
+    "as_of": "2026-01-12T01:59:00+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "STRUCTURING"
+  },
+  {
+    "case_id": "CASE-00036",
+    "group_id": "CASE-00036",
+    "split": "train",
+    "as_of": "2026-01-15T15:14:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00037",
+    "group_id": "CASE-00037",
+    "split": "train",
+    "as_of": "2026-01-16T03:43:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00038",
+    "group_id": "CASE-00038",
+    "split": "train",
+    "as_of": "2026-01-15T08:05:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00039",
+    "group_id": "CASE-00039",
+    "split": "train",
+    "as_of": "2026-01-14T10:35:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00040",
+    "group_id": "CASE-00040",
+    "split": "train",
+    "as_of": "2026-01-13T03:47:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00041",
+    "group_id": "CASE-00041",
+    "split": "train",
+    "as_of": "2026-01-15T15:38:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00042",
+    "group_id": "CASE-00042",
+    "split": "train",
+    "as_of": "2026-01-16T10:08:00+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "STRUCTURING"
+  },
+  {
+    "case_id": "CASE-00043",
+    "group_id": "CASE-00043",
+    "split": "train",
+    "as_of": "2026-01-14T09:28:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00044",
+    "group_id": "CASE-00044",
+    "split": "train",
+    "as_of": "2026-01-13T16:26:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00045",
+    "group_id": "CASE-00045",
+    "split": "train",
+    "as_of": "2026-01-16T21:03:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00046",
+    "group_id": "CASE-00046",
+    "split": "train",
+    "as_of": "2026-01-13T05:06:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00047",
+    "group_id": "CASE-00047",
+    "split": "train",
+    "as_of": "2026-01-16T06:01:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00048",
+    "group_id": "CASE-00048",
+    "split": "train",
+    "as_of": "2026-01-15T21:23:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00049",
+    "group_id": "CASE-00049",
+    "split": "train",
+    "as_of": "2026-01-15T14:16:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00050",
+    "group_id": "CASE-00050",
+    "split": "train",
+    "as_of": "2026-01-15T10:28:00+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "CIRCULAR_FLOW"
+  },
+  {
+    "case_id": "CASE-00051",
+    "group_id": "CASE-00051",
+    "split": "train",
+    "as_of": "2026-01-13T17:22:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00052",
+    "group_id": "CASE-00052",
+    "split": "train",
+    "as_of": "2026-01-15T08:09:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00053",
+    "group_id": "CASE-00053",
+    "split": "train",
+    "as_of": "2026-01-16T01:27:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00054",
+    "group_id": "CASE-00054",
+    "split": "train",
+    "as_of": "2026-01-13T10:27:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00055",
+    "group_id": "CASE-00055",
+    "split": "train",
+    "as_of": "2026-01-13T04:30:00+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "STRUCTURING"
+  },
+  {
+    "case_id": "CASE-00056",
+    "group_id": "CASE-00056",
+    "split": "train",
+    "as_of": "2026-01-16T23:05:00+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "CIRCULAR_FLOW"
+  },
+  {
+    "case_id": "CASE-00057",
+    "group_id": "CASE-00057",
+    "split": "train",
+    "as_of": "2026-01-13T17:22:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00058",
+    "group_id": "CASE-00058",
+    "split": "train",
+    "as_of": "2026-01-15T19:28:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00059",
+    "group_id": "CASE-00059",
+    "split": "train",
+    "as_of": "2026-01-12T05:55:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00060",
+    "group_id": "CASE-00060",
+    "split": "train",
+    "as_of": "2026-01-12T09:11:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00061",
+    "group_id": "CASE-00061",
+    "split": "train",
+    "as_of": "2026-01-14T19:25:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00062",
+    "group_id": "CASE-00062",
+    "split": "train",
+    "as_of": "2026-01-16T17:45:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00063",
+    "group_id": "CASE-00063",
+    "split": "train",
+    "as_of": "2026-01-16T23:19:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00064",
+    "group_id": "CASE-00064",
+    "split": "train",
+    "as_of": "2026-01-14T03:57:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00065",
+    "group_id": "CASE-00065",
+    "split": "train",
+    "as_of": "2026-01-16T16:26:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00066",
+    "group_id": "CASE-00066",
+    "split": "train",
+    "as_of": "2026-01-14T18:17:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00067",
+    "group_id": "CASE-00067",
+    "split": "train",
+    "as_of": "2026-01-16T16:57:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00068",
+    "group_id": "CASE-00068",
+    "split": "train",
+    "as_of": "2026-01-13T20:56:00+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "CIRCULAR_FLOW"
+  },
+  {
+    "case_id": "CASE-00069",
+    "group_id": "CASE-00069",
+    "split": "train",
+    "as_of": "2026-01-14T04:58:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00070",
+    "group_id": "CASE-00070",
+    "split": "train",
+    "as_of": "2026-01-13T23:36:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00071",
+    "group_id": "CASE-00071",
+    "split": "train",
+    "as_of": "2026-01-16T05:01:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00072",
+    "group_id": "CASE-00072",
+    "split": "train",
+    "as_of": "2026-01-15T18:43:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00073",
+    "group_id": "CASE-00073",
+    "split": "train",
+    "as_of": "2026-01-14T03:47:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00074",
+    "group_id": "CASE-00074",
+    "split": "train",
+    "as_of": "2026-01-16T23:28:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00075",
+    "group_id": "CASE-00075",
+    "split": "train",
+    "as_of": "2026-01-14T17:29:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00076",
+    "group_id": "CASE-00076",
+    "split": "train",
+    "as_of": "2026-01-15T02:23:00+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "CIRCULAR_FLOW"
+  },
+  {
+    "case_id": "CASE-00077",
+    "group_id": "CASE-00077",
+    "split": "train",
+    "as_of": "2026-01-16T05:54:00+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "CIRCULAR_FLOW"
+  },
+  {
+    "case_id": "CASE-00078",
+    "group_id": "CASE-00078",
+    "split": "train",
+    "as_of": "2026-01-15T13:34:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00079",
+    "group_id": "CASE-00079",
+    "split": "train",
+    "as_of": "2026-01-12T06:15:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00080",
+    "group_id": "CASE-00080",
+    "split": "train",
+    "as_of": "2026-01-16T09:41:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00081",
+    "group_id": "CASE-00081",
+    "split": "train",
+    "as_of": "2026-01-12T17:33:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00082",
+    "group_id": "CASE-00082",
+    "split": "train",
+    "as_of": "2026-01-13T15:22:00+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "CIRCULAR_FLOW"
+  },
+  {
+    "case_id": "CASE-00083",
+    "group_id": "CASE-00083",
+    "split": "train",
+    "as_of": "2026-01-13T02:19:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00084",
+    "group_id": "CASE-00084",
+    "split": "train",
+    "as_of": "2026-01-13T11:50:00+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "CIRCULAR_FLOW"
+  },
+  {
+    "case_id": "CASE-00085",
+    "group_id": "CASE-00085",
+    "split": "train",
+    "as_of": "2026-01-14T22:51:00+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "CIRCULAR_FLOW"
+  },
+  {
+    "case_id": "CASE-00086",
+    "group_id": "CASE-00086",
+    "split": "train",
+    "as_of": "2026-01-16T15:34:00+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "CIRCULAR_FLOW"
+  },
+  {
+    "case_id": "CASE-00087",
+    "group_id": "CASE-00087",
+    "split": "train",
+    "as_of": "2026-01-14T20:58:00+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "CIRCULAR_FLOW"
+  },
+  {
+    "case_id": "CASE-00088",
+    "group_id": "CASE-00088",
+    "split": "train",
+    "as_of": "2026-01-13T13:30:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00089",
+    "group_id": "CASE-00089",
+    "split": "train",
+    "as_of": "2026-01-12T08:25:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00090",
+    "group_id": "CASE-00090",
+    "split": "train",
+    "as_of": "2026-01-16T08:31:00+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "CIRCULAR_FLOW"
+  },
+  {
+    "case_id": "CASE-00091",
+    "group_id": "CASE-00091",
+    "split": "train",
+    "as_of": "2026-01-14T16:44:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00092",
+    "group_id": "CASE-00092",
+    "split": "train",
+    "as_of": "2026-01-12T04:42:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00093",
+    "group_id": "CASE-00093",
+    "split": "train",
+    "as_of": "2026-01-15T05:11:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00094",
+    "group_id": "CASE-00094",
+    "split": "train",
+    "as_of": "2026-01-12T03:38:00+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "STRUCTURING"
+  },
+  {
+    "case_id": "CASE-00095",
+    "group_id": "CASE-00095",
+    "split": "train",
+    "as_of": "2026-01-14T05:11:00+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "STRUCTURING"
+  },
+  {
+    "case_id": "CASE-00096",
+    "group_id": "CASE-00096",
+    "split": "train",
+    "as_of": "2026-01-13T05:34:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00097",
+    "group_id": "CASE-00097",
+    "split": "train",
+    "as_of": "2026-01-15T10:34:00+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "CIRCULAR_FLOW"
+  },
+  {
+    "case_id": "CASE-00098",
+    "group_id": "CASE-00098",
+    "split": "train",
+    "as_of": "2026-01-16T13:21:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00099",
+    "group_id": "CASE-00099",
+    "split": "train",
+    "as_of": "2026-01-12T06:00:00+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "CIRCULAR_FLOW"
+  },
+  {
+    "case_id": "CASE-00100",
+    "group_id": "CASE-00100",
+    "split": "train",
+    "as_of": "2026-01-16T12:04:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00101",
+    "group_id": "CASE-00101",
+    "split": "train",
+    "as_of": "2026-01-15T13:16:00+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "STRUCTURING"
+  },
+  {
+    "case_id": "CASE-00102",
+    "group_id": "CASE-00102",
+    "split": "train",
+    "as_of": "2026-01-16T05:10:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00103",
+    "group_id": "CASE-00103",
+    "split": "train",
+    "as_of": "2026-01-16T11:29:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00104",
+    "group_id": "CASE-00104",
+    "split": "train",
+    "as_of": "2026-01-16T19:08:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00105",
+    "group_id": "CASE-00105",
+    "split": "train",
+    "as_of": "2026-01-14T23:49:00+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "STRUCTURING"
+  },
+  {
+    "case_id": "CASE-00106",
+    "group_id": "CASE-00106",
+    "split": "train",
+    "as_of": "2026-01-15T07:13:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00107",
+    "group_id": "CASE-00107",
+    "split": "train",
+    "as_of": "2026-01-12T08:29:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00108",
+    "group_id": "CASE-00108",
+    "split": "train",
+    "as_of": "2026-01-12T21:30:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00109",
+    "group_id": "CASE-00109",
+    "split": "train",
+    "as_of": "2026-01-16T22:05:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00110",
+    "group_id": "CASE-00110",
+    "split": "train",
+    "as_of": "2026-01-15T20:21:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00111",
+    "group_id": "CASE-00111",
+    "split": "train",
+    "as_of": "2026-01-15T13:57:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00112",
+    "group_id": "CASE-00112",
+    "split": "train",
+    "as_of": "2026-01-16T15:45:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00113",
+    "group_id": "CASE-00113",
+    "split": "train",
+    "as_of": "2026-01-14T09:33:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00114",
+    "group_id": "CASE-00114",
+    "split": "train",
+    "as_of": "2026-01-14T19:44:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00115",
+    "group_id": "CASE-00115",
+    "split": "train",
+    "as_of": "2026-01-13T03:29:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00116",
+    "group_id": "CASE-00116",
+    "split": "train",
+    "as_of": "2026-01-15T06:10:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00117",
+    "group_id": "CASE-00117",
+    "split": "train",
+    "as_of": "2026-01-13T02:16:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00118",
+    "group_id": "CASE-00118",
+    "split": "train",
+    "as_of": "2026-01-12T03:10:00+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "STRUCTURING"
+  },
+  {
+    "case_id": "CASE-00119",
+    "group_id": "CASE-00119",
+    "split": "train",
+    "as_of": "2026-01-16T17:00:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00120",
+    "group_id": "CASE-00120",
+    "split": "train",
+    "as_of": "2026-01-15T02:38:00+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "STRUCTURING"
+  },
+  {
+    "case_id": "CASE-00121",
+    "group_id": "CASE-00121",
+    "split": "train",
+    "as_of": "2026-01-14T17:34:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00122",
+    "group_id": "CASE-00122",
+    "split": "train",
+    "as_of": "2026-01-13T01:28:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00123",
+    "group_id": "CASE-00123",
+    "split": "train",
+    "as_of": "2026-01-15T03:40:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00124",
+    "group_id": "CASE-00124",
+    "split": "train",
+    "as_of": "2026-01-12T11:59:00+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "CIRCULAR_FLOW"
+  },
+  {
+    "case_id": "CASE-00125",
+    "group_id": "CASE-00125",
+    "split": "train",
+    "as_of": "2026-01-14T20:28:00+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "STRUCTURING"
+  },
+  {
+    "case_id": "CASE-00126",
+    "group_id": "CASE-00126",
+    "split": "train",
+    "as_of": "2026-01-13T12:04:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00127",
+    "group_id": "CASE-00127",
+    "split": "train",
+    "as_of": "2026-01-14T23:38:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00128",
+    "group_id": "CASE-00128",
+    "split": "train",
+    "as_of": "2026-01-13T09:16:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00129",
+    "group_id": "CASE-00129",
+    "split": "train",
+    "as_of": "2026-01-15T16:09:00+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "STRUCTURING"
+  },
+  {
+    "case_id": "CASE-00130",
+    "group_id": "CASE-00130",
+    "split": "train",
+    "as_of": "2026-01-12T00:20:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00131",
+    "group_id": "CASE-00131",
+    "split": "train",
+    "as_of": "2026-01-12T11:51:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00132",
+    "group_id": "CASE-00132",
+    "split": "train",
+    "as_of": "2026-01-16T05:46:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00133",
+    "group_id": "CASE-00133",
+    "split": "train",
+    "as_of": "2026-01-15T23:07:00+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "STRUCTURING"
+  },
+  {
+    "case_id": "CASE-00134",
+    "group_id": "CASE-00134",
+    "split": "train",
+    "as_of": "2026-01-14T15:01:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00135",
+    "group_id": "CASE-00135",
+    "split": "train",
+    "as_of": "2026-01-15T07:12:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00136",
+    "group_id": "CASE-00136",
+    "split": "train",
+    "as_of": "2026-01-15T05:46:00+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "STRUCTURING"
+  },
+  {
+    "case_id": "CASE-00137",
+    "group_id": "CASE-00137",
+    "split": "train",
+    "as_of": "2026-01-14T06:20:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00138",
+    "group_id": "CASE-00138",
+    "split": "train",
+    "as_of": "2026-01-14T10:54:00+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "CIRCULAR_FLOW"
+  },
+  {
+    "case_id": "CASE-00139",
+    "group_id": "CASE-00139",
+    "split": "train",
+    "as_of": "2026-01-16T00:25:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00140",
+    "group_id": "CASE-00140",
+    "split": "train",
+    "as_of": "2026-01-16T10:42:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00141",
+    "group_id": "CASE-00141",
+    "split": "train",
+    "as_of": "2026-01-14T23:28:00+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "CIRCULAR_FLOW"
+  },
+  {
+    "case_id": "CASE-00142",
+    "group_id": "CASE-00142",
+    "split": "train",
+    "as_of": "2026-01-15T22:54:00+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "STRUCTURING"
+  },
+  {
+    "case_id": "CASE-00143",
+    "group_id": "CASE-00143",
+    "split": "train",
+    "as_of": "2026-01-16T04:39:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00144",
+    "group_id": "CASE-00144",
+    "split": "train",
+    "as_of": "2026-01-16T06:15:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00145",
+    "group_id": "CASE-00145",
+    "split": "train",
+    "as_of": "2026-01-16T15:01:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00146",
+    "group_id": "CASE-00146",
+    "split": "train",
+    "as_of": "2026-01-14T20:56:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00147",
+    "group_id": "CASE-00147",
+    "split": "train",
+    "as_of": "2026-01-14T02:49:00+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "CIRCULAR_FLOW"
+  },
+  {
+    "case_id": "CASE-00148",
+    "group_id": "CASE-00148",
+    "split": "train",
+    "as_of": "2026-01-16T21:12:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00149",
+    "group_id": "CASE-00149",
+    "split": "train",
+    "as_of": "2026-01-16T13:49:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00150",
+    "group_id": "CASE-00150",
+    "split": "train",
+    "as_of": "2026-01-16T07:56:00+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "CIRCULAR_FLOW"
+  },
+  {
+    "case_id": "CASE-00151",
+    "group_id": "CASE-00151",
+    "split": "train",
+    "as_of": "2026-01-14T06:48:00+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "STRUCTURING"
+  },
+  {
+    "case_id": "CASE-00152",
+    "group_id": "CASE-00152",
+    "split": "train",
+    "as_of": "2026-01-12T04:13:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00153",
+    "group_id": "CASE-00153",
+    "split": "train",
+    "as_of": "2026-01-15T10:56:00+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "CIRCULAR_FLOW"
+  },
+  {
+    "case_id": "CASE-00154",
+    "group_id": "CASE-00154",
+    "split": "train",
+    "as_of": "2026-01-14T21:52:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00155",
+    "group_id": "CASE-00155",
+    "split": "train",
+    "as_of": "2026-01-13T07:56:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00156",
+    "group_id": "CASE-00156",
+    "split": "train",
+    "as_of": "2026-01-12T15:45:00+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "STRUCTURING"
+  },
+  {
+    "case_id": "CASE-00157",
+    "group_id": "CASE-00157",
+    "split": "train",
+    "as_of": "2026-01-12T16:33:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00158",
+    "group_id": "CASE-00158",
+    "split": "train",
+    "as_of": "2026-01-14T10:05:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00159",
+    "group_id": "CASE-00159",
+    "split": "train",
+    "as_of": "2026-01-13T04:56:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00160",
+    "group_id": "CASE-00160",
+    "split": "train",
+    "as_of": "2026-01-14T17:08:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00161",
+    "group_id": "CASE-00161",
+    "split": "train",
+    "as_of": "2026-01-16T12:19:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00162",
+    "group_id": "CASE-00162",
+    "split": "train",
+    "as_of": "2026-01-14T11:01:00+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "STRUCTURING"
+  },
+  {
+    "case_id": "CASE-00163",
+    "group_id": "CASE-00163",
+    "split": "train",
+    "as_of": "2026-01-12T00:47:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00164",
+    "group_id": "CASE-00164",
+    "split": "train",
+    "as_of": "2026-01-13T21:23:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00165",
+    "group_id": "CASE-00165",
+    "split": "train",
+    "as_of": "2026-01-12T00:46:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00166",
+    "group_id": "CASE-00166",
+    "split": "train",
+    "as_of": "2026-01-16T08:09:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00167",
+    "group_id": "CASE-00167",
+    "split": "train",
+    "as_of": "2026-01-15T10:08:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00168",
+    "group_id": "CASE-00168",
+    "split": "train",
+    "as_of": "2026-01-13T03:35:00+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "CIRCULAR_FLOW"
+  },
+  {
+    "case_id": "CASE-00169",
+    "group_id": "CASE-00169",
+    "split": "train",
+    "as_of": "2026-01-13T15:30:00+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "STRUCTURING"
+  },
+  {
+    "case_id": "CASE-00170",
+    "group_id": "CASE-00170",
+    "split": "train",
+    "as_of": "2026-01-16T15:45:00+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "CIRCULAR_FLOW"
+  },
+  {
+    "case_id": "CASE-00171",
+    "group_id": "CASE-00171",
+    "split": "train",
+    "as_of": "2026-01-14T13:59:00+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "CIRCULAR_FLOW"
+  },
+  {
+    "case_id": "CASE-00172",
+    "group_id": "CASE-00172",
+    "split": "train",
+    "as_of": "2026-01-16T09:21:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00173",
+    "group_id": "CASE-00173",
+    "split": "train",
+    "as_of": "2026-01-16T06:05:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00174",
+    "group_id": "CASE-00174",
+    "split": "train",
+    "as_of": "2026-01-14T18:11:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00175",
+    "group_id": "CASE-00175",
+    "split": "train",
+    "as_of": "2026-01-13T10:30:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00176",
+    "group_id": "CASE-00176",
+    "split": "train",
+    "as_of": "2026-01-15T19:54:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00177",
+    "group_id": "CASE-00177",
+    "split": "train",
+    "as_of": "2026-01-12T13:52:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00178",
+    "group_id": "CASE-00178",
+    "split": "train",
+    "as_of": "2026-01-15T03:22:00+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "STRUCTURING"
+  },
+  {
+    "case_id": "CASE-00179",
+    "group_id": "CASE-00179",
+    "split": "train",
+    "as_of": "2026-01-12T21:11:00+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "STRUCTURING"
+  },
+  {
+    "case_id": "CASE-00180",
+    "group_id": "CASE-00180",
+    "split": "train",
+    "as_of": "2026-01-14T18:48:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00181",
+    "group_id": "CASE-00181",
+    "split": "train",
+    "as_of": "2026-01-14T09:00:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00182",
+    "group_id": "CASE-00182",
+    "split": "train",
+    "as_of": "2026-01-16T05:12:00+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "CIRCULAR_FLOW"
+  },
+  {
+    "case_id": "CASE-00183",
+    "group_id": "CASE-00183",
+    "split": "train",
+    "as_of": "2026-01-12T18:55:00+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "CIRCULAR_FLOW"
+  },
+  {
+    "case_id": "CASE-00184",
+    "group_id": "CASE-00184",
+    "split": "train",
+    "as_of": "2026-01-12T23:12:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00185",
+    "group_id": "CASE-00185",
+    "split": "train",
+    "as_of": "2026-01-16T07:19:00+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "STRUCTURING"
+  },
+  {
+    "case_id": "CASE-00186",
+    "group_id": "CASE-00186",
+    "split": "train",
+    "as_of": "2026-01-15T21:13:00+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "CIRCULAR_FLOW"
+  },
+  {
+    "case_id": "CASE-00187",
+    "group_id": "CASE-00187",
+    "split": "train",
+    "as_of": "2026-01-16T11:52:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00188",
+    "group_id": "CASE-00188",
+    "split": "train",
+    "as_of": "2026-01-12T08:12:00+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "CIRCULAR_FLOW"
+  },
+  {
+    "case_id": "CASE-00189",
+    "group_id": "CASE-00189",
+    "split": "train",
+    "as_of": "2026-01-14T01:29:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00190",
+    "group_id": "CASE-00190",
+    "split": "train",
+    "as_of": "2026-01-13T15:05:00+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "STRUCTURING"
+  },
+  {
+    "case_id": "CASE-00191",
+    "group_id": "CASE-00191",
+    "split": "train",
+    "as_of": "2026-01-16T12:40:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00192",
+    "group_id": "CASE-00192",
+    "split": "train",
+    "as_of": "2026-01-14T15:44:00+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "CIRCULAR_FLOW"
+  },
+  {
+    "case_id": "CASE-00193",
+    "group_id": "CASE-00193",
+    "split": "train",
+    "as_of": "2026-01-14T18:45:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00194",
+    "group_id": "CASE-00194",
+    "split": "train",
+    "as_of": "2026-01-15T19:48:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00195",
+    "group_id": "CASE-00195",
+    "split": "train",
+    "as_of": "2026-01-16T19:06:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00196",
+    "group_id": "CASE-00196",
+    "split": "train",
+    "as_of": "2026-01-15T16:59:00+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "STRUCTURING"
+  },
+  {
+    "case_id": "CASE-00197",
+    "group_id": "CASE-00197",
+    "split": "train",
+    "as_of": "2026-01-14T01:25:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00198",
+    "group_id": "CASE-00198",
+    "split": "train",
+    "as_of": "2026-01-16T10:52:00+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "CIRCULAR_FLOW"
+  },
+  {
+    "case_id": "CASE-00199",
+    "group_id": "CASE-00199",
+    "split": "train",
+    "as_of": "2026-01-14T21:16:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00200",
+    "group_id": "CASE-00200",
+    "split": "train",
+    "as_of": "2026-01-15T11:58:00+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "STRUCTURING"
+  },
+  {
+    "case_id": "CASE-00201",
+    "group_id": "CASE-00201",
+    "split": "train",
+    "as_of": "2026-01-14T02:49:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00202",
+    "group_id": "CASE-00202",
+    "split": "train",
+    "as_of": "2026-01-15T10:07:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00203",
+    "group_id": "CASE-00203",
+    "split": "train",
+    "as_of": "2026-01-16T07:23:00+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "STRUCTURING"
+  },
+  {
+    "case_id": "CASE-00204",
+    "group_id": "CASE-00204",
+    "split": "train",
+    "as_of": "2026-01-13T02:34:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00205",
+    "group_id": "CASE-00205",
+    "split": "train",
+    "as_of": "2026-01-13T22:11:00+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "CIRCULAR_FLOW"
+  },
+  {
+    "case_id": "CASE-00206",
+    "group_id": "CASE-00206",
+    "split": "train",
+    "as_of": "2026-01-15T18:18:00+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "STRUCTURING"
+  },
+  {
+    "case_id": "CASE-00207",
+    "group_id": "CASE-00207",
+    "split": "train",
+    "as_of": "2026-01-14T19:06:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00208",
+    "group_id": "CASE-00208",
+    "split": "train",
+    "as_of": "2026-01-16T17:52:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00209",
+    "group_id": "CASE-00209",
+    "split": "train",
+    "as_of": "2026-01-16T17:00:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00210",
+    "group_id": "CASE-00210",
+    "split": "train",
+    "as_of": "2026-01-12T12:59:00+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "CIRCULAR_FLOW"
+  },
+  {
+    "case_id": "CASE-00211",
+    "group_id": "CASE-00211",
+    "split": "train",
+    "as_of": "2026-01-14T09:19:00+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "STRUCTURING"
+  },
+  {
+    "case_id": "CASE-00212",
+    "group_id": "CASE-00212",
+    "split": "train",
+    "as_of": "2026-01-13T04:30:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00213",
+    "group_id": "CASE-00213",
+    "split": "train",
+    "as_of": "2026-01-15T03:34:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00214",
+    "group_id": "CASE-00214",
+    "split": "train",
+    "as_of": "2026-01-12T23:11:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00215",
+    "group_id": "CASE-00215",
+    "split": "train",
+    "as_of": "2026-01-14T19:32:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00216",
+    "group_id": "CASE-00216",
+    "split": "train",
+    "as_of": "2026-01-14T17:17:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00217",
+    "group_id": "CASE-00217",
+    "split": "train",
+    "as_of": "2026-01-14T09:26:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00218",
+    "group_id": "CASE-00218",
+    "split": "train",
+    "as_of": "2026-01-15T22:06:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00219",
+    "group_id": "CASE-00219",
+    "split": "train",
+    "as_of": "2026-01-14T05:44:00+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "STRUCTURING"
+  },
+  {
+    "case_id": "CASE-00220",
+    "group_id": "CASE-00220",
+    "split": "train",
+    "as_of": "2026-01-12T20:18:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00221",
+    "group_id": "CASE-00221",
+    "split": "train",
+    "as_of": "2026-01-13T03:31:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00222",
+    "group_id": "CASE-00222",
+    "split": "train",
+    "as_of": "2026-01-12T06:23:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00223",
+    "group_id": "CASE-00223",
+    "split": "train",
+    "as_of": "2026-01-13T17:50:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00224",
+    "group_id": "CASE-00224",
+    "split": "train",
+    "as_of": "2026-01-14T04:08:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00225",
+    "group_id": "CASE-00225",
+    "split": "train",
+    "as_of": "2026-01-15T02:23:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00226",
+    "group_id": "CASE-00226",
+    "split": "train",
+    "as_of": "2026-01-12T19:40:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00227",
+    "group_id": "CASE-00227",
+    "split": "train",
+    "as_of": "2026-01-16T11:47:00+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "STRUCTURING"
+  },
+  {
+    "case_id": "CASE-00228",
+    "group_id": "CASE-00228",
+    "split": "train",
+    "as_of": "2026-01-15T00:45:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00229",
+    "group_id": "CASE-00229",
+    "split": "train",
+    "as_of": "2026-01-13T05:41:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00230",
+    "group_id": "CASE-00230",
+    "split": "train",
+    "as_of": "2026-01-14T13:43:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00231",
+    "group_id": "CASE-00231",
+    "split": "train",
+    "as_of": "2026-01-16T15:04:00+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "CIRCULAR_FLOW"
+  },
+  {
+    "case_id": "CASE-00232",
+    "group_id": "CASE-00232",
+    "split": "train",
+    "as_of": "2026-01-13T17:04:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00233",
+    "group_id": "CASE-00233",
+    "split": "train",
+    "as_of": "2026-01-13T05:32:00+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "CIRCULAR_FLOW"
+  },
+  {
+    "case_id": "CASE-00234",
+    "group_id": "CASE-00234",
+    "split": "train",
+    "as_of": "2026-01-15T22:30:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00235",
+    "group_id": "CASE-00235",
+    "split": "train",
+    "as_of": "2026-01-14T17:33:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00236",
+    "group_id": "CASE-00236",
+    "split": "train",
+    "as_of": "2026-01-13T00:16:00+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "STRUCTURING"
+  },
+  {
+    "case_id": "CASE-00237",
+    "group_id": "CASE-00237",
+    "split": "train",
+    "as_of": "2026-01-16T18:24:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00238",
+    "group_id": "CASE-00238",
+    "split": "train",
+    "as_of": "2026-01-16T11:56:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00239",
+    "group_id": "CASE-00239",
+    "split": "train",
+    "as_of": "2026-01-13T07:37:00+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "CIRCULAR_FLOW"
+  },
+  {
+    "case_id": "CASE-00240",
+    "group_id": "CASE-00240",
+    "split": "train",
+    "as_of": "2026-01-14T20:16:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00241",
+    "group_id": "CASE-00241",
+    "split": "train",
+    "as_of": "2026-01-12T07:56:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00242",
+    "group_id": "CASE-00242",
+    "split": "train",
+    "as_of": "2026-01-13T16:20:00+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "CIRCULAR_FLOW"
+  },
+  {
+    "case_id": "CASE-00243",
+    "group_id": "CASE-00243",
+    "split": "train",
+    "as_of": "2026-01-13T20:52:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00244",
+    "group_id": "CASE-00244",
+    "split": "train",
+    "as_of": "2026-01-13T23:39:00+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "STRUCTURING"
+  },
+  {
+    "case_id": "CASE-00245",
+    "group_id": "CASE-00245",
+    "split": "train",
+    "as_of": "2026-01-13T22:04:00+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "CIRCULAR_FLOW"
+  },
+  {
+    "case_id": "CASE-00246",
+    "group_id": "CASE-00246",
+    "split": "train",
+    "as_of": "2026-01-12T22:17:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00247",
+    "group_id": "CASE-00247",
+    "split": "train",
+    "as_of": "2026-01-14T10:18:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00248",
+    "group_id": "CASE-00248",
+    "split": "train",
+    "as_of": "2026-01-13T09:12:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00249",
+    "group_id": "CASE-00249",
+    "split": "train",
+    "as_of": "2026-01-12T02:51:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00250",
+    "group_id": "CASE-00250",
+    "split": "train",
+    "as_of": "2026-01-16T04:57:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00251",
+    "group_id": "CASE-00251",
+    "split": "train",
+    "as_of": "2026-01-15T05:11:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00252",
+    "group_id": "CASE-00252",
+    "split": "train",
+    "as_of": "2026-01-15T02:40:00+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "STRUCTURING"
+  },
+  {
+    "case_id": "CASE-00253",
+    "group_id": "CASE-00253",
+    "split": "train",
+    "as_of": "2026-01-14T14:57:00+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "STRUCTURING"
+  },
+  {
+    "case_id": "CASE-00254",
+    "group_id": "CASE-00254",
+    "split": "train",
+    "as_of": "2026-01-14T16:59:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00255",
+    "group_id": "CASE-00255",
+    "split": "train",
+    "as_of": "2026-01-13T20:52:00+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "STRUCTURING"
+  },
+  {
+    "case_id": "CASE-00256",
+    "group_id": "CASE-00256",
+    "split": "train",
+    "as_of": "2026-01-13T11:58:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00257",
+    "group_id": "CASE-00257",
+    "split": "train",
+    "as_of": "2026-01-14T07:14:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00258",
+    "group_id": "CASE-00258",
+    "split": "train",
+    "as_of": "2026-01-14T00:03:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00259",
+    "group_id": "CASE-00259",
+    "split": "train",
+    "as_of": "2026-01-12T19:11:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00260",
+    "group_id": "CASE-00260",
+    "split": "train",
+    "as_of": "2026-01-16T20:17:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00261",
+    "group_id": "CASE-00261",
+    "split": "train",
+    "as_of": "2026-01-13T20:29:00+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "STRUCTURING"
+  },
+  {
+    "case_id": "CASE-00262",
+    "group_id": "CASE-00262",
+    "split": "train",
+    "as_of": "2026-01-14T08:38:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00263",
+    "group_id": "CASE-00263",
+    "split": "train",
+    "as_of": "2026-01-15T16:04:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00264",
+    "group_id": "CASE-00264",
+    "split": "train",
+    "as_of": "2026-01-13T14:07:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00265",
+    "group_id": "CASE-00265",
+    "split": "train",
+    "as_of": "2026-01-14T03:16:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00266",
+    "group_id": "CASE-00266",
+    "split": "train",
+    "as_of": "2026-01-14T08:57:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00267",
+    "group_id": "CASE-00267",
+    "split": "train",
+    "as_of": "2026-01-15T12:44:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00268",
+    "group_id": "CASE-00268",
+    "split": "train",
+    "as_of": "2026-01-12T18:08:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00269",
+    "group_id": "CASE-00269",
+    "split": "train",
+    "as_of": "2026-01-12T07:42:00+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "STRUCTURING"
+  },
+  {
+    "case_id": "CASE-00270",
+    "group_id": "CASE-00270",
+    "split": "train",
+    "as_of": "2026-01-14T15:12:00+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "CIRCULAR_FLOW"
+  },
+  {
+    "case_id": "CASE-00271",
+    "group_id": "CASE-00271",
+    "split": "train",
+    "as_of": "2026-01-15T16:57:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00272",
+    "group_id": "CASE-00272",
+    "split": "train",
+    "as_of": "2026-01-12T22:54:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00273",
+    "group_id": "CASE-00273",
+    "split": "train",
+    "as_of": "2026-01-13T06:26:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00274",
+    "group_id": "CASE-00274",
+    "split": "train",
+    "as_of": "2026-01-16T03:55:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00275",
+    "group_id": "CASE-00275",
+    "split": "train",
+    "as_of": "2026-01-12T03:22:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00276",
+    "group_id": "CASE-00276",
+    "split": "train",
+    "as_of": "2026-01-12T00:00:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00277",
+    "group_id": "CASE-00277",
+    "split": "train",
+    "as_of": "2026-01-15T20:25:00+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "STRUCTURING"
+  },
+  {
+    "case_id": "CASE-00278",
+    "group_id": "CASE-00278",
+    "split": "train",
+    "as_of": "2026-01-16T13:09:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00279",
+    "group_id": "CASE-00279",
+    "split": "train",
+    "as_of": "2026-01-12T13:28:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00280",
+    "group_id": "CASE-00280",
+    "split": "train",
+    "as_of": "2026-01-13T09:46:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00281",
+    "group_id": "CASE-00281",
+    "split": "train",
+    "as_of": "2026-01-16T21:54:00+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "STRUCTURING"
+  },
+  {
+    "case_id": "CASE-00282",
+    "group_id": "CASE-00282",
+    "split": "train",
+    "as_of": "2026-01-15T14:50:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00283",
+    "group_id": "CASE-00283",
+    "split": "train",
+    "as_of": "2026-01-16T12:37:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00284",
+    "group_id": "CASE-00284",
+    "split": "train",
+    "as_of": "2026-01-14T09:01:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00285",
+    "group_id": "CASE-00285",
+    "split": "train",
+    "as_of": "2026-01-13T20:37:00+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "CIRCULAR_FLOW"
+  },
+  {
+    "case_id": "CASE-00286",
+    "group_id": "CASE-00286",
+    "split": "train",
+    "as_of": "2026-01-15T15:55:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00287",
+    "group_id": "CASE-00287",
+    "split": "train",
+    "as_of": "2026-01-13T05:16:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00288",
+    "group_id": "CASE-00288",
+    "split": "train",
+    "as_of": "2026-01-12T08:10:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00289",
+    "group_id": "CASE-00289",
+    "split": "train",
+    "as_of": "2026-01-12T14:40:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00290",
+    "group_id": "CASE-00290",
+    "split": "train",
+    "as_of": "2026-01-13T22:29:00+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "STRUCTURING"
+  },
+  {
+    "case_id": "CASE-00291",
+    "group_id": "CASE-00291",
+    "split": "train",
+    "as_of": "2026-01-14T12:35:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00292",
+    "group_id": "CASE-00292",
+    "split": "train",
+    "as_of": "2026-01-13T09:25:00+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "STRUCTURING"
+  },
+  {
+    "case_id": "CASE-00293",
+    "group_id": "CASE-00293",
+    "split": "train",
+    "as_of": "2026-01-13T01:15:00+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "CIRCULAR_FLOW"
+  },
+  {
+    "case_id": "CASE-00294",
+    "group_id": "CASE-00294",
+    "split": "train",
+    "as_of": "2026-01-16T02:35:00+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "CIRCULAR_FLOW"
+  },
+  {
+    "case_id": "CASE-00295",
+    "group_id": "CASE-00295",
+    "split": "train",
+    "as_of": "2026-01-14T04:15:00+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "CIRCULAR_FLOW"
+  },
+  {
+    "case_id": "CASE-00296",
+    "group_id": "CASE-00296",
+    "split": "train",
+    "as_of": "2026-01-15T15:24:00+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "STRUCTURING"
+  },
+  {
+    "case_id": "CASE-00297",
+    "group_id": "CASE-00297",
+    "split": "train",
+    "as_of": "2026-01-15T18:27:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00298",
+    "group_id": "CASE-00298",
+    "split": "train",
+    "as_of": "2026-01-16T02:11:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00299",
+    "group_id": "CASE-00299",
+    "split": "train",
+    "as_of": "2026-01-14T04:10:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00300",
+    "group_id": "CASE-00300",
+    "split": "train",
+    "as_of": "2026-01-16T00:23:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00301",
+    "group_id": "CASE-00301",
+    "split": "train",
+    "as_of": "2026-01-12T18:00:00+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "CIRCULAR_FLOW"
+  },
+  {
+    "case_id": "CASE-00302",
+    "group_id": "CASE-00302",
+    "split": "train",
+    "as_of": "2026-01-12T11:03:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00303",
+    "group_id": "CASE-00303",
+    "split": "train",
+    "as_of": "2026-01-12T17:14:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00304",
+    "group_id": "CASE-00304",
+    "split": "train",
+    "as_of": "2026-01-14T05:16:00+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "CIRCULAR_FLOW"
+  },
+  {
+    "case_id": "CASE-00305",
+    "group_id": "CASE-00305",
+    "split": "train",
+    "as_of": "2026-01-12T08:44:00+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "CIRCULAR_FLOW"
+  },
+  {
+    "case_id": "CASE-00306",
+    "group_id": "CASE-00306",
+    "split": "train",
+    "as_of": "2026-01-15T17:45:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00307",
+    "group_id": "CASE-00307",
+    "split": "train",
+    "as_of": "2026-01-13T00:43:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00308",
+    "group_id": "CASE-00308",
+    "split": "train",
+    "as_of": "2026-01-15T11:04:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00309",
+    "group_id": "CASE-00309",
+    "split": "train",
+    "as_of": "2026-01-14T16:55:00+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "STRUCTURING"
+  },
+  {
+    "case_id": "CASE-00310",
+    "group_id": "CASE-00310",
+    "split": "train",
+    "as_of": "2026-01-16T18:19:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00311",
+    "group_id": "CASE-00311",
+    "split": "train",
+    "as_of": "2026-01-14T05:42:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00312",
+    "group_id": "CASE-00312",
+    "split": "train",
+    "as_of": "2026-01-14T02:51:00+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "STRUCTURING"
+  },
+  {
+    "case_id": "CASE-00313",
+    "group_id": "CASE-00313",
+    "split": "train",
+    "as_of": "2026-01-16T17:27:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00314",
+    "group_id": "CASE-00314",
+    "split": "train",
+    "as_of": "2026-01-12T13:07:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00315",
+    "group_id": "CASE-00315",
+    "split": "train",
+    "as_of": "2026-01-14T20:46:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00316",
+    "group_id": "CASE-00316",
+    "split": "train",
+    "as_of": "2026-01-16T07:00:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00317",
+    "group_id": "CASE-00317",
+    "split": "train",
+    "as_of": "2026-01-15T20:26:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00318",
+    "group_id": "CASE-00318",
+    "split": "train",
+    "as_of": "2026-01-15T06:20:00+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "STRUCTURING"
+  },
+  {
+    "case_id": "CASE-00319",
+    "group_id": "CASE-00319",
+    "split": "train",
+    "as_of": "2026-01-15T18:35:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00320",
+    "group_id": "CASE-00320",
+    "split": "train",
+    "as_of": "2026-01-14T11:55:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00321",
+    "group_id": "CASE-00321",
+    "split": "train",
+    "as_of": "2026-01-14T03:30:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00322",
+    "group_id": "CASE-00322",
+    "split": "train",
+    "as_of": "2026-01-16T04:40:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00323",
+    "group_id": "CASE-00323",
+    "split": "train",
+    "as_of": "2026-01-12T19:21:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00324",
+    "group_id": "CASE-00324",
+    "split": "train",
+    "as_of": "2026-01-15T04:33:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00325",
+    "group_id": "CASE-00325",
+    "split": "train",
+    "as_of": "2026-01-16T15:32:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00326",
+    "group_id": "CASE-00326",
+    "split": "train",
+    "as_of": "2026-01-13T20:55:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00327",
+    "group_id": "CASE-00327",
+    "split": "train",
+    "as_of": "2026-01-16T19:00:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00328",
+    "group_id": "CASE-00328",
+    "split": "train",
+    "as_of": "2026-01-13T07:47:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00329",
+    "group_id": "CASE-00329",
+    "split": "train",
+    "as_of": "2026-01-14T18:31:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00330",
+    "group_id": "CASE-00330",
+    "split": "train",
+    "as_of": "2026-01-13T18:06:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00331",
+    "group_id": "CASE-00331",
+    "split": "train",
+    "as_of": "2026-01-16T15:35:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00332",
+    "group_id": "CASE-00332",
+    "split": "train",
+    "as_of": "2026-01-16T07:24:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00333",
+    "group_id": "CASE-00333",
+    "split": "train",
+    "as_of": "2026-01-14T20:52:00+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "STRUCTURING"
+  },
+  {
+    "case_id": "CASE-00334",
+    "group_id": "CASE-00334",
+    "split": "train",
+    "as_of": "2026-01-13T12:42:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00335",
+    "group_id": "CASE-00335",
+    "split": "train",
+    "as_of": "2026-01-16T02:33:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00336",
+    "group_id": "CASE-00336",
+    "split": "train",
+    "as_of": "2026-01-14T12:00:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00337",
+    "group_id": "CASE-00337",
+    "split": "train",
+    "as_of": "2026-01-12T17:15:00+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "STRUCTURING"
+  },
+  {
+    "case_id": "CASE-00338",
+    "group_id": "CASE-00338",
+    "split": "train",
+    "as_of": "2026-01-14T14:21:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00339",
+    "group_id": "CASE-00339",
+    "split": "train",
+    "as_of": "2026-01-16T21:53:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00340",
+    "group_id": "CASE-00340",
+    "split": "train",
+    "as_of": "2026-01-16T04:39:00+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "CIRCULAR_FLOW"
+  },
+  {
+    "case_id": "CASE-00341",
+    "group_id": "CASE-00341",
+    "split": "train",
+    "as_of": "2026-01-12T06:40:00+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "CIRCULAR_FLOW"
+  },
+  {
+    "case_id": "CASE-00342",
+    "group_id": "CASE-00342",
+    "split": "train",
+    "as_of": "2026-01-14T14:04:00+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "STRUCTURING"
+  },
+  {
+    "case_id": "CASE-00343",
+    "group_id": "CASE-00343",
+    "split": "train",
+    "as_of": "2026-01-13T01:49:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00344",
+    "group_id": "CASE-00344",
+    "split": "train",
+    "as_of": "2026-01-12T20:19:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00345",
+    "group_id": "CASE-00345",
+    "split": "train",
+    "as_of": "2026-01-16T10:53:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00346",
+    "group_id": "CASE-00346",
+    "split": "train",
+    "as_of": "2026-01-13T08:28:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00347",
+    "group_id": "CASE-00347",
+    "split": "train",
+    "as_of": "2026-01-12T04:39:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00348",
+    "group_id": "CASE-00348",
+    "split": "train",
+    "as_of": "2026-01-13T17:41:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00349",
+    "group_id": "CASE-00349",
+    "split": "train",
+    "as_of": "2026-01-14T22:31:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00350",
+    "group_id": "CASE-00350",
+    "split": "train",
+    "as_of": "2026-01-16T10:04:00+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "CIRCULAR_FLOW"
+  },
+  {
+    "case_id": "CASE-00351",
+    "group_id": "CASE-00351",
+    "split": "train",
+    "as_of": "2026-01-13T16:22:00+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "CIRCULAR_FLOW"
+  },
+  {
+    "case_id": "CASE-00352",
+    "group_id": "CASE-00352",
+    "split": "train",
+    "as_of": "2026-01-12T15:23:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00353",
+    "group_id": "CASE-00353",
+    "split": "train",
+    "as_of": "2026-01-16T09:07:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00354",
+    "group_id": "CASE-00354",
+    "split": "train",
+    "as_of": "2026-01-15T07:39:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00355",
+    "group_id": "CASE-00355",
+    "split": "train",
+    "as_of": "2026-01-13T14:54:00+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "CIRCULAR_FLOW"
+  },
+  {
+    "case_id": "CASE-00356",
+    "group_id": "CASE-00356",
+    "split": "train",
+    "as_of": "2026-01-12T18:10:00+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "STRUCTURING"
+  },
+  {
+    "case_id": "CASE-00357",
+    "group_id": "CASE-00357",
+    "split": "train",
+    "as_of": "2026-01-15T09:12:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00358",
+    "group_id": "CASE-00358",
+    "split": "train",
+    "as_of": "2026-01-12T21:52:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00359",
+    "group_id": "CASE-00359",
+    "split": "train",
+    "as_of": "2026-01-15T12:36:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00360",
+    "group_id": "CASE-00360",
+    "split": "validation",
+    "as_of": "2026-02-15T11:08:00+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "STRUCTURING"
+  },
+  {
+    "case_id": "CASE-00361",
+    "group_id": "CASE-00361",
+    "split": "validation",
+    "as_of": "2026-02-16T20:07:00+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "CIRCULAR_FLOW"
+  },
+  {
+    "case_id": "CASE-00362",
+    "group_id": "CASE-00362",
+    "split": "validation",
+    "as_of": "2026-02-14T07:24:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00363",
+    "group_id": "CASE-00363",
+    "split": "validation",
+    "as_of": "2026-02-14T05:56:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00364",
+    "group_id": "CASE-00364",
+    "split": "validation",
+    "as_of": "2026-02-16T16:06:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00365",
+    "group_id": "CASE-00365",
+    "split": "validation",
+    "as_of": "2026-02-13T01:46:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00366",
+    "group_id": "CASE-00366",
+    "split": "validation",
+    "as_of": "2026-02-12T00:44:00+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "CIRCULAR_FLOW"
+  },
+  {
+    "case_id": "CASE-00367",
+    "group_id": "CASE-00367",
+    "split": "validation",
+    "as_of": "2026-02-15T11:06:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00368",
+    "group_id": "CASE-00368",
+    "split": "validation",
+    "as_of": "2026-02-13T04:23:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00369",
+    "group_id": "CASE-00369",
+    "split": "validation",
+    "as_of": "2026-02-14T04:15:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00370",
+    "group_id": "CASE-00370",
+    "split": "validation",
+    "as_of": "2026-02-14T05:06:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00371",
+    "group_id": "CASE-00371",
+    "split": "validation",
+    "as_of": "2026-02-14T10:57:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00372",
+    "group_id": "CASE-00372",
+    "split": "validation",
+    "as_of": "2026-02-16T08:03:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00373",
+    "group_id": "CASE-00373",
+    "split": "validation",
+    "as_of": "2026-02-15T05:59:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00374",
+    "group_id": "CASE-00374",
+    "split": "validation",
+    "as_of": "2026-02-16T21:25:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00375",
+    "group_id": "CASE-00375",
+    "split": "validation",
+    "as_of": "2026-02-14T07:05:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00376",
+    "group_id": "CASE-00376",
+    "split": "validation",
+    "as_of": "2026-02-16T06:54:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00377",
+    "group_id": "CASE-00377",
+    "split": "validation",
+    "as_of": "2026-02-16T07:36:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00378",
+    "group_id": "CASE-00378",
+    "split": "validation",
+    "as_of": "2026-02-16T14:34:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00379",
+    "group_id": "CASE-00379",
+    "split": "validation",
+    "as_of": "2026-02-15T13:18:00+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "CIRCULAR_FLOW"
+  },
+  {
+    "case_id": "CASE-00380",
+    "group_id": "CASE-00380",
+    "split": "validation",
+    "as_of": "2026-02-12T23:22:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00381",
+    "group_id": "CASE-00381",
+    "split": "validation",
+    "as_of": "2026-02-15T11:37:00+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "STRUCTURING"
+  },
+  {
+    "case_id": "CASE-00382",
+    "group_id": "CASE-00382",
+    "split": "validation",
+    "as_of": "2026-02-13T12:01:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00383",
+    "group_id": "CASE-00383",
+    "split": "validation",
+    "as_of": "2026-02-12T05:30:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00384",
+    "group_id": "CASE-00384",
+    "split": "validation",
+    "as_of": "2026-02-13T01:06:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00385",
+    "group_id": "CASE-00385",
+    "split": "validation",
+    "as_of": "2026-02-16T02:03:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00386",
+    "group_id": "CASE-00386",
+    "split": "validation",
+    "as_of": "2026-02-14T04:45:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00387",
+    "group_id": "CASE-00387",
+    "split": "validation",
+    "as_of": "2026-02-16T21:02:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00388",
+    "group_id": "CASE-00388",
+    "split": "validation",
+    "as_of": "2026-02-13T03:18:00+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "STRUCTURING"
+  },
+  {
+    "case_id": "CASE-00389",
+    "group_id": "CASE-00389",
+    "split": "validation",
+    "as_of": "2026-02-16T11:17:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00390",
+    "group_id": "CASE-00390",
+    "split": "validation",
+    "as_of": "2026-02-13T02:52:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00391",
+    "group_id": "CASE-00391",
+    "split": "validation",
+    "as_of": "2026-02-13T01:50:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00392",
+    "group_id": "CASE-00392",
+    "split": "validation",
+    "as_of": "2026-02-14T15:26:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00393",
+    "group_id": "CASE-00393",
+    "split": "validation",
+    "as_of": "2026-02-14T14:07:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00394",
+    "group_id": "CASE-00394",
+    "split": "validation",
+    "as_of": "2026-02-15T12:19:00+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "STRUCTURING"
+  },
+  {
+    "case_id": "CASE-00395",
+    "group_id": "CASE-00395",
+    "split": "validation",
+    "as_of": "2026-02-15T16:19:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00396",
+    "group_id": "CASE-00396",
+    "split": "validation",
+    "as_of": "2026-02-16T03:44:00+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "STRUCTURING"
+  },
+  {
+    "case_id": "CASE-00397",
+    "group_id": "CASE-00397",
+    "split": "validation",
+    "as_of": "2026-02-16T05:36:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00398",
+    "group_id": "CASE-00398",
+    "split": "validation",
+    "as_of": "2026-02-15T18:06:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00399",
+    "group_id": "CASE-00399",
+    "split": "validation",
+    "as_of": "2026-02-13T16:43:00+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "STRUCTURING"
+  },
+  {
+    "case_id": "CASE-00400",
+    "group_id": "CASE-00400",
+    "split": "validation",
+    "as_of": "2026-02-16T19:01:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00401",
+    "group_id": "CASE-00401",
+    "split": "validation",
+    "as_of": "2026-02-13T07:31:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00402",
+    "group_id": "CASE-00402",
+    "split": "validation",
+    "as_of": "2026-02-16T06:01:00+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "CIRCULAR_FLOW"
+  },
+  {
+    "case_id": "CASE-00403",
+    "group_id": "CASE-00403",
+    "split": "validation",
+    "as_of": "2026-02-15T07:46:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00404",
+    "group_id": "CASE-00404",
+    "split": "validation",
+    "as_of": "2026-02-15T10:59:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00405",
+    "group_id": "CASE-00405",
+    "split": "validation",
+    "as_of": "2026-02-16T19:45:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00406",
+    "group_id": "CASE-00406",
+    "split": "validation",
+    "as_of": "2026-02-14T06:32:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00407",
+    "group_id": "CASE-00407",
+    "split": "validation",
+    "as_of": "2026-02-12T11:33:00+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "CIRCULAR_FLOW"
+  },
+  {
+    "case_id": "CASE-00408",
+    "group_id": "CASE-00408",
+    "split": "validation",
+    "as_of": "2026-02-16T05:26:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00409",
+    "group_id": "CASE-00409",
+    "split": "validation",
+    "as_of": "2026-02-13T20:43:00+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "CIRCULAR_FLOW"
+  },
+  {
+    "case_id": "CASE-00410",
+    "group_id": "CASE-00410",
+    "split": "validation",
+    "as_of": "2026-02-16T02:40:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00411",
+    "group_id": "CASE-00411",
+    "split": "validation",
+    "as_of": "2026-02-14T23:14:00+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "STRUCTURING"
+  },
+  {
+    "case_id": "CASE-00412",
+    "group_id": "CASE-00412",
+    "split": "validation",
+    "as_of": "2026-02-15T14:11:00+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "CIRCULAR_FLOW"
+  },
+  {
+    "case_id": "CASE-00413",
+    "group_id": "CASE-00413",
+    "split": "validation",
+    "as_of": "2026-02-14T04:10:00+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "CIRCULAR_FLOW"
+  },
+  {
+    "case_id": "CASE-00414",
+    "group_id": "CASE-00414",
+    "split": "validation",
+    "as_of": "2026-02-14T19:26:00+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "CIRCULAR_FLOW"
+  },
+  {
+    "case_id": "CASE-00415",
+    "group_id": "CASE-00415",
+    "split": "validation",
+    "as_of": "2026-02-15T19:12:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00416",
+    "group_id": "CASE-00416",
+    "split": "validation",
+    "as_of": "2026-02-13T22:09:00+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "STRUCTURING"
+  },
+  {
+    "case_id": "CASE-00417",
+    "group_id": "CASE-00417",
+    "split": "validation",
+    "as_of": "2026-02-15T14:59:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00418",
+    "group_id": "CASE-00418",
+    "split": "validation",
+    "as_of": "2026-02-13T09:29:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00419",
+    "group_id": "CASE-00419",
+    "split": "validation",
+    "as_of": "2026-02-13T12:23:00+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "STRUCTURING"
+  },
+  {
+    "case_id": "CASE-00420",
+    "group_id": "CASE-00420",
+    "split": "validation",
+    "as_of": "2026-02-12T03:22:00+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "CIRCULAR_FLOW"
+  },
+  {
+    "case_id": "CASE-00421",
+    "group_id": "CASE-00421",
+    "split": "validation",
+    "as_of": "2026-02-12T07:23:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00422",
+    "group_id": "CASE-00422",
+    "split": "validation",
+    "as_of": "2026-02-12T10:06:00+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "CIRCULAR_FLOW"
+  },
+  {
+    "case_id": "CASE-00423",
+    "group_id": "CASE-00423",
+    "split": "validation",
+    "as_of": "2026-02-14T08:44:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00424",
+    "group_id": "CASE-00424",
+    "split": "validation",
+    "as_of": "2026-02-12T18:01:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00425",
+    "group_id": "CASE-00425",
+    "split": "validation",
+    "as_of": "2026-02-16T23:35:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00426",
+    "group_id": "CASE-00426",
+    "split": "validation",
+    "as_of": "2026-02-15T22:02:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00427",
+    "group_id": "CASE-00427",
+    "split": "validation",
+    "as_of": "2026-02-14T00:03:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00428",
+    "group_id": "CASE-00428",
+    "split": "validation",
+    "as_of": "2026-02-15T11:02:00+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "STRUCTURING"
+  },
+  {
+    "case_id": "CASE-00429",
+    "group_id": "CASE-00429",
+    "split": "validation",
+    "as_of": "2026-02-13T12:52:00+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "CIRCULAR_FLOW"
+  },
+  {
+    "case_id": "CASE-00430",
+    "group_id": "CASE-00430",
+    "split": "validation",
+    "as_of": "2026-02-12T12:11:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00431",
+    "group_id": "CASE-00431",
+    "split": "validation",
+    "as_of": "2026-02-14T04:52:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00432",
+    "group_id": "CASE-00432",
+    "split": "validation",
+    "as_of": "2026-02-15T18:17:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00433",
+    "group_id": "CASE-00433",
+    "split": "validation",
+    "as_of": "2026-02-13T22:26:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00434",
+    "group_id": "CASE-00434",
+    "split": "validation",
+    "as_of": "2026-02-14T20:30:00+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "CIRCULAR_FLOW"
+  },
+  {
+    "case_id": "CASE-00435",
+    "group_id": "CASE-00435",
+    "split": "validation",
+    "as_of": "2026-02-14T14:50:00+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "STRUCTURING"
+  },
+  {
+    "case_id": "CASE-00436",
+    "group_id": "CASE-00436",
+    "split": "validation",
+    "as_of": "2026-02-13T09:53:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00437",
+    "group_id": "CASE-00437",
+    "split": "validation",
+    "as_of": "2026-02-16T02:49:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00438",
+    "group_id": "CASE-00438",
+    "split": "validation",
+    "as_of": "2026-02-12T19:46:00+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "CIRCULAR_FLOW"
+  },
+  {
+    "case_id": "CASE-00439",
+    "group_id": "CASE-00439",
+    "split": "validation",
+    "as_of": "2026-02-16T09:56:00+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "STRUCTURING"
+  },
+  {
+    "case_id": "CASE-00440",
+    "group_id": "CASE-00440",
+    "split": "validation",
+    "as_of": "2026-02-13T21:56:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00441",
+    "group_id": "CASE-00441",
+    "split": "validation",
+    "as_of": "2026-02-15T19:18:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00442",
+    "group_id": "CASE-00442",
+    "split": "validation",
+    "as_of": "2026-02-15T01:13:00+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "CIRCULAR_FLOW"
+  },
+  {
+    "case_id": "CASE-00443",
+    "group_id": "CASE-00443",
+    "split": "validation",
+    "as_of": "2026-02-13T04:39:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00444",
+    "group_id": "CASE-00444",
+    "split": "validation",
+    "as_of": "2026-02-16T09:19:00+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "CIRCULAR_FLOW"
+  },
+  {
+    "case_id": "CASE-00445",
+    "group_id": "CASE-00445",
+    "split": "validation",
+    "as_of": "2026-02-15T21:04:00+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "STRUCTURING"
+  },
+  {
+    "case_id": "CASE-00446",
+    "group_id": "CASE-00446",
+    "split": "validation",
+    "as_of": "2026-02-14T07:40:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00447",
+    "group_id": "CASE-00447",
+    "split": "validation",
+    "as_of": "2026-02-12T22:54:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00448",
+    "group_id": "CASE-00448",
+    "split": "validation",
+    "as_of": "2026-02-12T10:35:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00449",
+    "group_id": "CASE-00449",
+    "split": "validation",
+    "as_of": "2026-02-15T14:31:00+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "CIRCULAR_FLOW"
+  },
+  {
+    "case_id": "CASE-00450",
+    "group_id": "CASE-00450",
+    "split": "validation",
+    "as_of": "2026-02-16T16:39:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00451",
+    "group_id": "CASE-00451",
+    "split": "validation",
+    "as_of": "2026-02-13T13:52:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00452",
+    "group_id": "CASE-00452",
+    "split": "validation",
+    "as_of": "2026-02-16T02:57:00+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "STRUCTURING"
+  },
+  {
+    "case_id": "CASE-00453",
+    "group_id": "CASE-00453",
+    "split": "validation",
+    "as_of": "2026-02-16T08:44:00+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "STRUCTURING"
+  },
+  {
+    "case_id": "CASE-00454",
+    "group_id": "CASE-00454",
+    "split": "validation",
+    "as_of": "2026-02-14T12:59:00+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "CIRCULAR_FLOW"
+  },
+  {
+    "case_id": "CASE-00455",
+    "group_id": "CASE-00455",
+    "split": "validation",
+    "as_of": "2026-02-16T14:27:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00456",
+    "group_id": "CASE-00456",
+    "split": "validation",
+    "as_of": "2026-02-12T08:55:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00457",
+    "group_id": "CASE-00457",
+    "split": "validation",
+    "as_of": "2026-02-15T06:12:00+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "STRUCTURING"
+  },
+  {
+    "case_id": "CASE-00458",
+    "group_id": "CASE-00458",
+    "split": "validation",
+    "as_of": "2026-02-13T13:19:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00459",
+    "group_id": "CASE-00459",
+    "split": "validation",
+    "as_of": "2026-02-13T14:02:00+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "STRUCTURING"
+  },
+  {
+    "case_id": "CASE-00460",
+    "group_id": "CASE-00460",
+    "split": "validation",
+    "as_of": "2026-02-14T09:50:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00461",
+    "group_id": "CASE-00461",
+    "split": "validation",
+    "as_of": "2026-02-15T00:11:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00462",
+    "group_id": "CASE-00462",
+    "split": "validation",
+    "as_of": "2026-02-15T09:40:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00463",
+    "group_id": "CASE-00463",
+    "split": "validation",
+    "as_of": "2026-02-15T11:06:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00464",
+    "group_id": "CASE-00464",
+    "split": "validation",
+    "as_of": "2026-02-15T07:31:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00465",
+    "group_id": "CASE-00465",
+    "split": "validation",
+    "as_of": "2026-02-12T13:38:00+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "CIRCULAR_FLOW"
+  },
+  {
+    "case_id": "CASE-00466",
+    "group_id": "CASE-00466",
+    "split": "validation",
+    "as_of": "2026-02-13T14:03:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00467",
+    "group_id": "CASE-00467",
+    "split": "validation",
+    "as_of": "2026-02-15T10:14:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00468",
+    "group_id": "CASE-00468",
+    "split": "validation",
+    "as_of": "2026-02-15T21:36:00+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "CIRCULAR_FLOW"
+  },
+  {
+    "case_id": "CASE-00469",
+    "group_id": "CASE-00469",
+    "split": "validation",
+    "as_of": "2026-02-12T11:47:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00470",
+    "group_id": "CASE-00470",
+    "split": "validation",
+    "as_of": "2026-02-14T02:40:00+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "STRUCTURING"
+  },
+  {
+    "case_id": "CASE-00471",
+    "group_id": "CASE-00471",
+    "split": "validation",
+    "as_of": "2026-02-16T15:07:00+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "STRUCTURING"
+  },
+  {
+    "case_id": "CASE-00472",
+    "group_id": "CASE-00472",
+    "split": "validation",
+    "as_of": "2026-02-13T12:37:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00473",
+    "group_id": "CASE-00473",
+    "split": "validation",
+    "as_of": "2026-02-16T12:38:00+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "STRUCTURING"
+  },
+  {
+    "case_id": "CASE-00474",
+    "group_id": "CASE-00474",
+    "split": "validation",
+    "as_of": "2026-02-14T19:38:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00475",
+    "group_id": "CASE-00475",
+    "split": "validation",
+    "as_of": "2026-02-16T14:57:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00476",
+    "group_id": "CASE-00476",
+    "split": "validation",
+    "as_of": "2026-02-16T07:21:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00477",
+    "group_id": "CASE-00477",
+    "split": "validation",
+    "as_of": "2026-02-13T11:04:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00478",
+    "group_id": "CASE-00478",
+    "split": "validation",
+    "as_of": "2026-02-16T19:51:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00479",
+    "group_id": "CASE-00479",
+    "split": "validation",
+    "as_of": "2026-02-15T21:19:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00480",
+    "group_id": "CASE-00480",
+    "split": "test",
+    "as_of": "2026-03-12T08:47:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00481",
+    "group_id": "CASE-00481",
+    "split": "test",
+    "as_of": "2026-03-15T11:21:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00482",
+    "group_id": "CASE-00482",
+    "split": "test",
+    "as_of": "2026-03-14T12:13:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00483",
+    "group_id": "CASE-00483",
+    "split": "test",
+    "as_of": "2026-03-16T14:59:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00484",
+    "group_id": "CASE-00484",
+    "split": "test",
+    "as_of": "2026-03-13T08:12:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00485",
+    "group_id": "CASE-00485",
+    "split": "test",
+    "as_of": "2026-03-16T19:47:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00486",
+    "group_id": "CASE-00486",
+    "split": "test",
+    "as_of": "2026-03-13T17:43:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00487",
+    "group_id": "CASE-00487",
+    "split": "test",
+    "as_of": "2026-03-15T11:59:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00488",
+    "group_id": "CASE-00488",
+    "split": "test",
+    "as_of": "2026-03-13T08:51:00+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "STRUCTURING"
+  },
+  {
+    "case_id": "CASE-00489",
+    "group_id": "CASE-00489",
+    "split": "test",
+    "as_of": "2026-03-13T09:26:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00490",
+    "group_id": "CASE-00490",
+    "split": "test",
+    "as_of": "2026-03-14T12:07:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00491",
+    "group_id": "CASE-00491",
+    "split": "test",
+    "as_of": "2026-03-13T12:54:00+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "STRUCTURING"
+  },
+  {
+    "case_id": "CASE-00492",
+    "group_id": "CASE-00492",
+    "split": "test",
+    "as_of": "2026-03-16T19:24:00+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "CIRCULAR_FLOW"
+  },
+  {
+    "case_id": "CASE-00493",
+    "group_id": "CASE-00493",
+    "split": "test",
+    "as_of": "2026-03-14T12:04:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00494",
+    "group_id": "CASE-00494",
+    "split": "test",
+    "as_of": "2026-03-12T11:55:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00495",
+    "group_id": "CASE-00495",
+    "split": "test",
+    "as_of": "2026-03-13T03:48:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00496",
+    "group_id": "CASE-00496",
+    "split": "test",
+    "as_of": "2026-03-16T18:11:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00497",
+    "group_id": "CASE-00497",
+    "split": "test",
+    "as_of": "2026-03-16T20:47:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00498",
+    "group_id": "CASE-00498",
+    "split": "test",
+    "as_of": "2026-03-15T01:55:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00499",
+    "group_id": "CASE-00499",
+    "split": "test",
+    "as_of": "2026-03-12T10:30:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00500",
+    "group_id": "CASE-00500",
+    "split": "test",
+    "as_of": "2026-03-16T06:58:00+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "STRUCTURING"
+  },
+  {
+    "case_id": "CASE-00501",
+    "group_id": "CASE-00501",
+    "split": "test",
+    "as_of": "2026-03-13T05:50:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00502",
+    "group_id": "CASE-00502",
+    "split": "test",
+    "as_of": "2026-03-12T08:26:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00503",
+    "group_id": "CASE-00503",
+    "split": "test",
+    "as_of": "2026-03-14T12:59:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00504",
+    "group_id": "CASE-00504",
+    "split": "test",
+    "as_of": "2026-03-15T04:56:00+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "STRUCTURING"
+  },
+  {
+    "case_id": "CASE-00505",
+    "group_id": "CASE-00505",
+    "split": "test",
+    "as_of": "2026-03-12T23:42:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00506",
+    "group_id": "CASE-00506",
+    "split": "test",
+    "as_of": "2026-03-14T23:50:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00507",
+    "group_id": "CASE-00507",
+    "split": "test",
+    "as_of": "2026-03-15T22:30:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00508",
+    "group_id": "CASE-00508",
+    "split": "test",
+    "as_of": "2026-03-12T09:25:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00509",
+    "group_id": "CASE-00509",
+    "split": "test",
+    "as_of": "2026-03-12T14:37:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00510",
+    "group_id": "CASE-00510",
+    "split": "test",
+    "as_of": "2026-03-14T03:27:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00511",
+    "group_id": "CASE-00511",
+    "split": "test",
+    "as_of": "2026-03-16T23:32:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00512",
+    "group_id": "CASE-00512",
+    "split": "test",
+    "as_of": "2026-03-14T20:13:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00513",
+    "group_id": "CASE-00513",
+    "split": "test",
+    "as_of": "2026-03-16T20:36:00+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "CIRCULAR_FLOW"
+  },
+  {
+    "case_id": "CASE-00514",
+    "group_id": "CASE-00514",
+    "split": "test",
+    "as_of": "2026-03-12T09:22:00+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "STRUCTURING"
+  },
+  {
+    "case_id": "CASE-00515",
+    "group_id": "CASE-00515",
+    "split": "test",
+    "as_of": "2026-03-14T19:09:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00516",
+    "group_id": "CASE-00516",
+    "split": "test",
+    "as_of": "2026-03-13T11:00:00+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "CIRCULAR_FLOW"
+  },
+  {
+    "case_id": "CASE-00517",
+    "group_id": "CASE-00517",
+    "split": "test",
+    "as_of": "2026-03-12T17:17:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00518",
+    "group_id": "CASE-00518",
+    "split": "test",
+    "as_of": "2026-03-12T02:14:00+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "CIRCULAR_FLOW"
+  },
+  {
+    "case_id": "CASE-00519",
+    "group_id": "CASE-00519",
+    "split": "test",
+    "as_of": "2026-03-15T11:35:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00520",
+    "group_id": "CASE-00520",
+    "split": "test",
+    "as_of": "2026-03-14T07:49:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00521",
+    "group_id": "CASE-00521",
+    "split": "test",
+    "as_of": "2026-03-13T08:07:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00522",
+    "group_id": "CASE-00522",
+    "split": "test",
+    "as_of": "2026-03-15T03:15:00+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "CIRCULAR_FLOW"
+  },
+  {
+    "case_id": "CASE-00523",
+    "group_id": "CASE-00523",
+    "split": "test",
+    "as_of": "2026-03-13T18:46:00+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "STRUCTURING"
+  },
+  {
+    "case_id": "CASE-00524",
+    "group_id": "CASE-00524",
+    "split": "test",
+    "as_of": "2026-03-15T10:59:00+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "STRUCTURING"
+  },
+  {
+    "case_id": "CASE-00525",
+    "group_id": "CASE-00525",
+    "split": "test",
+    "as_of": "2026-03-13T23:36:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00526",
+    "group_id": "CASE-00526",
+    "split": "test",
+    "as_of": "2026-03-16T13:40:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00527",
+    "group_id": "CASE-00527",
+    "split": "test",
+    "as_of": "2026-03-13T12:03:00+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "STRUCTURING"
+  },
+  {
+    "case_id": "CASE-00528",
+    "group_id": "CASE-00528",
+    "split": "test",
+    "as_of": "2026-03-13T06:43:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00529",
+    "group_id": "CASE-00529",
+    "split": "test",
+    "as_of": "2026-03-13T22:14:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00530",
+    "group_id": "CASE-00530",
+    "split": "test",
+    "as_of": "2026-03-14T13:21:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00531",
+    "group_id": "CASE-00531",
+    "split": "test",
+    "as_of": "2026-03-15T15:25:00+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "STRUCTURING"
+  },
+  {
+    "case_id": "CASE-00532",
+    "group_id": "CASE-00532",
+    "split": "test",
+    "as_of": "2026-03-16T14:42:00+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "CIRCULAR_FLOW"
+  },
+  {
+    "case_id": "CASE-00533",
+    "group_id": "CASE-00533",
+    "split": "test",
+    "as_of": "2026-03-15T21:41:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00534",
+    "group_id": "CASE-00534",
+    "split": "test",
+    "as_of": "2026-03-12T12:59:00+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "STRUCTURING"
+  },
+  {
+    "case_id": "CASE-00535",
+    "group_id": "CASE-00535",
+    "split": "test",
+    "as_of": "2026-03-13T21:53:00+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "CIRCULAR_FLOW"
+  },
+  {
+    "case_id": "CASE-00536",
+    "group_id": "CASE-00536",
+    "split": "test",
+    "as_of": "2026-03-15T08:38:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00537",
+    "group_id": "CASE-00537",
+    "split": "test",
+    "as_of": "2026-03-15T11:58:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00538",
+    "group_id": "CASE-00538",
+    "split": "test",
+    "as_of": "2026-03-13T10:09:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00539",
+    "group_id": "CASE-00539",
+    "split": "test",
+    "as_of": "2026-03-15T20:37:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00540",
+    "group_id": "CASE-00540",
+    "split": "test",
+    "as_of": "2026-03-12T18:05:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00541",
+    "group_id": "CASE-00541",
+    "split": "test",
+    "as_of": "2026-03-14T05:39:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00542",
+    "group_id": "CASE-00542",
+    "split": "test",
+    "as_of": "2026-03-15T17:01:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00543",
+    "group_id": "CASE-00543",
+    "split": "test",
+    "as_of": "2026-03-13T19:39:00+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "STRUCTURING"
+  },
+  {
+    "case_id": "CASE-00544",
+    "group_id": "CASE-00544",
+    "split": "test",
+    "as_of": "2026-03-15T15:35:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00545",
+    "group_id": "CASE-00545",
+    "split": "test",
+    "as_of": "2026-03-13T03:02:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00546",
+    "group_id": "CASE-00546",
+    "split": "test",
+    "as_of": "2026-03-14T02:22:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00547",
+    "group_id": "CASE-00547",
+    "split": "test",
+    "as_of": "2026-03-16T12:19:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00548",
+    "group_id": "CASE-00548",
+    "split": "test",
+    "as_of": "2026-03-16T21:46:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00549",
+    "group_id": "CASE-00549",
+    "split": "test",
+    "as_of": "2026-03-15T02:42:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00550",
+    "group_id": "CASE-00550",
+    "split": "test",
+    "as_of": "2026-03-14T05:19:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00551",
+    "group_id": "CASE-00551",
+    "split": "test",
+    "as_of": "2026-03-12T11:17:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00552",
+    "group_id": "CASE-00552",
+    "split": "test",
+    "as_of": "2026-03-13T10:06:00+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "STRUCTURING"
+  },
+  {
+    "case_id": "CASE-00553",
+    "group_id": "CASE-00553",
+    "split": "test",
+    "as_of": "2026-03-15T12:20:00+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "STRUCTURING"
+  },
+  {
+    "case_id": "CASE-00554",
+    "group_id": "CASE-00554",
+    "split": "test",
+    "as_of": "2026-03-15T09:52:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00555",
+    "group_id": "CASE-00555",
+    "split": "test",
+    "as_of": "2026-03-16T18:49:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00556",
+    "group_id": "CASE-00556",
+    "split": "test",
+    "as_of": "2026-03-15T06:06:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00557",
+    "group_id": "CASE-00557",
+    "split": "test",
+    "as_of": "2026-03-16T15:36:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00558",
+    "group_id": "CASE-00558",
+    "split": "test",
+    "as_of": "2026-03-15T05:26:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00559",
+    "group_id": "CASE-00559",
+    "split": "test",
+    "as_of": "2026-03-13T18:04:00+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "STRUCTURING"
+  },
+  {
+    "case_id": "CASE-00560",
+    "group_id": "CASE-00560",
+    "split": "test",
+    "as_of": "2026-03-15T16:19:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00561",
+    "group_id": "CASE-00561",
+    "split": "test",
+    "as_of": "2026-03-14T06:31:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00562",
+    "group_id": "CASE-00562",
+    "split": "test",
+    "as_of": "2026-03-14T21:23:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00563",
+    "group_id": "CASE-00563",
+    "split": "test",
+    "as_of": "2026-03-16T10:45:00+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "STRUCTURING"
+  },
+  {
+    "case_id": "CASE-00564",
+    "group_id": "CASE-00564",
+    "split": "test",
+    "as_of": "2026-03-14T09:01:00+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "CIRCULAR_FLOW"
+  },
+  {
+    "case_id": "CASE-00565",
+    "group_id": "CASE-00565",
+    "split": "test",
+    "as_of": "2026-03-13T14:19:00+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "CIRCULAR_FLOW"
+  },
+  {
+    "case_id": "CASE-00566",
+    "group_id": "CASE-00566",
+    "split": "test",
+    "as_of": "2026-03-16T03:57:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00567",
+    "group_id": "CASE-00567",
+    "split": "test",
+    "as_of": "2026-03-13T23:18:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00568",
+    "group_id": "CASE-00568",
+    "split": "test",
+    "as_of": "2026-03-16T03:20:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00569",
+    "group_id": "CASE-00569",
+    "split": "test",
+    "as_of": "2026-03-13T17:17:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00570",
+    "group_id": "CASE-00570",
+    "split": "test",
+    "as_of": "2026-03-13T01:10:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00571",
+    "group_id": "CASE-00571",
+    "split": "test",
+    "as_of": "2026-03-16T05:07:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00572",
+    "group_id": "CASE-00572",
+    "split": "test",
+    "as_of": "2026-03-16T06:01:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00573",
+    "group_id": "CASE-00573",
+    "split": "test",
+    "as_of": "2026-03-13T10:25:00+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "STRUCTURING"
+  },
+  {
+    "case_id": "CASE-00574",
+    "group_id": "CASE-00574",
+    "split": "test",
+    "as_of": "2026-03-14T10:40:00+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "STRUCTURING"
+  },
+  {
+    "case_id": "CASE-00575",
+    "group_id": "CASE-00575",
+    "split": "test",
+    "as_of": "2026-03-15T17:13:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00576",
+    "group_id": "CASE-00576",
+    "split": "test",
+    "as_of": "2026-03-13T21:41:00+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "CIRCULAR_FLOW"
+  },
+  {
+    "case_id": "CASE-00577",
+    "group_id": "CASE-00577",
+    "split": "test",
+    "as_of": "2026-03-14T11:02:00+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "CIRCULAR_FLOW"
+  },
+  {
+    "case_id": "CASE-00578",
+    "group_id": "CASE-00578",
+    "split": "test",
+    "as_of": "2026-03-16T01:37:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00579",
+    "group_id": "CASE-00579",
+    "split": "test",
+    "as_of": "2026-03-12T12:31:00+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "STRUCTURING"
+  },
+  {
+    "case_id": "CASE-00580",
+    "group_id": "CASE-00580",
+    "split": "test",
+    "as_of": "2026-03-16T01:12:00+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "CIRCULAR_FLOW"
+  },
+  {
+    "case_id": "CASE-00581",
+    "group_id": "CASE-00581",
+    "split": "test",
+    "as_of": "2026-03-13T02:44:00+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "STRUCTURING"
+  },
+  {
+    "case_id": "CASE-00582",
+    "group_id": "CASE-00582",
+    "split": "test",
+    "as_of": "2026-03-14T22:40:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00583",
+    "group_id": "CASE-00583",
+    "split": "test",
+    "as_of": "2026-03-15T19:20:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00584",
+    "group_id": "CASE-00584",
+    "split": "test",
+    "as_of": "2026-03-15T12:03:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00585",
+    "group_id": "CASE-00585",
+    "split": "test",
+    "as_of": "2026-03-13T00:18:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00586",
+    "group_id": "CASE-00586",
+    "split": "test",
+    "as_of": "2026-03-14T08:13:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00587",
+    "group_id": "CASE-00587",
+    "split": "test",
+    "as_of": "2026-03-16T02:03:00+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "CIRCULAR_FLOW"
+  },
+  {
+    "case_id": "CASE-00588",
+    "group_id": "CASE-00588",
+    "split": "test",
+    "as_of": "2026-03-13T19:16:00+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "STRUCTURING"
+  },
+  {
+    "case_id": "CASE-00589",
+    "group_id": "CASE-00589",
+    "split": "test",
+    "as_of": "2026-03-12T23:26:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00590",
+    "group_id": "CASE-00590",
+    "split": "test",
+    "as_of": "2026-03-14T00:37:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00591",
+    "group_id": "CASE-00591",
+    "split": "test",
+    "as_of": "2026-03-15T12:39:00+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "STRUCTURING"
+  },
+  {
+    "case_id": "CASE-00592",
+    "group_id": "CASE-00592",
+    "split": "test",
+    "as_of": "2026-03-12T10:50:00+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "STRUCTURING"
+  },
+  {
+    "case_id": "CASE-00593",
+    "group_id": "CASE-00593",
+    "split": "test",
+    "as_of": "2026-03-15T15:07:00+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "CIRCULAR_FLOW"
+  },
+  {
+    "case_id": "CASE-00594",
+    "group_id": "CASE-00594",
+    "split": "test",
+    "as_of": "2026-03-13T09:18:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00595",
+    "group_id": "CASE-00595",
+    "split": "test",
+    "as_of": "2026-03-14T02:37:00+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "CIRCULAR_FLOW"
+  },
+  {
+    "case_id": "CASE-00596",
+    "group_id": "CASE-00596",
+    "split": "test",
+    "as_of": "2026-03-15T14:34:00+00:00",
+    "label": "SUSPICIOUS",
+    "scenario": "STRUCTURING"
+  },
+  {
+    "case_id": "CASE-00597",
+    "group_id": "CASE-00597",
+    "split": "test",
+    "as_of": "2026-03-13T20:25:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00598",
+    "group_id": "CASE-00598",
+    "split": "test",
+    "as_of": "2026-03-16T03:47:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  },
+  {
+    "case_id": "CASE-00599",
+    "group_id": "CASE-00599",
+    "split": "test",
+    "as_of": "2026-03-15T06:51:00+00:00",
+    "label": "BENIGN",
+    "scenario": "BENIGN"
+  }
+]
